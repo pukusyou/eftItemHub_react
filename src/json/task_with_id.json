@@ -1,0 +1,3272 @@
+{
+    "Prapor": {
+        "Debut": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Debut",
+            "items": {
+                "item1": {
+                    "full_name": "MP-133 12ga pump-action shotgun",
+                    "name": "MP-133",
+                    "num": 2,
+                    "inRaid": false,
+                    "img": "/img/Prapor/MP-133_12ga_pump-action_shotgun.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 0
+        },
+        "Search Mission": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Search%20Mission",
+            "id": 1
+        },
+        "Checking": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Checking",
+            "items": {
+                "item1": {
+                    "full_name": "Machinery key",
+                    "name": "Key",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Prapor/Machinery_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 2
+        },
+        "Shootout Picnic": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Shootout%20Picnic",
+            "id": 3
+        },
+        "Delivery from the Past": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Delivery%20from%20the%20Past",
+            "items": {
+                "item1": {
+                    "full_name": "Tarcone Director's office key",
+                    "name": "Customs",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Prapor/Tarcone_Director's_office_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 4
+        },
+        "BP Depot": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/BP%20Depot",
+            "id": 5
+        },
+        "The Bunker - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/The%20Bunker%20-%20Part%201",
+            "id": 6
+        },
+        "The Bunker - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/The%20Bunker%20-%20Part%202",
+            "id": 7
+        },
+        "Bad Rep Evidence": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Bad%20Rep%20Evidence",
+            "items": {
+                "item1": {
+                    "full_name": "Portable bunkhouse key",
+                    "name": "Key",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Prapor/Portable_bunkhouse_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 8
+        },
+        "Ice Cream Cones": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Ice%20Cream%20Cones",
+            "items": {
+                "item1": {
+                    "full_name": "AK-74 5.45x39 6L31 60-round magazine",
+                    "name": "6L31",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Prapor/AK-74_5.45x39_6L31_60-round_magazine.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 9
+        },
+        "No Place for Renegades": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/No%20Place%20for%20Renegades",
+            "id": 10
+        },
+        "Documents": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Documents",
+            "id": 11
+        },
+        "Postman Pat - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Postman%20Pat%20-%20Part%201",
+            "id": 12
+        },
+        "You've Got Mail": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/You%27ve%20Got%20Mail",
+            "id": 13
+        },
+        "Glory to CPSU": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Glory%20to%20CPSU",
+            "id": 14
+        },
+        "Shaking up the teller": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Shaking%20up%20the%20Teller",
+            "items": {
+                "item1": {
+                    "full_name": "Dorm room 203 key",
+                    "name": "Dorm 203",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Prapor/Dorm_room_203_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 15
+        },
+        "The Punisher - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/The%20Punisher%20-%20Part%201",
+            "id": 16
+        },
+        "The Punisher - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/The%20Punisher%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Lower half-mask",
+                    "name": "Mask",
+                    "num": 7,
+                    "inRaid": true,
+                    "img": "/img/Prapor/Lower_half-mask.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 17
+        },
+        "The Punisher - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/The%20Punisher%20-%20Part%203",
+            "id": 18
+        },
+        "The Punisher - Part 4": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/The%20Punisher%20-%20Part%204",
+            "items": {
+                "item1": {
+                    "full_name": "Bars A-2607 95H18 knife",
+                    "name": "A-2607",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Prapor/Bars_A-2607_95H18_knife.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 19
+        },
+        "The Punisher - Part 5": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/The%20Punisher%20-%20Part%205",
+            "items": {
+                "item1": {
+                    "full_name": "AK-74N",
+                    "name": "AK-74N",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Prapor/AK-74N.webp",
+                    "category": "wepon"
+                },
+                "item2": {
+                    "full_name": "Colt M4A1 5.56x45 assault rifle",
+                    "name": "M4A1",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Prapor/M4A1.webp",
+                    "category": "wepon"
+                },
+                "item3": {
+                    "full_name": "PM pistol",
+                    "name": "PM",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Prapor/PM_pistol.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 20
+        },
+        "Kings of the Rooftops": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Kings%20of%20the%20Rooftops",
+            "id": 21
+        },
+        "Best Job in the World": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Best%20Job%20in%20the%20World",
+            "id": 22
+        },
+        "The Punisher - Part 6": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/The%20Punisher%20-%20Part%206",
+            "items": {
+                "item1": {
+                    "full_name": "USEC Dogtag",
+                    "name": "USEC",
+                    "num": 7,
+                    "inRaid": false,
+                    "img": "/img/Prapor/USEC_Dogtag.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "BEAR Dogtag",
+                    "name": "BEAR",
+                    "num": 7,
+                    "inRaid": false,
+                    "img": "/img/Prapor/BEAR_Dogtag.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 23
+        },
+        "Anesthesia": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Anesthesia",
+            "id": 24
+        },
+        "Grenadier": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Grenadier",
+            "id": 25
+        },
+        "Insomnia": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Insomnia",
+            "id": 26
+        },
+        "Test Drive - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Test%20Drive%20-%20Part%201",
+            "id": 27
+        },
+        "Test Drive - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Test%20Drive%20-%20Part%202",
+            "id": 28
+        },
+        "Perfect Mediator": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Perfect%20Mediator",
+            "id": 29
+        },
+        "Polikhim Hobo": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Polikhim%20Hobo",
+            "id": 30
+        },
+        "Regulated Materials": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Regulated%20Materials",
+            "items": {
+                "item1": {
+                    "full_name": "6-STEN-140-M military battery",
+                    "name": "Tank battery",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Prapor/6-STEN-140-M_military_battery.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "OFZ 30x160mm shell",
+                    "name": "OFZ",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Prapor/OFZ_30x160mm_shell.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 31
+        },
+        "Big Customer": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Big%20Customer",
+            "id": 32
+        },
+        "No Offence": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/No%20Offence",
+            "items": {
+                "item1": {
+                    "full_name": "M67 Hand grenade",
+                    "name": "M67",
+                    "num": 10,
+                    "inRaid": false,
+                    "img": "/img/Prapor/M67_Hand_grenade.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 33
+        },
+        "Capturing Outposts": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Capturing%20Outposts",
+            "id": 34
+        },
+        "Intimidator": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Intimidator",
+            "id": 35
+        },
+        "Escort": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Escort",
+            "id": 36
+        },
+        "Easy Job - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Easy%20Job%20-%20Part%201",
+            "id": 37
+        },
+        "Easy Job - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Easy%20Job%20-%20Part%202",
+            "id": 38
+        },
+        "Our Own Land": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Our%20Own%20Land",
+            "items": {
+                "item1": {
+                    "full_name": "USEC Dogtag",
+                    "name": "USEC",
+                    "num": 20,
+                    "inRaid": true,
+                    "img": "/img/Prapor/USEC_Dogtag.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 39
+        },
+        "Reconnaissance": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Reconnaissance",
+            "id": 40
+        },
+        "Green Corridor": {
+            "wiki_url": "https://wikiwiki.jp/eft/Prapor/Green%20Corridor",
+            "id": 41
+        }
+    },
+    "Therapist": {
+        "Shortage": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Shortage",
+            "items": {
+                "item1": {
+                    "full_name": "Salewa first aid kit",
+                    "name": "Salewa",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Salewa_first_aid_kit.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 42
+        },
+        "Operation Aquarius - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Operation%20Aquarius%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Dorm room 206 Key",
+                    "name": "Dorm 206",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/Dorm_room_206_Key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 43
+        },
+        "Operation Aquarius - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Operation%20Aquarius%20-%20Part%202",
+            "id": 44
+        },
+        "Sanitary Standards - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Sanitary%20Standards%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Gas analyzer",
+                    "name": "GasAn",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Gas_analyzer.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 45
+        },
+        "Sanitary Standards - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Sanitary%20Standards%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Gas analyzer",
+                    "name": "GasAn",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Gas_analyzer.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 46
+        },
+        "Painkiller": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Painkiller",
+            "items": {
+                "item1": {
+                    "full_name": "Morphine injector",
+                    "name": "Morphine",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Morphine_injector.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 47
+        },
+        "Pharmacist": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Pharmacist",
+            "items": {
+                "item1": {
+                    "full_name": "Dorm room 114 Key",
+                    "name": "114 Key",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/Dorm_room_114_Key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 48
+        },
+        "Population Census": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Population%20Census",
+            "id": 49
+        },
+        "Urban Medicine": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Urban%20Medicine",
+            "id": 50
+        },
+        "Car Repair": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Car%20Repair",
+            "items": {
+                "item1": {
+                    "full_name": "Car battery",
+                    "name": "Car batt.",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Car_battery.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Spark plug",
+                    "name": "Plug",
+                    "num": 8,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Spark_plug.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 51
+        },
+        "Hippocratic Oath": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Hippocratic%20Oath",
+            "id": 52
+        },
+        "Disease History": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Disease%20History",
+            "items": {
+                "item1": {
+                    "full_name": "RB-KSM key",
+                    "name": "RB-KSM",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/RB-KSM_key.webp",
+                    "category": "key"
+                },
+                "item2": {
+                    "full_name": "RB-SMP key",
+                    "name": "RB-SMP",
+                    "num": -1,
+                    "inRaid": true,
+                    "img": "/img/Therapist/RB-SMP_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 53
+        },
+        "Supply Plans": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Supply%20Plans",
+            "id": 54
+        },
+        "Dangerous Road": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Dangerous%20Road",
+            "id": 55
+        },
+        "Health Care Privacy - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Health%20Care%20Privacy%20-%20Part%201",
+            "id": 56
+        },
+        "Health Care Privacy - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Health%20Care%20Privacy%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Health Resort west wing room 306 key",
+                    "name": "W306 San",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/Health_Resort_west_wing_room_306_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 57
+        },
+        "Health Care Privacy - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Health%20Care%20Privacy%20-%20Part%203",
+            "id": 58
+        },
+        "An Apple a Day Keeps the Doctor Away": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/An%20Apple%20a%20Day%20Keeps%20the%20Doctor%20Away",
+            "id": 59
+        },
+        "Health Care Privacy - Part 4": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Health%20Care%20Privacy%20-%20Part%204",
+            "id": 60
+        },
+        "Athlete": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Athlete",
+            "id": 61
+        },
+        "Private Clinic": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Private%20Clinic",
+            "items": {
+                "item1": {
+                    "full_name": "Ophthalmoscope",
+                    "name": "OScope",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Ophthalmoscope.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "LEDX Skin Transilluminator",
+                    "name": "LEDX",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Therapist/LEDX_Skin_Transilluminator.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 62
+        },
+        "Health Care Privacy - Part 5": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Health%20Care%20Privacy%20-%20Part%205",
+            "items": {
+                "item1": {
+                    "full_name": "Gunpowder Kite",
+                    "name": "Kite",
+                    "num": 3,
+                    "inRaid": false,
+                    "img": "/img/Therapist/Gunpowder_Kite.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 63
+        },
+        "Decontamination Service": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Decontamination%20Service",
+            "id": 64
+        },
+        "General wares": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/General%20Wares",
+            "items": {
+                "item1": {
+                    "full_name": "Can of beef stew (Small)",
+                    "name": "Tushonka",
+                    "num": 15,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Can_of_beef_stew_(Small).webp",
+                    "category": "loot"
+                }
+            },
+            "id": 65
+        },
+        "Colleagues - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Colleagues%20-%20Part%201",
+            "id": 66
+        },
+        "Colleagues - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Colleagues%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Cottage back door key",
+                    "name": "Cottage",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/Cottage_back_door_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 67
+        },
+        "Colleagues - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Colleagues%20-%20Part%203",
+            "items": {
+                "item1": {
+                    "full_name": "AHF1-M stimulant injector",
+                    "name": "AHF1-M",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Therapist/AHF1-M_stimulant_injector.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "3-(b-TG) stimulant injector",
+                    "name": "3-(b-TG)",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Therapist/3-(b-TG)_stimulant_injector.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "TerraGroup Labs keycard (Blue)",
+                    "name": "Blue",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/TerraGroup_Labs_keycard_(Blue).webp",
+                    "category": "key"
+                },
+                "item4": {
+                    "full_name": "TerraGroup Labs keycard (Green)",
+                    "name": "Green",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/TerraGroup_Labs_keycard_(Green).webp",
+                    "category": "key"
+                }
+            },
+            "id": 68
+        },
+        "Postman Pat - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Postman%20Pat%20-%20Part%202",
+            "id": 69
+        },
+        "Out of Curiosity": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Out%20of%20Curiosity",
+            "id": 70
+        },
+        "Trust Regain": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Trust%20Regain",
+            "items": {
+                "item1": {
+                    "full_name": "Dorm room 303 key",
+                    "name": "Dorm 303",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/Dorm_room_303_key.webp",
+                    "category": "key"
+                },
+                "item2": {
+                    "full_name": "ZB-014 key",
+                    "name": "ZB-014",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/ZB-014_key.webp",
+                    "category": "key"
+                },
+                "item3": {
+                    "full_name": "Military checkpoint key",
+                    "name": "Checkpoin",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/Military_checkpoint_key.webp",
+                    "category": "key"
+                },
+                "item4": {
+                    "full_name": "Gas station storage room key",
+                    "name": "Storage",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/Gas_station_storage_room_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 71
+        },
+        "Crisis": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Crisis",
+            "items": {
+                "item1": {
+                    "full_name": "Portable defibrillator",
+                    "name": "Defibrillat",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Portable_defibrillator.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Ophthalmoscope",
+                    "name": "OScope",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Ophthalmoscope.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "LEDX Skin Transilluminator",
+                    "name": "LEDX",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Therapist/LEDX_Skin_Transilluminator.webp",
+                    "category": "loot"
+                },
+                "item4": {
+                    "full_name": "Pile of meds",
+                    "name": "Meds",
+                    "num": 20,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Pile_of_meds.webp",
+                    "category": "loot"
+                },
+                "item5": {
+                    "full_name": "Bottle of OLOLO Multivitamins",
+                    "name": "Vitam.",
+                    "num": 10,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Bottle_of_OLOLO_Multivitamins.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 72
+        },
+        "Seaside Vacation": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Seaside%20Vacation",
+            "id": 73
+        },
+        "Lost Contact": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Lost%20Contact",
+            "id": 74
+        },
+        "Drug Trafficking": {
+            "wiki_url": "https://wikiwiki.jp/eft/Therapist/Drug%20Trafficking",
+            "id": 75
+        }
+    },
+    "Skier": {
+        "Supplier": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Supplier",
+            "items": {
+                "item1": {
+                    "full_name": "BNTI Module-3M body armor",
+                    "name": "3M",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Skier/BNTI_Module-3M_body_armor.webp",
+                    "category": "wepon"
+                },
+                "item2": {
+                    "full_name": "TOZ-106 20ga bolt-action shotgun",
+                    "name": "TOZ-106",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Skier/TOZ-106_20ga_bolt-action_shotgun.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 76
+        },
+        "The Extortionist": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/The%20Extortionist",
+            "items": {
+                "item1": {
+                    "full_name": "Unknown Key",
+                    "name": "Unk. key",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Unknown_Key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 77
+        },
+        "Stirrup": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Stirrup",
+            "id": 78
+        },
+        "What's on the flash drive?": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/What%27s%20on%20the%20flash%20drive%3F",
+            "items": {
+                "item1": {
+                    "full_name": "Secure Flash drive",
+                    "name": "Flash drive",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Skier/Secure_Flash_drive.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 79
+        },
+        "Golden Swag": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Golden%20Swag",
+            "items": {
+                "item1": {
+                    "full_name": "Dorm room 303 key",
+                    "name": "Dorm 303",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Therapist/Dorm_room_303_key.webp",
+                    "category": "key"
+                },
+                "item2": {
+                    "full_name": "Trailer park portable cabin key",
+                    "name": "Cabin",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Trailer_park_portable_cabin_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 80
+        },
+        "Chemical - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Chemical%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Dorm room 220 Key",
+                    "name": "Dorm 220",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Dorm_room_220_Key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 81
+        },
+        "Chemical - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Chemical%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Dorm room 220 Key",
+                    "name": "Dorm 220",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Dorm_room_220_Key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 82
+        },
+        "Chemical - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Chemical%20-%20Part%203",
+            "id": 83
+        },
+        "Chemical - Part 4": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Chemical%20-%20Part%204",
+            "id": 84
+        },
+        "Loyalty buyout": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Loyalty%20buyout",
+            "id": 85
+        },
+        "Vitamins - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Vitamins%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Health Resort west wing office room 112 key",
+                    "name": "W112 San",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Health_Resort_west_wing_office_room_112_key.webp",
+                    "category": "key"
+                },
+                "item2": {
+                    "full_name": "EMERCOM medical unit key",
+                    "name": "EMC",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/EMERCOM_medical_unit_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 86
+        },
+        "Vitamins - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Vitamins%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Respirator",
+                    "name": "Respirator",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Skier/Respirator.webp",
+                    "category": "wepon"
+                },
+                "item2": {
+                    "full_name": "Medical bloodset",
+                    "name": "Bloodset",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Skier/Medical_bloodset.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 87
+        },
+        "Friend from the West - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Friend%20from%20the%20West%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "USEC Dogtag",
+                    "name": "USEC",
+                    "num": 7,
+                    "inRaid": false,
+                    "img": "/img/Prapor/USEC_Dogtag.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 88
+        },
+        "Friend from the West - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Friend%20from%20the%20West%20-%20Part%202",
+            "id": 89
+        },
+        "Informed means armed": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Informed%20means%20armed",
+            "id": 90
+        },
+        "Chumming": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Chumming",
+            "items": {
+                "item1": {
+                    "full_name": "Golden neck chain",
+                    "name": "GoldChain",
+                    "num": 9,
+                    "inRaid": false,
+                    "img": "/img/Skier/Golden_neck_chain.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 91
+        },
+        "Debtor": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Debtor",
+            "items": {
+                "item1": {
+                    "full_name": "Hotel room 206 key",
+                    "name": "Pnwd 206",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Hotel_room_206_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 92
+        },
+        "House Arrest - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/House%20Arrest%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Iron gate key",
+                    "name": "Iron gate",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Iron_gate_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 93
+        },
+        "House Arrest - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/House%20Arrest%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Chekannaya 15 apartment key",
+                    "name": "Chek 15",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Chekannaya_15_apartment_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 94
+        },
+        "Silent Caliber": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Silent%20Caliber",
+            "id": 95
+        },
+        "Bullshit": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Bullshit",
+            "items": {
+                "item1": {
+                    "full_name": "Roler submariner gold wrist watch",
+                    "name": "Roler",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Roler_submariner_gold_wrist_watch.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "SV-98 7.62x54R bolt-action sniper rifle",
+                    "name": "SV-98",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Skier/SV-98_7.62x54R_bolt-action_sniper_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 96
+        },
+        "Setup": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Setup",
+            "id": 97
+        },
+        "Flint": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Flint",
+            "id": 98
+        },
+        "Lend-Lease - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Lend-Lease%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Health Resort west wing room 216 key",
+                    "name": "W216 San",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Health_Resort_west_wing_room_216_key.webp",
+                    "category": "key"
+                },
+                "item2": {
+                    "full_name": "Health Resort east wing room 306 key",
+                    "name": "E306 San",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Health_Resort_east_wing_room_306_key.webp",
+                    "category": "key"
+                },
+                "item3": {
+                    "full_name": "Health Resort east wing room 308 key",
+                    "name": "E308 San",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Health_Resort_east_wing_room_308_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 99
+        },
+        "Kind of Sabotage": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Kind%20of%20Sabotage",
+            "id": 100
+        },
+        "Rigged Game": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Rigged%20Game",
+            "id": 101
+        },
+        "Safe Corridor": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Safe%20Corridor",
+            "id": 102
+        },
+        "Night Sweep": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Night%20Sweep",
+            "id": 103
+        },
+        "Long Road": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Long%20Road",
+            "id": 104
+        },
+        "Missing Cargo": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Missing%20Cargo",
+            "id": 105
+        },
+        "Top Secret": {
+            "wiki_url": "https://wikiwiki.jp/eft/Skier/Top%20Secret",
+            "items": {
+                "item1": {
+                    "full_name": "Radar station commandant room key",
+                    "name": "Radar",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Radar_station_commandant_room_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 106
+        }
+    },
+    "Peacekeeper": {
+        "Fishing Gear": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Fishing%20Gear",
+            "items": {
+                "item1": {
+                    "full_name": "SV-98 7.62x54R bolt-action sniper rifle",
+                    "name": "SV-98",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Skier/SV-98_7.62x54R_bolt-action_sniper_rifle.webp",
+                    "category": "wepon"
+                },
+                "item2": {
+                    "full_name": "Leatherman Multitool",
+                    "name": "Multitool",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/Leatherman_Multitool.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 107
+        },
+        "Tigr Safari": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Tigr%20Safari",
+            "id": 108
+        },
+        "Scrap Metal": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Scrap%20Metal",
+            "id": 109
+        },
+        "Eagle Eye": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Eagle%20Eye",
+            "id": 110
+        },
+        "Humanitarian Supplies": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Humanitarian%20Supplies",
+            "items": {
+                "item1": {
+                    "full_name": "MRE ration pack",
+                    "name": "MRE",
+                    "num": 5,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/MRE_ration_pack.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 111
+        },
+        "The Cult - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/The%20Cult%20-%20Part%201",
+            "id": 112
+        },
+        "The Cult - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/The%20Cult%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Dorm room 314 marked key",
+                    "name": "Mark.Key",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/Dorm_room_314_marked_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 113
+        },
+        "Spa Tour - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Spa%20Tour%20-%20Part%201",
+            "id": 114
+        },
+        "Spa Tour - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Spa%20Tour%20-%20Part%202",
+            "id": 115
+        },
+        "Spa Tour - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Spa%20Tour%20-%20Part%203",
+            "items": {
+                "item1": {
+                    "full_name": "WD-40 100ml",
+                    "name": "WD-40",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/WD-40_100ml.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Clin window cleaner",
+                    "name": "Clin",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Clin_window_cleaner.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Ox bleach",
+                    "name": "Bleach",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Ox_bleach.webp",
+                    "category": "loot"
+                },
+                "item4": {
+                    "full_name": "Corrugated hose",
+                    "name": "Hose",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Corrugated_hose.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 116
+        },
+        "Spa Tour - Part 4": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Spa%20Tour%20-%20Part%204",
+            "items": {
+                "item1": {
+                    "full_name": "Health Resort west wing room 219 key",
+                    "name": "San 219",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/Health_Resort_west_wing_room_219_key.webp",
+                    "category": "key"
+                },
+                "item2": {
+                    "full_name": "Health Resort west wing room 220 key",
+                    "name": "San 220",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/Health_Resort_west_wing_room_220_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 117
+        },
+        "Spa Tour - Part 5": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Spa%20Tour%20-%20Part%205",
+            "id": 118
+        },
+        "Spa Tour - Part 6": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Spa%20Tour%20-%20Part%206",
+            "id": 119
+        },
+        "Spa Tour - Part 7": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Spa%20Tour%20-%20Part%207",
+            "items": {
+                "item1": {
+                    "full_name": "Morphine injector",
+                    "name": "Morphine",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Morphine_injector.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Alkaline cleaner for heat exchangers",
+                    "name": "Alkali",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Alkaline_cleaner_for_heat_exchangers.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Corrugated hose",
+                    "name": "Hose",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Corrugated_hose.webp",
+                    "category": "loot"
+                },
+                "item4": {
+                    "full_name": "Propane tank (5L)",
+                    "name": "Propane",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Propane_tank_(5L).webp",
+                    "category": "loot"
+                }
+            },
+            "id": 120
+        },
+        "Road Closed": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Road%20Closed",
+            "id": 121
+        },
+        "Cargo X - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Cargo%20X%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Health Resort east wing room 306 key",
+                    "name": "E306 San",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Health_Resort_east_wing_room_306_key.webp",
+                    "category": "key"
+                },
+                "item2": {
+                    "full_name": "Health Resort east wing room 308 key",
+                    "name": "E308 San",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/Health_Resort_east_wing_room_308_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 122
+        },
+        "Cargo X - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Cargo%20X%20-%20Part%202",
+            "id": 123
+        },
+        "Cargo X - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Cargo%20X%20-%20Part%203",
+            "id": 124
+        },
+        "Cargo X - Part 4": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Cargo%20X%20-%20Part%204",
+            "id": 125
+        },
+        "Your Car Needs a Service": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Your%20Car%20Needs%20a%20Service",
+            "items": {
+                "item1": {
+                    "full_name": "Car dealership director's office room key",
+                    "name": "LexOs",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/Car_dealership_director's_office_room_key.webp",
+                    "category": "key"
+                },
+                "item2": {
+                    "full_name": "Car dealership closed section key",
+                    "name": "LexOs sect",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/Car_dealership_closed_section_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 126
+        },
+        "Wet Job - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Wet%20Job%20-%20Part%201",
+            "id": 127
+        },
+        "Wet Job - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Wet%20Job%20-%20Part%202",
+            "id": 128
+        },
+        "Wet Job - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Wet%20Job%20-%20Part%203",
+            "id": 129
+        },
+        "Wet Job - Part 4": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Wet%20Job%20-%20Part%204",
+            "id": 130
+        },
+        "Wet Job - Part 5": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Wet%20Job%20-%20Part%205",
+            "items": {
+                "item1": {
+                    "full_name": "East wing room 328 key",
+                    "name": "San 328",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/East_wing_room_328_key.webp",
+                    "category": "key"
+                },
+                "item2": {
+                    "full_name": "Health resort utility room key",
+                    "name": "Storageroom",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/Health_resort_utility_room_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 131
+        },
+        "Worst Job in the World": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Worst%20Job%20in%20the%20World",
+            "id": 132
+        },
+        "Mentor": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Mentor",
+            "id": 133
+        },
+        "Wet Job - Part 6": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Wet%20Job%20-%20Part%206",
+            "id": 134
+        },
+        "The Guide": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/The%20Guide",
+            "id": 135
+        },
+        "Samples": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Samples",
+            "items": {
+                "item1": {
+                    "full_name": "M.U.L.E. stimulant injector",
+                    "name": "M.U.L.E.",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/M.U.L.E._stimulant_injector.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Obdolbos cocktail injector",
+                    "name": "Obdolbos",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Obdolbos_cocktail_injector.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Meldonin stimulant injector",
+                    "name": "Meldonin",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Meldonin_stimulant_injector.webp",
+                    "category": "loot"
+                },
+                "item4": {
+                    "full_name": "AHF1-M stimulant injector",
+                    "name": "AHF1-M",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/AHF1-M_stimulant_injector.webp",
+                    "category": "loot"
+                },
+                "item5": {
+                    "full_name": "P22 stimulant injector",
+                    "name": "P22",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/P22_stimulant_injector.webp",
+                    "category": "loot"
+                },
+                "item6": {
+                    "full_name": "L1 (Norepinephrine) stimulant injector",
+                    "name": "L1",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/L1_(Norepinephrine)_stimulant_injector.webp",
+                    "category": "loot"
+                },
+                "item7": {
+                    "full_name": "3-(b-TG) stimulant injector",
+                    "name": "3-(b-TG)",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/3-(b-TG)_stimulant_injector.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 136
+        },
+        "TerraGroup employee": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/TerraGroup%20employee",
+            "items": {
+                "item1": {
+                    "full_name": "Key card with a blue marking",
+                    "name": "Key card",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/Key_card_with_a_blue_marking.webp",
+                    "category": "key"
+                }
+            },
+            "id": 137
+        },
+        "Lend-Lease - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Lend-Lease%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Military COFDM wireless Signal Transmitter",
+                    "name": "SG-C10",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Military_COFDM_wireless_Signal_Transmitter.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Virtex programmable processor",
+                    "name": "Virtex",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Virtex_programmable_processor.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 138
+        },
+        "Peacekeeping mission": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Peacekeeping%20mission",
+            "id": 139
+        },
+        "Classified Technologies": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Classified%20Technologies",
+            "id": 140
+        },
+        "Revision - Reserve": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Revision%20-%20Reserve",
+            "items": {
+                "item1": {
+                    "full_name": "RB-ST key",
+                    "name": "RB-ST",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/RB-ST_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 141
+        },
+        "Revision - Lighthouse": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Revision%20-%20Lighthouse",
+            "id": 142
+        },
+        "Revision - Streets of Tarkov": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Revision%20-%20Streets%20of%20Tarkov",
+            "id": 143
+        },
+        "The Cleaner": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/The%20Cleaner",
+            "id": 144
+        },
+        "Special Equipment": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Special%20Equipment",
+            "items": {
+                "item1": {
+                    "full_name": "VPX Flash Storage Module",
+                    "name": "VPX",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/VPX_Flash_Storage_Module.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "UHF RFID Reader",
+                    "name": "RFIDR",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/UHF_RFID_Reader.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Virtex programmable processor",
+                    "name": "Virtex",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Virtex_programmable_processor.webp",
+                    "category": "loot"
+                },
+                "item4": {
+                    "full_name": "Military COFDM wireless Signal Transmitter",
+                    "name": "SG-C10",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Military_COFDM_wireless_Signal_Transmitter.webp",
+                    "category": "loot"
+                },
+                "item5": {
+                    "full_name": "Military flash drive",
+                    "name": "MFD",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Military_flash_drive.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 145
+        },
+        "Counteraction": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Counteraction",
+            "items": {
+                "item1": {
+                    "full_name": "BEAR Dogtag",
+                    "name": "BEAR",
+                    "num": 20,
+                    "inRaid": true,
+                    "img": "/img/Prapor/BEAR_Dogtag.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 146
+        },
+        "Overpopulation": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Overpopulation",
+            "id": 147
+        },
+        "Trophies": {
+            "wiki_url": "https://wikiwiki.jp/eft/Peacekeeper/Trophies",
+            "id": 148
+        }
+    },
+    "Mechanic": {
+        "Introduction": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Introduction",
+            "id": 149
+        },
+        "Gunsmith - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "MP-133 12ga pump-action shotgun",
+                    "name": "MP-133",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Prapor/MP-133_12ga_pump-action_shotgun.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 150
+        },
+        "Gunsmith - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Kalashnikov AKS-74U 5.45x39 assault rifle",
+                    "name": "AKS-74U",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Kalashnikov_AKS-74U_5.45x39_assault_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 151
+        },
+        "Gunsmith - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%203",
+            "items": {
+                "item1": {
+                    "full_name": "HK MP5 9x19 submachine gun",
+                    "name": "MP5",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/HK_MP5_9x19_submachine_gun.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 152
+        },
+        "Gunsmith - Part 4": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%204",
+            "items": {
+                "item1": {
+                    "full_name": "Kalashnikov AK-105 5.45x39 assault rifle",
+                    "name": "AK-105",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Kalashnikov_AK-105_5.45x39_assault_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 153
+        },
+        "Gunsmith - Part 5": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%205",
+            "items": {
+                "item1": {
+                    "full_name": "Remington Model 870 12ga pump-action shotgun",
+                    "name": "M870",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Remington_Model_870_12ga_pump-action_shotgun.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 154
+        },
+        "Gunsmith - Part 6": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%206",
+            "items": {
+                "item1": {
+                    "full_name": "Kalashnikov AKM 7.62x39 assault rifle",
+                    "name": "AKM",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Kalashnikov_AKM_7.62x39_assault_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 155
+        },
+        "Gunsmith - Part 7": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%207",
+            "items": {
+                "item1": {
+                    "full_name": "Colt M4A1 5.56x45 assault rifle",
+                    "name": "M4A1",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Colt_M4A1_5.56x45_assault_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 156
+        },
+        "Gunsmith - Part 8": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%208",
+            "items": {
+                "item1": {
+                    "full_name": "Kalashnikov AKS-74N 5.45x39 assault rifle",
+                    "name": "AKS-74N",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Kalashnikov_AKS-74N_5.45x39_assault_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 157
+        },
+        "Gunsmith - Part 9": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%209",
+            "items": {
+                "item1": {
+                    "full_name": "SIG P226R 9x19 pistol",
+                    "name": "P226R",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/SIG_P226R_9x19_pistol.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 158
+        },
+        "Gunsmith - Part 10": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2010",
+            "items": {
+                "item1": {
+                    "full_name": "Kalashnikov AK-105 5.45x39 assault rifle",
+                    "name": "AK-105",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Kalashnikov_AK-105_5.45x39_assault_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 159
+        },
+        "Gunsmith - Part 11": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2011",
+            "items": {
+                "item1": {
+                    "full_name": "TDI KRISS Vector Gen.2 9x19 submachine gun",
+                    "name": "Vector",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/TDI_KRISS_Vector_Gen.2_9x19_submachine_gun.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 160
+        },
+        "Gunsmith - Part 12": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2012",
+            "items": {
+                "item1": {
+                    "full_name": "SIG MPX 9x19 submachine gun",
+                    "name": "MPX",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/SIG_MPX_9x19_submachine_gun.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 161
+        },
+        "Gunsmith - Part 13": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2013",
+            "items": {
+                "item1": {
+                    "full_name": "Remington R11 RSASS 7.62x51 marksman rifle",
+                    "name": "RSASS",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Remington_R11_RSASS_7.62x51_marksman_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 162
+        },
+        "Gunsmith - Part 14": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2014",
+            "items": {
+                "item1": {
+                    "full_name": "HK 416A5 5.56x45 assault rifle",
+                    "name": "HK 416A5",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/HK_416A5_5.56x45_assault_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 163
+        },
+        "Gunsmith - Part 15": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2015",
+            "items": {
+                "item1": {
+                    "full_name": "AS VAL 9x39 special assault rifle",
+                    "name": "AS VAL",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/AS_VAL_9x39_special_assault_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 164
+        },
+        "Gunsmith - Part 16": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2016",
+            "items": {
+                "item1": {
+                    "full_name": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle",
+                    "name": "DVL10",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Lobaev_Arms_DVL-10_7.62x51_bolt-action_sniper_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 165
+        },
+        "Gunsmith - Part 17": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2017",
+            "items": {
+                "item1": {
+                    "full_name": "Kalashnikov AK-102 5.56x45 assault rifle",
+                    "name": "AK-102",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Kalashnikov_AK-102_5.56x45_assault_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 166
+        },
+        "Gunsmith - Part 18": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2018",
+            "items": {
+                "item1": {
+                    "full_name": "Kalashnikov AKMN 7.62x39 assault rifle",
+                    "name": "AKMN",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Kalashnikov_AKMN_7.62x39_assault_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 167
+        },
+        "Gunsmith - Part 19": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2019",
+            "items": {
+                "item1": {
+                    "full_name": "SVDS 7.62x54R sniper rifle",
+                    "name": "SVDS",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/SVDS_7.62x54R_sniper_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 168
+        },
+        "Gunsmith - Part 20": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2020",
+            "items": {
+                "item1": {
+                    "full_name": "Springfield Armory M1A 7.62x51 rifle",
+                    "name": "M1A",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Springfield_Armory_M1A_7.62x51_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 169
+        },
+        "Gunsmith - Part 21": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2021",
+            "items": {
+                "item1": {
+                    "full_name": "Remington Model 700 7.62x51 bolt-action sniper rifle",
+                    "name": "M700",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Remington_Model_700_7.62x51_bolt-action_sniper_rifle.webp",
+                    "category": "wepon"
+                },
+                "item2": {
+                    "full_name": "Colt M1911A1 .45 ACP pistol",
+                    "name": "M1911A1",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Colt_M1911A1_.45_ACP_pistol.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 170
+        },
+        "Gunsmith - Part 22": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Gunsmith%20-%20Part%2022",
+            "items": {
+                "item1": {
+                    "full_name": "Colt M4A1 5.56x45 assault rifle",
+                    "name": "M4A1",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Colt_M4A1_5.56x45_assault_rifle.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 171
+        },
+        "Signal - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Signal%20-%20Part%201",
+            "id": 172
+        },
+        "Insider": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Insider",
+            "id": 173
+        },
+        "Signal - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Signal%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "PC CPU",
+                    "name": "CPU",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/PC_CPU.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Rechargeable battery",
+                    "name": "RBattery",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Rechargeable_battery.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Printed circuit board",
+                    "name": "PCB",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Printed_circuit_board.webp",
+                    "category": "loot"
+                },
+                "item4": {
+                    "full_name": "Broken GPhone smartphone",
+                    "name": "GPhone",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Broken_GPhone_smartphone.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 174
+        },
+        "Scout": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Scout",
+            "id": 175
+        },
+        "Surplus goods": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Surplus%20goods",
+            "items": {
+                "item1": {
+                    "full_name": "RB-ST key",
+                    "name": "RB-ST",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Peacekeeper/RB-ST_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 176
+        },
+        "Back door": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Back%20door",
+            "id": 177
+        },
+        "Signal - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Signal%20-%20Part%203",
+            "id": 178
+        },
+        "Signal - Part 4": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Signal%20-%20Part%204",
+            "id": 179
+        },
+        "Farming - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Farming%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "A set of tools",
+                    "name": "Set",
+                    "num": 2,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/A_set_of_tools.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 180
+        },
+        "Farming - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Farming%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Power cord",
+                    "name": "Cord",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Power_cord.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "T-Shaped Plug",
+                    "name": "T-Plug",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/T-Shaped_Plug.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Printed circuit board",
+                    "name": "PCB",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Printed_circuit_board.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 181
+        },
+        "Farming - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Farming%20-%20Part%203",
+            "items": {
+                "item1": {
+                    "full_name": "Tarcone Director's office key",
+                    "name": "Director's",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Tarcone_Director's_office_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 182
+        },
+        "Farming - Part 4": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Farming%20-%20Part%204",
+            "items": {
+                "item1": {
+                    "full_name": "Graphics card",
+                    "name": "GPU",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Graphics_card.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "CPU fan",
+                    "name": "CPU fan",
+                    "num": 8,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/CPU_fan.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 183
+        },
+        "Bad habit": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Bad%20habit",
+            "items": {
+                "item1": {
+                    "full_name": "Malboro Cigarettes",
+                    "name": "Malboro",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Malboro_Cigarettes.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Strike Cigarettes",
+                    "name": "Strike",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Strike_Cigarettes.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Wilston cigarettes",
+                    "name": "Wilston",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Wilston_cigarettes.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 184
+        },
+        "Psycho Sniper": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Psycho%20Sniper",
+            "id": 185
+        },
+        "A Shooter Born in Heaven": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/A%20Shooter%20Born%20in%20Heaven",
+            "id": 186
+        },
+        "Fertilizers": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Fertilizers",
+            "items": {
+                "item1": {
+                    "full_name": "Bundle of wires",
+                    "name": "Wires",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Bundle_of_wires.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Capacitors",
+                    "name": "Caps",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Capacitors.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 187
+        },
+        "Import": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Import",
+            "items": {
+                "item1": {
+                    "full_name": "UHF RFID Reader",
+                    "name": "RFID",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/UHF_RFID_Reader.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "VPX Flash Storage Module",
+                    "name": "VPX",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/VPX_Flash_Storage_Module.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 188
+        },
+        "Chemistry closet": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Chemistry%20closet",
+            "items": {
+                "item1": {
+                    "full_name": "Health Resort office key with a blue tape",
+                    "name": "San tape",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Health_Resort_office_key_with_a_blue_tape.webp",
+                    "category": "key"
+                }
+            },
+            "id": 189
+        },
+        "Calibration": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Calibration",
+            "id": 190
+        },
+        "The Courier": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/The%20Courier",
+            "items": {
+                "item1": {
+                    "full_name": "Trijicon REAP-IR thermal scope",
+                    "name": "REAP-IR",
+                    "num": 2,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Trijicon_REAP-IR_thermal_scope.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 191
+        },
+        "Corporate Secrets": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Corporate%20Secrets",
+            "id": 192
+        },
+        "Energy Crisis": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Energy%20Crisis",
+            "id": 193
+        },
+        "Broadcast - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Broadcast%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Operating room key",
+                    "name": "OR",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Operating_room_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 194
+        },
+        "Broadcast - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Broadcast%20-%20Part%202",
+            "id": 195
+        },
+        "Watching You": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Watching%20You",
+            "items": {
+                "item1": {
+                    "full_name": "Hotel room 215 key",
+                    "name": "Pnwd 215",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Hotel_room_215_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 196
+        },
+        "Surveillance": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Surveillance",
+            "items": {
+                "item1": {
+                    "full_name": "Concordia security room key",
+                    "name": "Concd sec.",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Concordia_security_room_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 197
+        },
+        "Network Provider - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Network%20Provider%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Eectronic components",
+                    "name": "EC",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Eectronic_components.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Military COFDM Wireless Signal Transmitter",
+                    "name": "SG-C10",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Peacekeeper/Military_COFDM_wireless_Signal_Transmitter.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Gas analyzer",
+                    "name": "GasAn",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Gas_analyzer.webp",
+                    "category": "loot"
+                },
+                "item4": {
+                    "full_name": "Broken GPhone smartphone",
+                    "name": "GPhone",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Broken_GPhone_smartphones.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 198
+        },
+        "Network Provider - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Network%20Provider%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Radio repeater",
+                    "name": "Repeater",
+                    "num": 4,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/Radio_repeater.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 199
+        },
+        "Assessment - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Assessment%20-%20Part%201",
+            "id": 200
+        },
+        "Assessment - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Assessment%20-%20Part%202",
+            "id": 201
+        },
+        "Assessment - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Assessment%20-%20Part%203",
+            "items": {
+                "item1": {
+                    "full_name": "SJ1 TGLabs combat stimulant injector",
+                    "name": "SJ1",
+                    "num": 20,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/SJ1_TGLabs_combat_stimulant_injector.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "SJ6 TGLabs combat stimulant injector",
+                    "name": "SJ6",
+                    "num": 8,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/SJ6_TGLabs_combat_stimulant_injector.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "SJ9 TGLabs combat stimulant injector",
+                    "name": "SJ9",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/SJ9_TGLabs_combat_stimulant_injector.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 202
+        },
+        "Key to the Tower": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Assessment%20-%20Part%203",
+            "items": {
+                "item1": {
+                    "full_name": "Piece of plexiglass",
+                    "name": "PGlass",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Piece_of_plexiglass.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Insulating tape",
+                    "name": "Tape",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Insulating_tape.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Military circuit board",
+                    "name": "MCB",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Military_circuit_board.webp",
+                    "category": "loot"
+                },
+                "item4": {
+                    "full_name": "Military COFDM Wireless Signal Transmitter",
+                    "name": "SG-C10",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Military_COFDM_Wireless_Signal_Transmitter.webp",
+                    "category": "loot"
+                },
+                "item5": {
+                    "full_name": "Working LCD",
+                    "name": "LCD",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/Working_LCD.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 203
+        },
+        "Knock-Knock": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Knock-Knock",
+            "id": 204
+        },
+        "Getting Acquainted": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Getting%20Acquainted",
+            "id": 205
+        },
+        "Make Amends - Buyout": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Make%20Amends%20-%20Buyout",
+            "id": 206
+        },
+        "Make Amends - Equipment": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Make%20Amends%20-%20Equipment",
+            "items": {
+                "item1": {
+                    "full_name": "SVDS 7.62x54R sniper rifle",
+                    "name": "SVD-S",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Mechanic/SVDS_7.62x54R_sniper_rifle.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 207
+        },
+        "Make Amends - Security": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Make%20Amends%20-%20Security",
+            "items": {
+                "item1": {
+                    "full_name": "WI-FI Camera",
+                    "name": "Camera",
+                    "num": 4,
+                    "inRaid": false,
+                    "img": "/img/Mechanic/WI-FI_Camera.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 208
+        },
+        "Make Amends - Sweep Up": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Make%20Amends%20-%20Sweep%20Up",
+            "id": 209
+        },
+        "Make Amends": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Make%20Amends",
+            "id": 210
+        }
+    },
+    "Ragman": {
+        "Only business": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Only%20business",
+            "id": 211
+        },
+        "Audit": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Audit",
+            "id": 212
+        },
+        "Ballet Lover": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Ballet%20Lover",
+            "items": {
+                "item1": {
+                    "full_name": "Primorsky 46-48 skybridge key",
+                    "name": "Underpass",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/Primorsky_46-48_skybridge_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 213
+        },
+        "Audiophile": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Audiophile",
+            "items": {
+                "item1": {
+                    "full_name": "Primorsky 46-48 skybridge key",
+                    "name": "Underpass",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/Primorsky_46-48_skybridge_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 214
+        },
+        "Harley Forever": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Harley%20Forever",
+            "id": 215
+        },
+        "Make ULTRA Great Again": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Make%20ULTRA%20Great%20Again",
+            "id": 216
+        },
+        "Big sale": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Big%20sale",
+            "id": 217
+        },
+        "A Fuel Matter": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/A%20Fuel%20Matter",
+            "id": 218
+        },
+        "Inventory Check": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Inventory%20Check",
+            "items": {
+                "item1": {
+                    "full_name": "RB-ORB1 key",
+                    "name": "RB-ORB1",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/RB-ORB1_key.webp",
+                    "category": "key"
+                },
+                "item2": {
+                    "full_name": "RB-ORB2 key",
+                    "name": "RB-ORB2",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/RB-ORB2_key.webp",
+                    "category": "key"
+                },
+                "item3": {
+                    "full_name": "RB-ORB3 key",
+                    "name": "RB-ORB3",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/RB-ORB3_key.webp",
+                    "category": "key"
+                },
+                "item4": {
+                    "full_name": "RB-OB key",
+                    "name": "RB-OB",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/RB-OB_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 219
+        },
+        "The Blood of War - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/The%20Blood%20of%20War%20-%20Part%201",
+            "id": 220
+        },
+        "Dressed to kill": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Dressed%20to%20kill",
+            "items": {
+                "item1": {
+                    "full_name": "Ushanka ear-flap cap",
+                    "name": "Ushanka",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Ushanka_ear-flap_cap.webp",
+                    "category": "wepon"
+                },
+                "item2": {
+                    "full_name": "Kinda cowboy hat",
+                    "name": "Cowboy",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Kinda_cowboy_hat.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 221
+        },
+        "Gratitude": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Gratitude",
+            "items": {
+                "item1": {
+                    "full_name": "Ghost balaclava",
+                    "name": "Ghost",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/Ghost_balaclava.webp",
+                    "category": "wepon"
+                },
+                "item2": {
+                    "full_name": "Shemagh (Green)",
+                    "name": "Shemagh",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/Shemagh_(Green).webp",
+                    "category": "wepon"
+                },
+                "item3": {
+                    "full_name": "RayBench Hipster Reserve sunglasses",
+                    "name": "RayBench",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/RayBench_Hipster_Reserve_sunglasses.webp",
+                    "category": "wepon"
+                },
+                "item4": {
+                    "full_name": "Round frame sunglasses",
+                    "name": "RGlass",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/Round_frame_sunglasses.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 222
+        },
+        "Hot delivery": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Hot%20delivery",
+            "items": {
+                "item1": {
+                    "full_name": "Peltor ComTac 2 headset",
+                    "name": "ComTac2",
+                    "num": 2,
+                    "inRaid": false,
+                    "img": "/img/Ragman/Peltor_ComTac_2_headset.webp",
+                    "category": "wepon"
+                },
+                "item2": {
+                    "full_name": "6B47 Helmet",
+                    "name": "6B47",
+                    "num": 2,
+                    "inRaid": false,
+                    "img": "/img/Ragman/6B47_Helmet.webp",
+                    "category": "wepon"
+                },
+                "item3": {
+                    "full_name": "BNTI Gzhel-K armor",
+                    "name": "GZHEL-K",
+                    "num": 2,
+                    "inRaid": false,
+                    "img": "/img/Ragman/BNTI_Gzhel-K_armor.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 223
+        },
+        "Scavenger": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Scavenger",
+            "id": 224
+        },
+        "Sales Night": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Sales%20Night",
+            "id": 225
+        },
+        "Database - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Database%20-%20Part%201",
+            "id": 226
+        },
+        "Database - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Database%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "OLI logistics department office key",
+                    "name": "OLI Log.",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/OLI_logistics_department_office_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 227
+        },
+        "Minibus": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Minibus",
+            "id": 228
+        },
+        "Sew it good - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Sew%20it%20good%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Ski hat with holes for eyes",
+                    "name": "Shmaska",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Ski_hat_with_holes_for_eyes.webp",
+                    "category": "wepon"
+                },
+                "item2": {
+                    "full_name": "Pilgrim tourist backpack",
+                    "name": "Pilgrim",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Pilgrim_tourist_backpack.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 229
+        },
+        "The Blood of War - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/The%20Blood%20of%20War%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Fuel conditioner",
+                    "name": "FCond",
+                    "num": 4,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Fuel_conditioner.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 230
+        },
+        "The Blood of War - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/The%20Blood%20of%20War%20-%20Part%203",
+            "id": 231
+        },
+        "Living High is Not a Crime - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Living%20High%20is%20Not%20a%20Crime%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Antique teapot",
+                    "name": "Teapot",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Antique_teapot.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Antique vase",
+                    "name": "Vase",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Antique_vase.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Axel parrot figurine",
+                    "name": "Axel",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Axel_parrot_figurine.webp",
+                    "category": "loot"
+                },
+                "item4": {
+                    "full_name": "Raven figurine",
+                    "name": "Raven",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Raven_figurine.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 232
+        },
+        "Sew it good - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Sew%20it%20good%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "BNTI Gzhel-K armor",
+                    "name": "GZHEL-K",
+                    "num": 2,
+                    "inRaid": false,
+                    "img": "/img/Ragman/BNTI_Gzhel-K_armor.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 233
+        },
+        "The key to success": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/The%20key%20to%20success",
+            "id": 234
+        },
+        "No fuss needed": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/No%20fuss%20needed",
+            "id": 235
+        },
+        "The stylish one": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/The%20stylish%20one",
+            "id": 236
+        },
+        "Supervisor": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Supervisor",
+            "items": {
+                "item1": {
+                    "full_name": "Goshan cash register key",
+                    "name": "Goshan re",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Ragman/Goshan_cash_register_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 237
+        },
+        "Sew it good - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Sew%20it%20good%20-%20Part%203",
+            "items": {
+                "item1": {
+                    "full_name": "6B43 armor",
+                    "name": "6B43 6A",
+                    "num": 2,
+                    "inRaid": false,
+                    "img": "/img/Ragman/6B43_armor.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 238
+        },
+        "Living High is Not a Crime - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Living%20High%20is%20Not%20a%20Crime%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Bronze lion",
+                    "name": "Lion",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Bronze_lion.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Horse figurine",
+                    "name": "Horse",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Horse_figurine.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Cat figurine",
+                    "name": "Cat",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Cat_figurine.webp",
+                    "category": "loot"
+                },
+                "item4": {
+                    "full_name": "Roler submariner gold wrist watch",
+                    "name": "Roler",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Skier/Roler_submariner_gold_wrist_watch.webp",
+                    "category": "loot"
+                },
+                "item5": {
+                    "full_name": "Golden egg",
+                    "name": "Egg",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Golden_egg.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 239
+        },
+        "Sew it good - Part 4": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Sew%20it%20good%20-%20Part%204",
+            "items": {
+                "item1": {
+                    "full_name": "Wartech gear rig (TV-109, TV-106)",
+                    "name": "WTRlg",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Wartech_gear_rig_(TV-109,_TV-106).webp",
+                    "category": "wepon"
+                },
+                "item2": {
+                    "full_name": "BlackRock chest rig",
+                    "name": "BlackRock",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Ragman/BlackRock_chest_rig.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 240
+        },
+        "Charisma brings success": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Charisma%20brings%20success",
+            "id": 241
+        },
+        "Textile - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Textile%20-%20Part%201",
+            "items": {
+                "item1": {
+                    "full_name": "Aramid fiber cloth",
+                    "name": "Aramid",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Aramid_fiber_cloth.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Ripstop cloth",
+                    "name": "Ripstop",
+                    "num": 10,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Ripstop_cloth.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Paracord",
+                    "name": "Paracord",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Paracord.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 242
+        },
+        "Textile - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Textile%20-%20Part%202",
+            "items": {
+                "item1": {
+                    "full_name": "Fleece cloth",
+                    "name": "Fleece",
+                    "num": 10,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Fleece_cloth.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Polyamide fabric Cordura",
+                    "name": "Cordura",
+                    "num": 10,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Polyamide_fabric_Cordura.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "KEKTAPE duct tape",
+                    "name": "KEK",
+                    "num": 5,
+                    "inRaid": true,
+                    "img": "/img/Ragman/KEKTAPE_duct_tape.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 243
+        },
+        "Long Line": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Long%20Line",
+            "id": 244
+        },
+        "Booze": {
+            "wiki_url": "https://wikiwiki.jp/eft/Ragman/Booze",
+            "items": {
+                "item1": {
+                    "full_name": "Bottle of vodka Tarkovskaya",
+                    "name": "Vodka",
+                    "num": 10,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Bottle_of_vodka_Tarkovskaya.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Bottle of Dan Jackiel Whiskey",
+                    "name": "Whiskey",
+                    "num": 10,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Bottle_of_Dan_Jackiel_Whiskey.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Purified water",
+                    "name": "Superwater",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Purified_water.webp",
+                    "category": "loot"
+                },
+                "item4": {
+                    "full_name": "Bottle of beer Pevko Light",
+                    "name": "Pevko",
+                    "num": 20,
+                    "inRaid": true,
+                    "img": "/img/Ragman/Bottle_of_beer_Pevko_Light.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 245
+        }
+    },
+    "Jaeger": {
+        "Acquaintance": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Acquaintance",
+            "items": {
+                "item1": {
+                    "full_name": "Iskra ration pack",
+                    "name": "Iskra",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Jaeger/Iskra_ration_pack.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Emelya rye croutons",
+                    "name": "Emelya",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Jaeger/Emelya_rye_croutons.webp",
+                    "category": "loot"
+                },
+                "item3": {
+                    "full_name": "Can of beef stew (Large)",
+                    "name": "Tushonka",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Jaeger/Can_of_beef_stew_(Large).webp",
+                    "category": "loot"
+                }
+            },
+            "id": 246
+        },
+        "The Survivalist Path - Unprotected but Dangerous": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Survivalist%20Path%20-%20Unprotected%20but%20Dangerous",
+            "id": 247
+        },
+        "The survivalist path - Thrifty": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20survivalist%20path%20-%20Thrifty",
+            "items": {
+                "item1": {
+                    "full_name": "Iskra ration pack",
+                    "name": "Iskra",
+                    "num": 2,
+                    "inRaid": false,
+                    "img": "/img/Jaeger/Iskra_ration_pack.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "0.6L water bottle",
+                    "name": "Water",
+                    "num": 2,
+                    "inRaid": false,
+                    "img": "/img/Jaeger/0.6L_water_bottle.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 248
+        },
+        "The Delicious Sausage": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Delicious%20Sausage",
+            "items": {
+                "item1": {
+                    "full_name": "Salty Dog beef sausage",
+                    "name": "Sausage",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Jaeger/Salty_Dog_beef_sausage.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 249
+        },
+        "Cease Fire!": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Cease%20Fire%21",
+            "items": {
+                "item1": {
+                    "full_name": "RSP-30 reactive signal cartridge (Green)",
+                    "name": "Green",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Jaeger/RSP-30_reactive_signal_cartridge_(Green).webp",
+                    "category": "loot"
+                }
+            },
+            "id": 250
+        },
+        "The survivalist path - Zhivchik": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20survivalist%20path%20-%20Zhivchik",
+            "id": 251
+        },
+        "The survivalist path - Wounded beast": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20survivalist%20path%20-%20Wounded%20beast",
+            "id": 252
+        },
+        "The survivalist path - Tough guy": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20survivalist%20path%20-%20Tough%20guy",
+            "id": 253
+        },
+        "Courtesy visit": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Courtesy%20visit",
+            "id": 254
+        },
+        "Nostalgia": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Nostalgia",
+            "id": 255
+        },
+        "The survivalist path - Cold blooded": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20survivalist%20path%20-%20Cold%20blooded",
+            "id": 256
+        },
+        "The survivalist path - Junkie": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20survivalist%20path%20-%20Junkie",
+            "id": 257
+        },
+        "The survivalist path - Eagle-owl": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20survivalist%20path%20-%20Eagle-owl",
+            "id": 258
+        },
+        "The survivalist path - Combat medic": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20survivalist%20path%20-%20Combat%20medic",
+            "id": 259
+        },
+        "Ambulance": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Ambulance",
+            "items": {
+                "item1": {
+                    "full_name": "CMS Kit",
+                    "name": "CMS",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Jaeger/CMS_Kit.webp",
+                    "category": "loot"
+                },
+                "item2": {
+                    "full_name": "Portable defibrillator",
+                    "name": "Defibrillat",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Portable_defibrillator.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 260
+        },
+        "The Huntsman Path - Secured Perimeter": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Secured%20Perimeter",
+            "id": 261
+        },
+        "Reserve": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Reserve",
+            "id": 262
+        },
+        "The Huntsman Path - Forest Cleaning": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Forest%20Cleaning",
+            "id": 263
+        },
+        "The Huntsman Path - Administrator": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Administrator",
+            "items": {
+                "item1": {
+                    "full_name": "RSP-30 reactive signal cartridge (Yellow)",
+                    "name": "Yellow",
+                    "num": 1,
+                    "inRaid": false,
+                    "img": "/img/Jaeger/RSP-30_reactive_signal_cartridge_(Yellow).webp",
+                    "category": "loot"
+                }
+            },
+            "id": 264
+        },
+        "The Huntsman Path - Controller": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Controller",
+            "id": 265
+        },
+        "The Huntsman Path - Evil Watchman": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Evil%20Watchman",
+            "id": 266
+        },
+        "Fishing place": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Fishing%20place",
+            "items": {
+                "item1": {
+                    "full_name": "TerraGroup Labs access keycard",
+                    "name": "Access",
+                    "num": 2,
+                    "inRaid": true,
+                    "img": "/img/Jaeger/TerraGroup_Labs_access_keycard.webp",
+                    "category": "key"
+                }
+            },
+            "id": 267
+        },
+        "The Huntsman Path - Trophy": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Trophy",
+            "items": {
+                "item1": {
+                    "full_name": "TT Gold",
+                    "name": "TT",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Jaeger/TT_Gold.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 268
+        },
+        "The Huntsman Path - Justice": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Justice",
+            "id": 269
+        },
+        "The Huntsman Path - Sellout": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Sellout",
+            "items": {
+                "item1": {
+                    "full_name": "Maska-1SCh bulletproof helmet (Killa)",
+                    "name": "Maska 1SCh",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Jaeger/Maska-1SCh_bulletproof_helmet_(Killa).webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 270
+        },
+        "The Huntsman Path - Woods Keeper": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Woods%20Keeper",
+            "items": {
+                "item1": {
+                    "full_name": "Shturman key",
+                    "name": "KSH",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Jaeger/Shturman_key.webp",
+                    "category": "key"
+                }
+            },
+            "id": 271
+        },
+        "Hunting trip": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Hunting%20trip",
+            "id": 272
+        },
+        "The Huntsman Path - Factory Chief": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Factory%20Chief",
+            "items": {
+                "item1": {
+                    "full_name": "BOSS cap",
+                    "name": "Cap",
+                    "num": 1,
+                    "inRaid": true,
+                    "img": "/img/Jaeger/BOSS_cap.webp",
+                    "category": "wepon"
+                }
+            },
+            "id": 273
+        },
+        "The Huntsman Path - Eraser - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Eraser%20-%20Part%201",
+            "id": 274
+        },
+        "The Huntsman Path - Eraser - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Eraser%20-%20Part%202",
+            "id": 275
+        },
+        "The Tarkov shooter - Part 1": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Tarkov%20shooter%20-%20Part%201",
+            "id": 276
+        },
+        "The Tarkov shooter - Part 2": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Tarkov%20shooter%20-%20Part%202",
+            "id": 277
+        },
+        "The Tarkov shooter - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Tarkov%20shooter%20-%20Part%203",
+            "id": 278
+        },
+        "The Tarkov shooter - Part 4": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Tarkov%20shooter%20-%20Part%204",
+            "id": 279
+        },
+        "The Tarkov shooter - Part 5": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Tarkov%20shooter%20-%20Part%205",
+            "id": 280
+        },
+        "The Tarkov shooter - Part 6": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Tarkov%20shooter%20-%20Part%206",
+            "id": 281
+        },
+        "The Tarkov shooter - Part 7": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Tarkov%20shooter%20-%20Part%207",
+            "id": 282
+        },
+        "The Tarkov shooter - Part 8": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Tarkov%20shooter%20-%20Part%208",
+            "id": 283
+        },
+        "Shady business": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Shady%20business",
+            "items": {
+                "item1": {
+                    "full_name": "Secure Flash drive",
+                    "name": "Flash drive",
+                    "num": 3,
+                    "inRaid": true,
+                    "img": "/img/Skier/Secure_Flash_drive.webp",
+                    "category": "loot"
+                }
+            },
+            "id": 284
+        },
+        "The Huntsman Path - Sadist": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Sadist",
+            "id": 285
+        },
+        "Hunter": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Hunter",
+            "id": 286
+        },
+        "Pest control": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Pest%20control",
+            "id": 287
+        },
+        "Swift One": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Swift%20One",
+            "id": 288
+        },
+        "The Huntsman Path - Relentless": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Relentless",
+            "id": 289
+        },
+        "The Hermit": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Hermit",
+            "id": 290
+        },
+        "The Huntsman Path - Outcasts": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/The%20Huntsman%20Path%20-%20Outcasts",
+            "id": 291
+        },
+        "Stray Dogs": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Stray%20Dogs",
+            "id": 292
+        },
+        "Broadcast - Part 3": {
+            "wiki_url": "https://wikiwiki.jp/eft/Jaeger/Broadcast%20-%20Part%203",
+            "id": 293
+        }
+    }
+}

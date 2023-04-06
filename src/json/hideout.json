@@ -1,0 +1,1580 @@
+{
+	"Bitcoin Farm": {
+		"Bitcoin Farm Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "T-Shaped Plug",
+					"name": "T-Plug",
+					"num": 5,
+					"img": "/img/Bitcoin Farm/T-Shaped_Plug.webp"
+				},
+				"item2": {
+					"full_name": "VPX Flash Storage Module",
+					"name": "VPX",
+					"num": 1,
+					"img": "/img/Bitcoin Farm/VPX_Flash_Storage_Module.webp"
+				},
+				"item3": {
+					"full_name": "Powercord",
+					"name": "Cord",
+					"num": 10,
+					"img": "/img/Bitcoin Farm/Powercord.webp"
+				},
+				"item4": {
+					"full_name": "Power supply unit",
+					"name": "PSU",
+					"num": 10,
+					"img": "/img/Bitcoin Farm/Power_supply_unit.webp"
+				},
+				"item5": {
+					"full_name": "CPU Fan",
+					"name": "CPU Fan",
+					"num": 15,
+					"img": "/img/Bitcoin Farm/CPU_Fan.webp"
+				}
+			}
+		},
+		"Bitcoin Farm Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "CPU Fan",
+					"name": "CPU Fan",
+					"num": 15,
+					"img": "/img/Bitcoin Farm/CPU_Fan.webp"
+				},
+				"item2": {
+					"full_name": "Power supply unit",
+					"name": "PSU",
+					"num": 10,
+					"img": "/img/Bitcoin Farm/Power_supply_unit.webp"
+				},
+				"item3": {
+					"full_name": "dPrinted circuit boar",
+					"name": "Circuit",
+					"num": 15,
+					"img": "/img/Bitcoin Farm/dPrinted_circuit_boar.webp"
+				},
+				"item4": {
+					"full_name": "Phase control relay",
+					"name": "Relay",
+					"num": 5,
+					"img": "/img/Bitcoin Farm/Phase_control_relay.webp"
+				},
+				"item5": {
+					"full_name": "Military power filter",
+					"name": "Filter",
+					"num": 2,
+					"img": "/img/Bitcoin Farm/Military_power_filter.webp"
+				}
+			}
+		},
+		"Bitcoin Farm Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "CPU Fan",
+					"name": "CPU Fan",
+					"num": 25,
+					"img": "/img/Bitcoin Farm/CPU_Fan.webp"
+				},
+				"item2": {
+					"full_name": "Silicone tube",
+					"name": "Tube",
+					"num": 15,
+					"img": "/img/Bitcoin Farm/Silicone_tube.webp"
+				},
+				"item3": {
+					"full_name": "Electric motor",
+					"name": "Motor",
+					"num": 10,
+					"img": "/img/Bitcoin Farm/Electric_motor.webp"
+				},
+				"item4": {
+					"full_name": "Pressure gauge",
+					"name": "Gauge",
+					"num": 10,
+					"img": "/img/Bitcoin Farm/Pressure_gauge.webp"
+				},
+				"item5": {
+					"full_name": "6-STEN-140-M military battery",
+					"name": "Tank battery",
+					"num": 1,
+					"img": "/img/Bitcoin Farm/6-STEN-140-M_military_battery.webp"
+				}
+			}
+		}
+	},
+	"Booze Generator": {
+		"Booze Generator Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 2,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
+				},
+				"item2": {
+					"full_name": "Pressure gauge",
+					"name": "Gauge",
+					"num": 2,
+					"img": "/img/Bitcoin Farm/Pressure_gauge.webp"
+				},
+				"item3": {
+					"full_name": "Radiator helix",
+					"name": "Helix",
+					"num": 3,
+					"img": "/img/Booze Generator/Radiator_helix.webp"
+				},
+				"item4": {
+					"full_name": "Silicone tube",
+					"name": "Tube",
+					"num": 4,
+					"img": "/img/Bitcoin Farm/Silicone_tube.webp"
+				},
+				"item5": {
+					"full_name": "Pipe grip wrench",
+					"name": "PGW",
+					"num": 1,
+					"img": "/img/Booze Generator/Pipe_grip_wrench.webp"
+				},
+				"item6": {
+					"full_name": "Analog thermometer",
+					"name": "Therm.",
+					"num": 2,
+					"img": "/img/Booze Generator/Analog_thermometer.webp"
+				},
+				"item7": {
+					"full_name": "Corrugated hose",
+					"name": "Hose",
+					"num": 5,
+					"img": "/img/Booze Generator/Corrugated_hose.webp"
+				}
+			}
+		}
+	},
+	"Intelligence Center": {
+		"Intelligence Center Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Factory plan map",
+					"name": "Factory",
+					"num": 1,
+					"img": "/img/Intelligence Center/Factory_plan_map.webp"
+				},
+				"item2": {
+					"full_name": "Folder with intelligence",
+					"name": "Intelligence",
+					"num": 1,
+					"img": "/img/Intelligence Center/Folder_with_intelligence.webp"
+				},
+				"item3": {
+					"full_name": "Topographic survey map",
+					"name": "Helix",
+					"num": 1,
+					"img": "/img/Intelligence Center/Topographic_survey_map.webp"
+				}
+			}
+		},
+		"Intelligence Center Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Folder with intelligence",
+					"name": "Intelligence",
+					"num": 3,
+					"img": "/img/Intelligence Center/Folder_with_intelligence.webp"
+				},
+				"item2": {
+					"full_name": "Secure Flash drive",
+					"name": "Flash",
+					"num": 3,
+					"img": "/img/Intelligence Center/Secure_Flash_drive.webp"
+				},
+				"item3": {
+					"full_name": "Powercord",
+					"name": "Cord",
+					"num": 7,
+					"img": "/img/Bitcoin Farm/Powercord.webp"
+				},
+				"item4": {
+					"full_name": "Damaged hard drive",
+					"name": "HDD",
+					"num": 4,
+					"img": "/img/Intelligence Center/Damaged_hard_drive.webp"
+				}
+			}
+		},
+		"Intelligence Center Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Military cable",
+					"name": "M.Cable",
+					"num": 5,
+					"img": "/img/Intelligence Center/Military_cable.webp"
+				},
+				"item2": {
+					"full_name": "Military COFDM wireless Signal Transmitter",
+					"name": "SG-C10",
+					"num": 2,
+					"img": "/img/Peacekeeper/Military_COFDM_wireless_Signal_Transmitter.webp"
+				},
+				"item3": {
+					"full_name": "Far-forward GPS Signal Amplifier Unit",
+					"name": "GPSA",
+					"num": 1,
+					"img": "/img/Intelligence Center/Far-forward_GPS_Signal_Amplifier_Unit.webp"
+				},
+				"item4": {
+					"full_name": "VPX Flash Storage Module",
+					"name": "VPX",
+					"num": 2,
+					"img": "/img/Bitcoin Farm/VPX_Flash_Storage_Module.webp"
+				},
+				"item5": {
+					"full_name": "Military flash drive",
+					"name": "MFD",
+					"num": 5,
+					"img": "/img/Intelligence Center/Military_flash_drive.webp"
+				},
+				"item6": {
+					"full_name": "Secured magnetic tape cassette",
+					"name": "SMT",
+					"num": 2,
+					"img": "/img/Intelligence Center/Secured_magnetic_tape_cassette.webp"
+				}
+			}
+		}
+	},
+	"Lavatory": {
+		"Lavatory Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Toilet paper",
+					"name": "TP",
+					"num": 1,
+					"img": "/img/Lavatory/Toilet_paper.webp"
+				},
+				"item2": {
+					"full_name": "Toothpaste",
+					"name": "Toothpaste",
+					"num": 1,
+					"img": "/img/Lavatory/Toothpaste.webp"
+				},
+				"item3": {
+					"full_name": "Soap",
+					"name": "Soap",
+					"num": 1,
+					"img": "/img/Lavatory/Soap.webp"
+				},
+				"item4": {
+					"full_name": "Awl",
+					"name": "Awl",
+					"num": 1,
+					"img": "/img/Lavatory/Awl.webp"
+				}
+			}
+		},
+		"Lavatory Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "KEKTAPE duct tape",
+					"name": "KEK",
+					"num": 1,
+					"img": "/img/Lavatory/KEKTAPE_duct_tape.webp"
+				},
+				"item2": {
+					"full_name": "Corrugated hose",
+					"name": "Hose",
+					"num": 3,
+					"img": "/img/Booze Generator/Corrugated_hose.webp"
+				},
+				"item3": {
+					"full_name": "A pack of screws",
+					"name": "Screws",
+					"num": 5,
+					"img": "/img/Lavatory/A_pack_of_screws.webp"
+				},
+				"item4": {
+					"full_name": "Electric drill",
+					"name": "Drill",
+					"num": 1,
+					"img": "/img/Lavatory/Electric_drill.webp"
+				},
+				"item5": {
+					"full_name": "Sewing kit",
+					"name": "Krasavch.",
+					"num": 2,
+					"img": "/img/Lavatory/Sewing_kit.webp"
+				}
+			}
+		},
+		"Lavatory Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Corrugated hose",
+					"name": "Hose",
+					"num": 6,
+					"img": "/img/Booze Generator/Corrugated_hose.webp"
+				},
+				"item2": {
+					"full_name": "Pressure gauge",
+					"name": "Gauge",
+					"num": 2,
+					"img": "/img/Bitcoin Farm/Pressure_gauge.webp"
+				},
+				"item3": {
+					"full_name": "A set of tools",
+					"name": "Set",
+					"num": 1,
+					"img": "/img/Lavatory/A_set_of_tools.webp"
+				},
+				"item4": {
+					"full_name": "Xenomorph sealing foam",
+					"name": "Xeno",
+					"num": 3,
+					"img": "/img/Lavatory/Xenomorph_sealing_foam.webp"
+				}
+			}
+		}
+	},
+	"Medstation": {
+		"Medstation Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Disposable syringe",
+					"name": "Syringe",
+					"num": 1,
+					"img": "/img/Medstation/Disposable_syringe.webp"
+				},
+				"item2": {
+					"full_name": "Pile of meds",
+					"name": "Meds",
+					"num": 1,
+					"img": "/img/Medstation/Pile_of_meds.webp"
+				},
+				"item3": {
+					"full_name": "Aseptic bandage",
+					"name": "Bandage",
+					"num": 2,
+					"img": "/img/Medstation/Aseptic_bandage.webp"
+				},
+				"item4": {
+					"full_name": "Bottle of OLOLO Multivitamins",
+					"name": "Vitam.",
+					"num": 1,
+					"img": "/img/Medstation/Bottle_of_OLOLO_Multivitamins.webp"
+				}
+			}
+		},
+		"Medstation Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Medical tools",
+					"name": "MedTools",
+					"num": 3,
+					"img": "/img/Medstation/Medical_tools.webp"
+				},
+				"item2": {
+					"full_name": "Medical bloodset",
+					"name": "Bloodset",
+					"num": 2,
+					"img": "/img/Medstation/Medical_bloodset.webp"
+				},
+				"item3": {
+					"full_name": "Esmarch tourniquet",
+					"name": "Esmarch",
+					"num": 5,
+					"img": "/img/Medstation/Esmarch_tourniquet.webp"
+				},
+				"item4": {
+					"full_name": "Saline solution",
+					"name": "NaCl",
+					"num": 3,
+					"img": "/img/Medstation/Saline_solution.webp"
+				}
+			}
+		},
+		"Medstation Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Ophthalmoscope",
+					"name": "OScope",
+					"num": 1,
+					"img": "/img/Medstation/Ophthalmoscope.webp"
+				},
+				"item2": {
+					"full_name": "Saline solution",
+					"name": "NaCl",
+					"num": 4,
+					"img": "/img/Medstation/Saline_solution.webp"
+				},
+				"item3": {
+					"full_name": "LEDX Skin Transilluminator",
+					"name": "LEDX",
+					"num": 1,
+					"img": "/img/Medstation/LEDX_Skin_Transilluminator.webp"
+				}
+			}
+		}
+	},
+	"Nutrition Unit": {
+		"Nutrition Unit Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Can of white salt",
+					"name": "Salt",
+					"num": 1,
+					"img": "/img/Nutrition Unit/Can_of_white_salt.webp"
+				},
+				"item2": {
+					"full_name": "Powercord",
+					"name": "Cord",
+					"num": 1,
+					"img": "/img/Bitcoin Farm/Powercord.webp"
+				},
+				"item3": {
+					"full_name": "Phase control relay",
+					"name": "Relay",
+					"num": 2,
+					"img": "/img/Bitcoin Farm/Phase_control_relay.webp"
+				}
+			}
+		},
+		"Nutrition Unit Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Heat-exchange alkali surface washer",
+					"name": "Alkali",
+					"num": 2,
+					"img": "/img/Nutrition Unit/Heat-exchange_alkali_surface_washer.webp"
+				},
+				"item2": {
+					"full_name": "Wrench",
+					"name": "Wrench",
+					"num": 4,
+					"img": "/img/Nutrition Unit/Wrench.webp"
+				},
+				"item3": {
+					"full_name": "Corrugated hose",
+					"name": "Hose",
+					"num": 2,
+					"img": "/img/Booze Generator/Corrugated_hose.webp"
+				},
+				"item4": {
+					"full_name": "Phase control relay",
+					"name": "Relay",
+					"num": 1,
+					"img": "/img/Bitcoin Farm/Phase_control_relay.webp"
+				}
+			}
+		},
+		"Nutrition Unit Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Coffee Majaica",
+					"name": "Coffee",
+					"num": 3,
+					"img": "/img/Nutrition Unit/Coffee_Majaica.webp"
+				},
+				"item2": {
+					"full_name": "Sodium bicarbonate",
+					"name": "Sodium",
+					"num": 3,
+					"img": "/img/Nutrition Unit/Sodium_bicarbonate.webp"
+				},
+				"item3": {
+					"full_name": "Smoked Chimney drain Cleaner",
+					"name": "Cleaner",
+					"num": 2,
+					"img": "/img/Nutrition Unit/Smoked_Chimney_drain_Cleaner.webp"
+				}
+			}
+		}
+	},
+	"Scav case": {
+		"Scav case Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Golden rooster",
+					"name": "Rooster",
+					"num": 1,
+					"img": "/img/Scav case/Golden_rooster.webp"
+				},
+				"item2": {
+					"full_name": "Lucky Scav Junkbox",
+					"name": "Junkbox",
+					"num": 1,
+					"img": "/img/Scav case/Lucky_Scav_Junkbox.webp"
+				},
+				"item3": {
+					"full_name": "Fierce Hatchling moonshine",
+					"name": "Moonshine",
+					"num": 3,
+					"img": "/img/Scav case/Fierce_Hatchling_moonshine.webp"
+				},
+				"item4": {
+					"full_name": "Bronze lion",
+					"name": "Lion",
+					"num": 3,
+					"img": "/img/Scav case/Bronze_lion.webp"
+				},
+				"item5": {
+					"full_name": "Gold skull ring",
+					"name": "Skull",
+					"num": 6,
+					"img": "/img/Scav case/Gold_skull_ring.webp"
+				},
+				"item6": {
+					"full_name": "Golden neck chain",
+					"name": "GoldChain",
+					"num": 8,
+					"img": "/img/Scav case/Golden_neck_chain.webp"
+				},
+				"item7": {
+					"full_name": "Roler submariner gold wrist watch",
+					"name": "Roler",
+					"num": 4,
+					"img": "/img/Scav case/Roler_submariner_gold_wrist_watch.webp"
+				}
+			}
+		}
+	},
+	"Water collector": {
+		"Water collector Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Duct tape",
+					"name": "Duct tape",
+					"num": 3,
+					"img": "/img/Water collector/Duct_tape.webp"
+				},
+				"item2": {
+					"full_name": "Screw nut",
+					"name": "Screw nut",
+					"num": 5,
+					"img": "/img/Water collector/Screw_nut.webp"
+				},
+				"item3": {
+					"full_name": "Bolts",
+					"name": "Bolts",
+					"num": 5,
+					"img": "/img/Water collector/Bolts.webp"
+				},
+				"item4": {
+					"full_name": "Corrugated hose",
+					"name": "Hose",
+					"num": 4,
+					"img": "/img/Booze Generator/Corrugated_hose.webp"
+				}
+			}
+		},
+		"Water collector Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Corrugated hose",
+					"name": "Hose",
+					"num": 6,
+					"img": "/img/Booze Generator/Corrugated_hose.webp"
+				},
+				"item2": {
+					"full_name": "Electric motor",
+					"name": "Motor",
+					"num": 2,
+					"img": "/img/Bitcoin Farm/Electric_motor.webp"
+				},
+				"item3": {
+					"full_name": "A set of tools",
+					"name": "Set",
+					"num": 2,
+					"img": "/img/Lavatory/A_set_of_tools.webp"
+				},
+				"item4": {
+					"full_name": "KEKTAPE duct tape",
+					"name": "KEK",
+					"num": 2,
+					"img": "/img/Lavatory/KEKTAPE_duct_tape.webp"
+				}
+			}
+		},
+		"Water collector Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Pliers Elite",
+					"name": "Pliers",
+					"num": 2,
+					"img": "/img/Water collector/Pliers_Elite.webp"
+				},
+				"item2": {
+					"full_name": "Shustrilo sealing foam",
+					"name": "Shus",
+					"num": 5,
+					"img": "/img/Water collector/Shustrilo_sealing_foam.webp"
+				},
+				"item3": {
+					"full_name": "Ratchet wrench",
+					"name": "Ratch.",
+					"num": 1,
+					"img": "/img/Stash/Ratchet_wrench.webp"
+				}
+			}
+		}
+	},
+	"Workbench": {
+		"Workbench Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Screw nut",
+					"name": "Screw nut",
+					"num": 2,
+					"img": "/img/Water collector/Screw_nut.webp"
+				},
+				"item2": {
+					"full_name": "Bolts",
+					"name": "Bolts",
+					"num": 2,
+					"img": "/img/Water collector/Bolts.webp"
+				},
+				"item3": {
+					"full_name": "Leatherman Multitool",
+					"name": "tools",
+					"num": 1,
+					"img": "/img/Workbench/Leatherman_Multitool.webp"
+				}
+			}
+		},
+		"Workbench Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Bolts",
+					"name": "Bolts",
+					"num": 6,
+					"img": "/img/Water collector/Bolts.webp"
+				},
+				"item2": {
+					"full_name": "A set of tools",
+					"name": "Set",
+					"num": 3,
+					"img": "/img/Lavatory/A_set_of_tools.webp"
+				},
+				"item3": {
+					"full_name": "Set of files Master",
+					"name": "Master",
+					"num": 1,
+					"img": "/img/Workbench/Set_of_files_Master.webp"
+				},
+				"item4": {
+					"full_name": "Electric drill",
+					"name": "Drill",
+					"num": 2,
+					"img": "/img/Lavatory/Electric_drill.webp"
+				},
+				"item5": {
+					"full_name": "Weapon parts",
+					"name": "W.parts",
+					"num": 3,
+					"img": "/img/Workbench/Weapon_parts.webp"
+				}
+			}
+		},
+		"Workbench Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Pliers Elite",
+					"name": "Pliers",
+					"num": 2,
+					"img": "/img/Water collector/Pliers_Elite.webp"
+				},
+				"item2": {
+					"full_name": "FireKlean gun lube",
+					"name": "#FireKlean",
+					"num": 1,
+					"img": "/img/Workbench/FireKlean_gun_lube.webp"
+				},
+				"item3": {
+					"full_name": "Can of thermite",
+					"name": "Thermite",
+					"num": 2,
+					"img": "/img/Workbench/Can_of_thermite.webp"
+				}
+			}
+		}
+	},
+	"Air Filtering Unit": {
+		"Air Filtering Unit Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Military power filter",
+					"name": "PFilter",
+					"num": 5,
+					"img": "/img/Bitcoin Farm/Military_power_filter.webp"
+				},
+				"item2": {
+					"full_name": "Air filter for gas mask",
+					"name": "Filter",
+					"num": 5,
+					"img": "/img/Air Filtering Unit/Air_filter_for_gas_mask.webp"
+				},
+				"item3": {
+					"full_name": "Military corrugated tube",
+					"name": "MTube",
+					"num": 3,
+					"img": "/img/Air Filtering Unit/Military_corrugated_tube.webp"
+				}
+			}
+		}
+	},
+	"Generator": {
+		"Generator Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Spark plug",
+					"name": "Plug",
+					"num": 1,
+					"img": "/img/Generator/Spark_plug.webp"
+				}
+			}
+		},
+		"Generator Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Bulbex cable cutter",
+					"name": "Bulbex",
+					"num": 1,
+					"img": "/img/Generator/Bulbex_cable_cutter.webp"
+				},
+				"item2": {
+					"full_name": "Phase control relay",
+					"name": "Relay",
+					"num": 5,
+					"img": "/img/Bitcoin Farm/Phase_control_relay.webp"
+				},
+				"item3": {
+					"full_name": "Electric motor",
+					"name": "Motor",
+					"num": 1,
+					"img": "/img/Bitcoin Farm/Electric_motor.webp"
+				},
+				"item4": {
+					"full_name": "Wires",
+					"name": "Wires",
+					"num": 15,
+					"img": "/img/Generator/Wires.webp"
+				}
+			}
+		},
+		"Generator Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Phase control relay",
+					"name": "Relay",
+					"num": 6,
+					"img": "/img/Bitcoin Farm/Phase_control_relay.webp"
+				},
+				"item2": {
+					"full_name": "Electric motor",
+					"name": "Motor",
+					"num": 3,
+					"img": "/img/Bitcoin Farm/Electric_motor.webp"
+				},
+				"item3": {
+					"full_name": "Spark plug",
+					"name": "Plug",
+					"num": 10,
+					"img": "/img/Generator/Spark_plug.webp"
+				},
+				"item4": {
+					"full_name": "Power supply unit",
+					"name": "PSU",
+					"num": 5,
+					"img": "/img/Bitcoin Farm/Power_supply_unit.webp"
+				}
+			}
+		}
+	},
+	"Heating": {
+		"Heating Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Matches",
+					"name": "Matches",
+					"num": 2,
+					"img": "/img/Heating/Matches.webp"
+				}
+			}
+		},
+		"Heating Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Dry fuel",
+					"name": "Dry fuel",
+					"num": 3,
+					"img": "/img/Heating/Dry_fuel.webp"
+				},
+				"item2": {
+					"full_name": "Hunter matches",
+					"name": "Matches",
+					"num": 2,
+					"img": "/img/Heating/Hunter_matches.webp"
+				},
+				"item3": {
+					"full_name": "Crickent lighter",
+					"name": "Crickent",
+					"num": 3,
+					"img": "/img/Heating/Crickent_lighter.webp"
+				}
+			}
+		},
+		"Heating Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Radiator helix",
+					"name": "Helix",
+					"num": 8,
+					"img": "/img/Booze Generator/Radiator_helix.webp"
+				},
+				"item2": {
+					"full_name": "Wires",
+					"name": "Wires",
+					"num": 8,
+					"img": "/img/Generator/Wires.webp"
+				},
+				"item3": {
+					"full_name": "Phase control relay",
+					"name": "Relay",
+					"num": 4,
+					"img": "/img/Bitcoin Farm/Phase_control_relay.webp"
+				},
+				"item4": {
+					"full_name": "Military corrugated tube",
+					"name": "MTube",
+					"num": 2,
+					"img": "/img/Air Filtering Unit/Military_corrugated_tube.webp"
+				}
+			}
+		}
+	},
+	"Illumination": {
+		"Illumination Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Crickent lighter",
+					"name": "Crickent",
+					"num": 1,
+					"img": "/img/Heating/Crickent_lighter.webp"
+				}
+			}
+		},
+		"Illumination Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Light bulb",
+					"name": "Bulb",
+					"num": 14,
+					"img": "/img/Illumination/Light_bulb.webp"
+				},
+				"item2": {
+					"full_name": "Wires",
+					"name": "Wires",
+					"num": 10,
+					"img": "/img/Generator/Wires.webp"
+				}
+			}
+		},
+		"Illumination Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Capacitors",
+					"name": "Cap.",
+					"num": 7,
+					"img": "/img/Illumination/Capacitors.webp"
+				},
+				"item2": {
+					"full_name": "Wires",
+					"name": "Wires",
+					"num": 6,
+					"img": "/img/Generator/Wires.webp"
+				},
+				"item3": {
+					"full_name": "Energy-saving lamp",
+					"name": "ES Lamp",
+					"num": 12,
+					"img": "/img/Illumination/Energy-saving_lamp.webp"
+				}
+			}
+		}
+	},
+	"Library": {
+		"Library Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Slim diary",
+					"name": "Slim diary",
+					"num": 2,
+					"img": "/img/Library/Slim_diary.webp"
+				},
+				"item2": {
+					"full_name": "Diary",
+					"name": "Diary",
+					"num": 2,
+					"img": "/img/Library/Diary.webp"
+				},
+				"item3": {
+					"full_name": "Tech manual",
+					"name": "Manual",
+					"num": 5,
+					"img": "/img/Library/Tech_manual.webp"
+				},
+				"item4": {
+					"full_name": "Chainlet",
+					"name": "Chainlet",
+					"num": 2,
+					"img": "/img/Library/Chainlet.webp"
+				},
+				"item5": {
+					"full_name": "Horse figurine",
+					"name": "Figurine",
+					"num": 1,
+					"img": "/img/Library/Horse_figurine.webp"
+				},
+				"item6": {
+					"full_name": "BakeEzy cook book",
+					"name": "BakeEzy",
+					"num": 1,
+					"img": "/img/Library/BakeEzy_cook_book.webp"
+				}
+			}
+		}
+	},
+	"Rest Space": {
+		"Rest Space Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Matches",
+					"name": "Matches",
+					"num": 1,
+					"img": "/img/Heating/Matches.webp"
+				},
+				"item2": {
+					"full_name": "Duct tape",
+					"name": "Duct tape",
+					"num": 1,
+					"img": "/img/Water collector/Duct_tape.webp"
+				}
+			}
+		},
+		"Rest Space Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Energy-saving lamp",
+					"name": "ES Lamp",
+					"num": 3,
+					"img": "/img/Illumination/Energy-saving_lamp.webp"
+				},
+				"item2": {
+					"full_name": "DVD drive",
+					"name": "DVD",
+					"num": 1,
+					"img": "/img/Rest Space/DVD_drive.webp"
+				},
+				"item3": {
+					"full_name": "Magnet",
+					"name": "Magnet",
+					"num": 1,
+					"img": "/img/Rest Space/Magnet.webp"
+				}
+			}
+		},
+		"Rest Space Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "GreenBat lithium battery",
+					"name": "GreenBat",
+					"num": 5,
+					"img": "/img/Rest Space/GreenBat_lithium_battery.webp"
+				},
+				"item2": {
+					"full_name": "Powercord",
+					"name": "Cord",
+					"num": 4,
+					"img": "/img/Bitcoin Farm/Powercord.webp"
+				},
+				"item3": {
+					"full_name": "Capacitors",
+					"name": "Cap.",
+					"num": 5,
+					"img": "/img/Illumination/Capacitors.webp"
+				},
+				"item4": {
+					"full_name": "Wires",
+					"name": "Wires",
+					"num": 7,
+					"img": "/img/Generator/Wires.webp"
+				}
+			}
+		}
+	},
+	"Security": {
+		"Security Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Construction measuring tape",
+					"name": "Mtape",
+					"num": 1,
+					"img": "/img/Security/Construction_measuring_tape.webp"
+				}
+			}
+		},
+		"Security Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "WD-40 100ml",
+					"name": "WD-40",
+					"num": 1,
+					"img": "/img/Security/WD-40_100ml.webp"
+				},
+				"item2": {
+					"full_name": "Pliers Elite",
+					"name": "Pliers",
+					"num": 1,
+					"img": "/img/Water collector/Pliers_Elite.webp"
+				},
+				"item3": {
+					"full_name": "TP-200 TNT brick",
+					"name": "TP-200",
+					"num": 1,
+					"img": "/img/Security/TP-200_TNT_brick.webp"
+				}
+			}
+		},
+		"Security Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Working LCD",
+					"name": "LCD",
+					"num": 2,
+					"img": "/img/Security/Working_LCD.webp"
+				},
+				"item2": {
+					"full_name": "Wires",
+					"name": "Wires",
+					"num": 4,
+					"img": "/img/Generator/Wires.webp"
+				},
+				"item3": {
+					"full_name": "NIXXOR lens",
+					"name": "NIXXOR",
+					"num": 8,
+					"img": "/img/Security/NIXXOR_lens.webp"
+				},
+				"item4": {
+					"full_name": "SSD drive",
+					"name": "SSD",
+					"num": 1,
+					"img": "/img/Security/SSD_drive.webp"
+				}
+			}
+		}
+	},
+	"Shooting range": {
+		"Shooting range Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 2,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
+				},
+				"item2": {
+					"full_name": "A pack of screws",
+					"name": "Screws",
+					"num": 2,
+					"img": "/img/Lavatory/A_pack_of_screws.webp"
+				},
+				"item3": {
+					"full_name": "Duct tape",
+					"name": "Duct tape",
+					"num": 3,
+					"img": "/img/Water collector/Duct_tape.webp"
+				},
+				"item4": {
+					"full_name": "Bolts",
+					"name": "Bolts",
+					"num": 5,
+					"img": "/img/Water collector/Bolts.webp"
+				},
+				"item5": {
+					"full_name": "Screw nut",
+					"name": "Screw nut",
+					"num": 5,
+					"img": "/img/Water collector/Screw_nut.webp"
+				},
+				"item6": {
+					"full_name": "A pack of nails",
+					"name": "Nails",
+					"num": 4,
+					"img": "/img/Shooting range/A_pack_of_nails.webp"
+				}
+			}
+		},
+		"Shooting range Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Electric motor",
+					"name": "Motor",
+					"num": 6,
+					"img": "/img/Bitcoin Farm/Electric_motor.webp"
+				},
+				"item2": {
+					"full_name": "Construction measuring tape",
+					"name": "Mtape",
+					"num": 1,
+					"img": "/img/Security/Construction_measuring_tape.webp"
+				},
+				"item3": {
+					"full_name": "Tube of Poxeram Cold Welding",
+					"name": "Poxeram",
+					"num": 1,
+					"img": "/img/Shooting range/Tube_of_Poxeram_Cold_Welding.webp"
+				},
+				"item4": {
+					"full_name": "A set of tools",
+					"name": "Set",
+					"num": 1,
+					"img": "/img/Lavatory/A_set_of_tools.webp"
+				},
+				"item5": {
+					"full_name": "A pack of screws",
+					"name": "Screws",
+					"num": 3,
+					"img": "/img/Lavatory/A_pack_of_screws.webp"
+				},
+				"item6": {
+					"full_name": "Electric drill",
+					"name": "Drill",
+					"num": 1,
+					"img": "/img/Lavatory/Electric_drill.webp"
+				},
+				"item7": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 5,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
+				},
+				"item8": {
+					"full_name": "Wires",
+					"name": "Wires",
+					"num": 3,
+					"img": "/img/Generator/Wires.webp"
+				},
+				"item9": {
+					"full_name": "Energy-saving lamp",
+					"name": "ES Lamp",
+					"num": 6,
+					"img": "/img/Illumination/Energy-saving_lamp.webp"
+				},
+				"item10": {
+					"full_name": "WI-FI Camera",
+					"name": "Camera",
+					"num": 3,
+					"img": "/img/Shooting range/WIFI_Camera.webp"
+				}
+			}
+		},
+		"Shooting range Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Set of files Master",
+					"name": "Master",
+					"num": 1,
+					"img": "/img/Workbench/Set_of_files_Master.webp"
+				},
+				"item2": {
+					"full_name": "Printed circuit board",
+					"name": "Circuit",
+					"num": 3,
+					"img": "/img/Bitcoin Farm/dPrinted_circuit_boar.webp"
+				},
+				"item3": {
+					"full_name": "Wires",
+					"name": "Wires",
+					"num": 5,
+					"img": "/img/Generator/Wires.webp"
+				},
+				"item4": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 5,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
+				},
+				"item5": {
+					"full_name": "Capacitors",
+					"name": "Cap.",
+					"num": 5,
+					"img": "/img/Illumination/Capacitors.webp"
+				},
+				"item6": {
+					"full_name": "Phased array element",
+					"name": "AESE",
+					"num": 3,
+					"img": "/img/Bitcoin Farm/Phase_control_relay.webp"
+				},
+				"item7": {
+					"full_name": "Powercord",
+					"name": "Cord",
+					"num": 5,
+					"img": "/img/Bitcoin Farm/Powercord.webp"
+				},
+				"item8": {
+					"full_name": "Leatherman Multitool",
+					"name": "tools",
+					"num": 1,
+					"img": "/img/Workbench/Leatherman_Multitool.webp"
+				},
+				"item9": {
+					"full_name": "Tech manual",
+					"name": "Manual",
+					"num": 1,
+					"img": "/img/Library/Tech_manual.webp"
+				}
+			}
+		}
+	},
+	"Solar power": {
+		"Solar power Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Military cable",
+					"name": "M.Cable",
+					"num": 10,
+					"img": "/img/Intelligence Center/Military_cable.webp"
+				},
+				"item2": {
+					"full_name": "Phased array element",
+					"name": "AESE",
+					"num": 4,
+					"img": "/img/Bitcoin Farm/Phase_control_relay.webp"
+				},
+				"item3": {
+					"full_name": "Military power filter",
+					"name": "Filter",
+					"num": 10,
+					"img": "/img/Bitcoin Farm/Military_power_filter.webp"
+				},
+				"item4": {
+					"full_name": "Working LCD",
+					"name": "LCD",
+					"num": 3,
+					"img": "/img/Security/Working_LCD.webp"
+				},
+				"item5": {
+					"full_name": "Far-forward current converter",
+					"name": "MCC",
+					"num": 1,
+					"img": "/img/Solar power/Far-forward_current_converter.webp"
+				}
+			}
+		}
+	},
+	"Vents": {
+		"Vents Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 2,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
+				},
+				"item2": {
+					"full_name": "CPU Fan",
+					"name": "CPU Fan",
+					"num": 3,
+					"img": "/img/Bitcoin Farm/CPU_Fan.webp"
+				},
+				"item3": {
+					"full_name": "Car battery",
+					"name": "Battery",
+					"num": 1,
+					"img": "/img/Vents/Car_battery.webp"
+				},
+				"item4": {
+					"full_name": "Electric motor",
+					"name": "Motor",
+					"num": 1,
+					"img": "/img/Bitcoin Farm/Electric_motor.webp"
+				}
+			}
+		},
+		"Vents Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Electric motor",
+					"name": "Motor",
+					"num": 4,
+					"img": "/img/Bitcoin Farm/Electric_motor.webp"
+				},
+				"item2": {
+					"full_name": "Wires",
+					"name": "Wires",
+					"num": 14,
+					"img": "/img/Generator/Wires.webp"
+				},
+				"item3": {
+					"full_name": "Printed circuit board",
+					"name": "Circuit",
+					"num": 5,
+					"img": "/img/Bitcoin Farm/dPrinted_circuit_boar.webp"
+				},
+				"item4": {
+					"full_name": "Car battery",
+					"name": "Battery",
+					"num": 4,
+					"img": "/img/Vents/Car_battery.webp"
+				},
+				"item5": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 5,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
+				}
+			}
+		}
+	},
+	"Stash": {
+		"Stash Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Handdrill",
+					"name": "Hand drill",
+					"num": 1,
+					"img": "/img/Stash/Handdrill.webp"
+				},
+				"item2": {
+					"full_name": "A pack of screws",
+					"name": "Screws",
+					"num": 10,
+					"img": "/img/Lavatory/A_pack_of_screws.webp"
+				},
+				"item3": {
+					"full_name": "A pack of nails",
+					"name": "Nails",
+					"num": 5,
+					"img": "/img/Shooting range/A_pack_of_nails.webp"
+				},
+				"item4": {
+					"full_name": "WD-40 100ml",
+					"name": "WD-40",
+					"num": 4,
+					"img": "/img/Security/WD-40_100ml.webp"
+				}
+			}
+		},
+		"Stash Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Electric drill",
+					"name": "Drill",
+					"num": 2,
+					"img": "/img/Lavatory/Electric_drill.webp"
+				},
+				"item2": {
+					"full_name": "A pack of screws",
+					"name": "Screws",
+					"num": 15,
+					"img": "/img/Lavatory/A_pack_of_screws.webp"
+				},
+				"item3": {
+					"full_name": "A pack of nails",
+					"name": "Nails",
+					"num": 7,
+					"img": "/img/Shooting range/A_pack_of_nails.webp"
+				}
+			}
+		},
+		"Stash Lv4": {
+			"items": {
+				"item1": {
+					"full_name": "Screw nut",
+					"name": "Screw nut",
+					"num": 10,
+					"img": "/img/Water collector/Screw_nut.webp"
+				},
+				"item2": {
+					"full_name": "Bolts",
+					"name": "Bolts",
+					"num": 10,
+					"img": "/img/Water collector/Bolts.webp"
+				},
+				"item3": {
+					"full_name": "Shustrilo sealing foam",
+					"name": "Shus",
+					"num": 5,
+					"img": "/img/Water collector/Shustrilo_sealing_foam.webp"
+				},
+				"item4": {
+					"full_name": "Ratchet wrench",
+					"name": "Ratch.",
+					"num": 2,
+					"img": "/img/Stash/Ratchet_wrench.webp"
+				}
+			}
+		}
+	},
+	"Defective wall": {
+		"Defective wall Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Fleece cloth",
+					"name": "Fleece",
+					"num": 1,
+					"img": "/img/Ragman/Fleece_cloth.webp"
+				}
+			}
+		},
+		"Defective wall Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Fleece cloth",
+					"name": "Fleece",
+					"num": 1,
+					"img": "/img/Ragman/Fleece_cloth.webp"
+				}
+			}
+		},
+		"Defective wall Lv4": {
+			"items": {
+				"item1": {
+					"full_name": "Fierce Blow sledgehammer",
+					"name": "Sledgehammer",
+					"num": 1,
+					"img": "/img/Gym/Fierce_Blow_sledgehammer.webp"
+				},
+				"item2": {
+					"full_name": "Fleece cloth",
+					"name": "Fleece",
+					"num": 1,
+					"img": "/img/Ragman/Fleece_cloth.webp"
+				}
+			}
+		},
+		"Defective wall Lv5": {
+			"items": {
+				"item1": {
+					"full_name": "Metal cutting scissors",
+					"name": "MScissors",
+					"num": 1,
+					"img": "/img/Gym/Metal_cutting_scissors.webp"
+				},
+				"item2": {
+					"full_name": "A set of tools",
+					"name": "Set",
+					"num": 1,
+					"img": "/img/Lavatory/A_set_of_tools.webp"
+				},
+				"item3": {
+					"full_name": "Fleece cloth",
+					"name": "Fleece",
+					"num": 1,
+					"img": "/img/Ragman/Fleece_cloth.webp"
+				}
+			}
+		},
+		"Defective wall Lv6": {
+			"items": {
+				"item1": {
+					"full_name": "Corrugated hose",
+					"name": "Hose",
+					"num": 2,
+					"img": "/img/Booze Generator/Corrugated_hose.webp"
+				},
+				"item2": {
+					"full_name": "Duct tape",
+					"name": "Duct tape",
+					"num": 1,
+					"img": "/img/Water collector/Duct_tape.webp"
+				},
+				"item3": {
+					"full_name": "A set of tools",
+					"name": "Set",
+					"num": 1,
+					"img": "/img/Lavatory/A_set_of_tools.webp"
+				},
+				"item4": {
+					"full_name": "Pliers Elite",
+					"name": "Pliers",
+					"num": 1,
+					"img": "/img/Water collector/Pliers_Elite.webp"
+				},
+				"item5": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 5,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
+				},
+				"item6": {
+					"full_name": "Xenomorph sealing foam",
+					"name": "Xeno",
+					"num": 1,
+					"img": "/img/Lavatory/Xenomorph_sealing_foam.webp"
+				},
+				"item7": {
+					"full_name": "Wires",
+					"name": "Wires",
+					"num": 2,
+					"img": "/img/Generator/Wires.webp"
+				},
+				"item8": {
+					"full_name": "Light bulb",
+					"name": "Bulb",
+					"num": 2,
+					"img": "/img/Illumination/Light_bulb.webp"
+				}
+			}
+		}
+	},
+	"Gym": {
+		"Gym Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "A set of tools",
+					"name": "Set",
+					"num": 1,
+					"img": "/img/Lavatory/A_set_of_tools.webp"
+				},
+				"item2": {
+					"full_name": "Electric drill",
+					"name": "Drill",
+					"num": 1,
+					"img": "/img/Lavatory/Electric_drill.webp"
+				},
+				"item3": {
+					"full_name": "Metal cutting scissors",
+					"name": "MScissors",
+					"num": 1,
+					"img": "/img/Gym/Metal_cutting_scissors.webp"
+				},
+				"item4": {
+					"full_name": "Screw nut",
+					"name": "Screw nut",
+					"num": 3,
+					"img": "/img/Water collector/Screw_nut.webp"
+				},
+				"item5": {
+					"full_name": "Bolts",
+					"name": "Bolts",
+					"num": 3,
+					"img": "/img/Water collector/Bolts.webp"
+				},
+				"item6": {
+					"full_name": "WD-40 100ml",
+					"name": "WD-40",
+					"num": 1,
+					"img": "/img/Security/WD-40_100ml.webp"
+				},
+				"item7": {
+					"full_name": "Insulating tape",
+					"name": "Tape",
+					"num": 2,
+					"img": "/img/Generator/Wires.webp"
+				}
+			}
+		}
+	}
+}
