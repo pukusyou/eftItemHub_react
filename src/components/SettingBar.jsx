@@ -4,7 +4,6 @@ import { faCog } from '@fortawesome/free-solid-svg-icons'
 import { isMobile } from "react-device-detect"
 const SettingBar = ({ setShowSetting }) => {
 
-    // const [setting, setSetting] = useState(false);
     const handleSettingClick = () => {
         setShowSetting(true);
     };

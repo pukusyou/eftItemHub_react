@@ -1,7 +1,7 @@
 import React from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
-var flag = false
-const OffCanvas = ({ setShowSetting, setItemSetting, canvasShow }) => {
+
+const OffCanvas = ({ setShowSetting, setItemSetting, canvasShow, itemSetting }) => {
     const handleClose = () => setShowSetting(false);
     return (
         <>
@@ -17,10 +17,9 @@ const OffCanvas = ({ setShowSetting, setItemSetting, canvasShow }) => {
                                 className="form-check-input"
                                 type="checkbox"
                                 id="flexSwitchCheckDefault"
-                                checked={flag}
+                                checked={itemSetting}
                                 onChange={(e) => {
                                     setItemSetting(e.target.checked);
-                                    flag = e.target.checked
                                 }}
                             />
                         </div>

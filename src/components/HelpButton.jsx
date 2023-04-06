@@ -2,13 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
 import { isMobile } from "react-device-detect"
-import { useState } from 'react';
 const HelpButton = ({ }) => {
-
-    const [share, setShare] = useState(false);
-    const handleShareClick = () => {
-        setShare(!share);
-    };
     return (
         <>
             {isMobile ?
@@ -21,7 +15,6 @@ const HelpButton = ({ }) => {
 
                 )
             }
-            {/* {description ? <Description /> : null} */}
         </>
     )
 }

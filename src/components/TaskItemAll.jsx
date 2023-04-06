@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Item from "./ItemCard"
 import data from '../json/task.json';
 import Footer from './Footer';
+import SettingBar from './SettingBar';
+import TaskItemOffCanvas from './TaskItemOffcanvas';
+import BackButton from './BackButton';
 
 const pageUrl = 'https://wikiwiki.jp/eft/%E3%82%BF%E3%82%B9%E3%82%AF#t9c50f18';
 const pageName = 'タスクリスト';
@@ -69,12 +72,31 @@ function getPlayerData() {
     return playerTasksData
 }
 
+function categoryChange(showKey, showLoot, showWepon, itemData) {
+    let resultData = []
+    itemData.forEach(item => {
+        if (showKey && item[5] === "key") {
+            resultData.push(item)
+        } else if (showLoot && item[5] === "loot") {
+            resultData.push(item)
+        } else if (showWepon && item[5] === "wepon") {
+            resultData.push(item)
+        }
+    });
+    return resultData
+}
+
 /**
  * アイテムに重複がある場合足す
+ * カテゴリーによるアイテムの表示非表示も切り替える
  * @returns 整形されたアイテム情報(配列)
  */
-function makeData() {
-    var itemsData = getPlayerData()
+function makeData(showKey, showLoot, showWepon) {
+    let itemsData = getPlayerData()
+    //カテゴリーによるアイテムの表示非表示
+    itemsData = categoryChange(showKey, showLoot, showWepon, itemsData)
+
+    //アイテムの重複を足す
     for (let index = 0; index < itemsData.length; index++) {
         for (let next = index + 1; next < itemsData.length; next++) {
             if (itemsData[index][0] === itemsData[next][0] && itemsData[index][2] > 0
@@ -86,6 +108,7 @@ function makeData() {
             }
         }
     }
+    //inRaidとnonRaidを連続に並び替える
     for (let index = 0; index < itemsData.length; index++) {
         for (let next = index + 1; next < itemsData.length; next++) {
             if (itemsData[index][0] === itemsData[next][0] && itemsData[index][2] > 0
@@ -102,13 +125,23 @@ function makeData() {
 
 const TaskItemAll = () => {
     var tagList = []
-    makeData().forEach((data, index) => {
+    const [showSetting, setShowSetting] = useState(false)
+    const [showKey, setShowKey] = useState(true)
+    const [showLoot, setShowLoot] = useState(true)
+    const [showWepon, setShowWepon] = useState(true)
+    makeData(showKey, showLoot, showWepon).forEach((data, index) => {
         tagList.push(<Item itemName={data[1]} img={data[4]} num={data[2] < 0 ? "タスクで使用" : "x" + data[2]}
             tasks={data[6]} inRaid={data[3] ? "inRaid" : "nonRaid"} category={data[5]} key={index} />)
     });
     return (
         <>
+            <div className='d-flex justify-content-end me-0 mt-0 mb-2 bg-dark'>
+                <SettingBar setShowSetting={setShowSetting} />
+                <BackButton link={"/task/"} />
+            </div>
             <div className='min-vh-100 '>
+                <TaskItemOffCanvas setShowSetting={setShowSetting} canvasShow={showSetting} setKeySetting={setShowKey} keyShow={showKey}
+                    setLootSetting={setShowLoot} lootShow={showLoot} setWeponSetting={setShowWepon} weponShow={showWepon} />
                 <div className='d-flex flex-wrap'>
                     {tagList}
                 </div>

@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Item from './ItemCard';
 import OffCanvas from './OffCanvas';
 import SettingBar from './SettingBar';
+import BackButton from './BackButton';
 const pageUrl = 'https://wikiwiki.jp/eft/%E9%9A%A0%E3%82%8C%E5%AE%B6';
 const pageName = '隠れ家';
 
@@ -160,10 +161,11 @@ const HideoutItemAll = () => {
         <>
             <div className='d-flex justify-content-end me-0 mt-0 mb-2 bg-dark'>
                 <SettingBar setShowSetting={setShowSetting} />
+                <BackButton link={"/hideout/"} />
             </div>
 
             <div className='min-vh-100'>
-                <OffCanvas setShowSetting={setShowSetting} canvasShow={showSetting} setItemSetting={setItemSetting} />
+                <OffCanvas setShowSetting={setShowSetting} canvasShow={showSetting} setItemSetting={setItemSetting} itemSetting={itemSetting} />
                 <div className='d-flex flex-wrap'>
                     {tags}
                 </div>

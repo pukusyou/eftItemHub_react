@@ -1,9 +1,13 @@
 import React from "react";
 import Footer from "./Footer";
+import BackButton from "./BackButton";
 
 const PrivacyPolicy = () => {
     return (
         <>
+            <div className='d-flex justify-content-end me-0 mt-0 mb-2 bg-dark'>
+                <BackButton link={"/"} />
+            </div>
             <div className="text-white min-vh-100">
                 <h1>プライバシーポリシー</h1>
                 <ol>

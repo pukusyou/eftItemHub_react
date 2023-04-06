@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { isMobile } from "react-device-detect"
 import { Card } from 'react-bootstrap';
 import OffCanvas from './ItemOffcanvas';
-const Item = ({ itemName, img, tasks, num, inRaid }) => {
+const Item = ({ itemName, img, tasks, num, inRaid, category }) => {
     const [show, setShow] = useState(false);
     const handleCanvas = () => {
         if (show) {

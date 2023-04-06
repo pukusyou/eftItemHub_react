@@ -63,7 +63,6 @@ function getLocalStorageId(dealerName) {
         let array = JSON.parse(json);
         return array
     }
-
 }
 
 function array2dict(array) {
@@ -213,7 +212,17 @@ function getHex2Task(dealer, hex) {
     return taskList
 }
 
-const TaskItem = ({ dealer, setCode }) => {
+function getId2Task(idList, dealer) {
+    let taskList = []
+    getMissionsByTrader(dealer).forEach(mission => {
+        if (idList.includes(mission.value)) {
+            taskList.push(mission.label)
+        }
+    })
+    return taskList
+}
+
+const TaskItem = ({ dealer, setCode, idList }) => {
     const search = useLocation().search;
     const query = new URLSearchParams(search);
     const id = query.get('id')
@@ -223,28 +232,39 @@ const TaskItem = ({ dealer, setCode }) => {
      * selectedMission: dict
      */
     const [selectedMissions, setSelectedMissions] = useState([]);
+
+    useEffect(() => {
+        if (idList !== null) {
+            Object.keys(data).forEach(dealer => {
+                saveLocalStorage(dealer, getId2Task(idList, dealer))
+            })
+            setSelectedMissions(getLocalStorage(dealer))
+        }
+    }, [idList]);
     //dealerが変わるたびに呼び出し
     useEffect(() => {
         getLocalStorage(dealer) !== undefined ? setSelectedMissions(getLocalStorage(dealer)) : setSelectedMissions([])
     }, [dealer]);
-    useEffect(() => {
-        if (renderFlgRef.current) {
-            saveLocalStorage(dealer, dict2array(selectedMissions))
-            let ids = []
+    if (renderFlgRef.current) {
+        saveLocalStorage(dealer, dict2array(selectedMissions))
+        let ids = []
+        Object.keys(data).forEach(dealer => {
+            ids = ids.concat(getLocalStorageId(dealer))
+        });
+        setCode(bin2hex64(makeBin(ids)))
+    } else {
+        if (id !== null) {
+            var hex = hex642bin(id)
             Object.keys(data).forEach(dealer => {
-                ids = ids.concat(getLocalStorageId(dealer))
-            });
-            setCode(bin2hex64(makeBin(ids)))
-        } else {
-            if (id !== null) {
-                var hex = hex642bin(id)
-                Object.keys(data).forEach(dealer => {
-                    saveLocalStorage(dealer, getHex2Task(dealer, hex))
-                })
-            }
-            renderFlgRef.current = true
+                saveLocalStorage(dealer, getHex2Task(dealer, hex))
+            })
+            //urlをクエリパラメータなしに変更[?id=xxxxx] -> []
+            window.history.replaceState(null, null, window.location.pathname);
+
         }
-    }, [selectedMissions]);
+        renderFlgRef.current = true
+    }
+
     const handleSelectChange = (value) => {
         setSelectedMissions(array2dict(value.map(option => option.label)));
     };
