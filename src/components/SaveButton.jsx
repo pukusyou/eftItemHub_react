@@ -59,7 +59,6 @@ const SaveButton = ({ showBool, setShowBool, textBox, setTextBox }) => {
             Object.keys(data).forEach(dealer => {
                 taskIds = taskIds.concat(getLocalStorageId(dealer))
             });
-            console.log(taskIds)
             localStorage.setItem("bookMark_" + textBox, JSON.stringify(taskIds, undefined, 1));
         } catch (error) {
             setOk("")
