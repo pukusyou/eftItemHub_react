@@ -12,8 +12,8 @@ function Footer({ pageName, pageUrl }) {
                         <Navbar bg="dark" variant="dark">
                             <Container>
                                 <Nav className="me-auto m-auto">
-                                    <Nav.Link href="/privacy/" className='me-4'>プライバシーポリシー</Nav.Link>
-                                    <Nav.Link href="/contact/" className='ms-4'>お問い合わせ</Nav.Link>
+                                    <Nav.Link href={process.env.REACT_APP_HOMEPAGE + "/privacy/"} className='me-4'>プライバシーポリシー</Nav.Link>
+                                    <Nav.Link href={process.env.REACT_APP_HOMEPAGE + "/contact/"} className='ms-4'>お問い合わせ</Nav.Link>
                                 </Nav>
                             </Container>
                         </Navbar>

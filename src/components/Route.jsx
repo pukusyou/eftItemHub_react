@@ -9,7 +9,7 @@ import AmmoAll from "./AmmoAll";
 import ContactForm from "./ContanctAll";
 const TaskRoute = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.REACT_APP_HOMEPAGE}>
             <Routes>
                 <Route path={`/`} element={<TopPageAll />} />
                 <Route path={`/task/`} element={<TaskSettingAll />} />
