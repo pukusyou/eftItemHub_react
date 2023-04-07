@@ -14,7 +14,6 @@ const DealerList = ["Prapor.LL", "Therapist.LL", "Skier.LL", "Peacekeeper.LL", "
 function getCaliberAmmoData(caliber) {
     let CaliberAmmoData = JSON.stringify(AmmoData)
     CaliberAmmoData = JSON.parse(CaliberAmmoData)
-    console.log(AmmoData)
     if (caliber.value !== "0") {
         Object.keys(CaliberAmmoData).forEach((name) => {
             if (name.indexOf(caliber.value) === -1) {
@@ -101,7 +100,6 @@ const AmmoAll = () => {
     const [jaegerLv, setJaegerLv] = useState(getLocalStorage('jaegerLv'));
     const [workbenchLv, setWorkbenchLv] = useState(getLocalStorage('workbenchLv'));
     useEffect(() => {
-        console.log("useEffect")
         saveLocalStorage(praporLv, skierLv, peacekeeperLv, mechanicLv, jaegerLv, workbenchLv);
     }, [praporLv, skierLv, peacekeeperLv, mechanicLv, jaegerLv, workbenchLv]);
     const data = makeData(caliber, [praporLv, skierLv, peacekeeperLv, mechanicLv, jaegerLv, workbenchLv], notForSale);

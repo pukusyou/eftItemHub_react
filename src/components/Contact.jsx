@@ -34,12 +34,10 @@ const Contact = () => {
         sendForm(SERVICE_ID, TEMPLATE_ID, "#form")
 
             .then((result) => {
-                console.log(result.text);
                 setIsSent(true);
                 setIsError(false);
                 setIsSending(false);
             }, (error) => {
-                console.log(error.text);
                 setIsError(true);
                 setIsSent(false);
                 setIsSending(false);

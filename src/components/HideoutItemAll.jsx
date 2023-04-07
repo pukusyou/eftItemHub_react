@@ -118,7 +118,6 @@ function makeData(flag = false) {
                 itemsData[index][4].push(itemsData[next][4][0])
                 itemsData.splice(next, 1)
                 next--
-                if (itemsData[index][0] === "Corrugated hose") console.log(index + "と" + next + "が重複しています" + itemsData[index][4])
             }
         }
     }
@@ -156,7 +155,6 @@ const HideoutItemAll = () => {
             changeTag(nextTags)
         }
     }, [itemSetting])
-    console.log(showSetting)
     return (
         <>
             <div className='d-flex justify-content-end me-0 mt-0 mb-2 bg-dark'>

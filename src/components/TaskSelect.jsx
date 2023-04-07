@@ -194,7 +194,6 @@ function hex642bin(hex) {
 
 function getHex2Task(dealer, hex) {
     let hexList = hex.split("")
-    console.log(hexList)
     let idList = []
     let taskList = []
     for (let index = 0; index < hexList.length; index++) {

@@ -36,7 +36,6 @@ const LoadButton = ({ setShowLoadModal, showLoadModal, bookMarkList, setIdList }
         if (bookMarkList().length > 0) {
             let bookMarkName = document.querySelector('input[name="flexRadioDefault"]:checked').id;
             let bookMark = JSON.parse(localStorage.getItem(bookMarkName));
-            console.log(bookMarkName)
             setIdList(bookMark);
             setShowLoadModal(false);
         }
