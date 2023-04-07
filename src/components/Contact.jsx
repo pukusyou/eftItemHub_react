@@ -60,6 +60,7 @@ const Contact = () => {
                             options={options}
                             onChange={handleChange}
                             name='type'
+                            isSearchable={false}
                         />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicEmail">

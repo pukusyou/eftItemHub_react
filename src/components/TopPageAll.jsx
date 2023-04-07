@@ -24,7 +24,7 @@ const TopPageAll = () => {
                 </ol>
                 <TopTitleBar title={"作成者"} />
                 <p className='w-75 m-auto text-white p-2 pb-5'>情報がまちがっているところ、改善してほしいところ、追加してほしい機能等々ありましたら、お気軽にお問い合わせください。
-                    <br />このサイトは<a href='https://wikiwiki.jp/eft/'>"Escape From Tarkov JPN Wiki"</a>様の情報を使用しております。Escape From Tarkov JPN Wiki様に感謝申し上げます。</p>
+                    <br />このサイトは<a href='https://wikiwiki.jp/eft/' className='text-info'>Escape From Tarkov JPN Wiki</a>様の情報を使用しております。Escape From Tarkov JPN Wiki様に感謝申し上げます。</p>
             </div>
             <Footer />
         </>

@@ -6,6 +6,7 @@ import { isMobile } from "react-device-detect"
 import { Button, Modal } from 'react-bootstrap';
 import data from '../json/task_with_id.json';
 function saveBookMark(name) {
+    name = "bookMark_" + name;
     const bookMarkName = "book_mark_name_list"
     let array = [];
     if (window.localStorage) {
@@ -24,7 +25,7 @@ function saveBookMark(name) {
             throw new Error("空白は含めないでください");
         } else if (Object.keys(localStorage).includes(name) || name === bookMarkName) {
             throw new Error("別の名前を入力してください");
-        } else if (!name.match((/^[0-9a-zA-Z]*$/))) {
+        } else if (!name.match((/^[0-9a-zA-Z_]*$/))) {
             throw new Error("別の名前を入力してください");
         } else if (name.length > 24) {
             throw new Error("25文字以内で入力してください");
@@ -59,7 +60,7 @@ const SaveButton = ({ showBool, setShowBool, textBox, setTextBox }) => {
                 taskIds = taskIds.concat(getLocalStorageId(dealer))
             });
             console.log(taskIds)
-            localStorage.setItem(textBox, JSON.stringify(taskIds, undefined, 1));
+            localStorage.setItem("bookMark_" + textBox, JSON.stringify(taskIds, undefined, 1));
         } catch (error) {
             setOk("")
             setErr(error.message)
@@ -83,7 +84,7 @@ const SaveButton = ({ showBool, setShowBool, textBox, setTextBox }) => {
             }
             <Modal show={showBool} onHide={handleClose} >
                 <div className={'bg-dark text-white'}>
-                    <Modal.Header closeButton>
+                    <Modal.Header>
                         <Modal.Title>保存</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>

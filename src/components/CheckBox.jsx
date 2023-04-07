@@ -26,10 +26,19 @@ function getTaskId(dealerName, taskName) {
     return data[dealerName][taskName]["id"]
 }
 
-function Checkbox({ missions, selected, setSelectedMissions }) {
+function getTaskUrl(dealerName, taskName) {
+    return data[dealerName][taskName]["wiki_url"]
+}
+
+function Checkbox({ missions, selected, setSelectedMissions, dealer }) {
+    const handleClick = (e) => {
+        if ((e.ctrlKey && !e.metaKey) || (!e.ctrlKey && e.metaKey)) {
+            window.open((getTaskUrl(dealer, e.target.labels[0].innerText)), '_blank');
+            return false;
+        }
+    }
     const handleCheckboxChange = (event) => {
         const value = event.target.labels[0].innerText;
-        console.log(event.target.labels[0].innerText)
         if (selected.includes(value)) {
             //チェックされているとき
             //配列から削除して、更新
@@ -53,6 +62,7 @@ function Checkbox({ missions, selected, setSelectedMissions }) {
                         className="mb-2 w-50 mt-1"
                         checked={selected !== undefined ? selected.includes(mission.label) : [].includes(mission.label)}
                         onChange={handleCheckboxChange}
+                        onClick={handleClick}
                     />
                 ))}
             </div>

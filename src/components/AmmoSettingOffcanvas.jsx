@@ -36,7 +36,7 @@ const AmmoSettingOffcanvas = ({ setShowSetting, canvasShow, caliber, setCaliber,
                     </div>
                     <h3 className="ps-0 pb-1">口径</h3>
                     <div className="d-flex justify-content-between fs-5 mb-3">
-                        <AmmoSelecter options={CaliberDict} setSelectedValue={setCaliber} value={caliber} />
+                        <AmmoSelecter options={CaliberDict} setSelectedValue={setCaliber} value={caliber} isSearchable={true} />
                     </div>
                     <h3 className="ps-0 pb-1">トレーダーレベル</h3>
                     <div className="d-flex justify-content-between fs-5">

@@ -12,7 +12,7 @@ const ModalComp = ({ url, showBool, setShowBool }) => {
         <>
             <Modal show={showBool} onHide={handleClose} size='xl'>
                 <div className={'bg-dark text-white'}>
-                    <Modal.Header closeButton>
+                    <Modal.Header className='text-white'>
                         <Modal.Title>共有</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>

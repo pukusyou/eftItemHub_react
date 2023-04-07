@@ -13,6 +13,7 @@ const DealerSelecter = ({ options, setSelectedValue, value }) => {
             className='w-100 pb-1'
             options={options}
             onChange={handleChange}
+            isSearchable={false}
         />
     )
 }

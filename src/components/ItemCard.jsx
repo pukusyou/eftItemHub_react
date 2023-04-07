@@ -34,7 +34,7 @@ const Item = ({ itemName, img, tasks, num, inRaid, category }) => {
                     </Card>
                 ) :
                 (
-                    <Card onClick={handleCanvas} className='border m-1 bg-dark text-white' style={{ width: 12 + "%", cursor: "pointer" }}>
+                    <Card onClick={handleCanvas} className='border m-1 bg-dark text-white' style={{ width: 11.8 + "%", cursor: "pointer" }}>
                         <Card.Body className='text-center'>
                             <Card.Title className='border-bottom m-0 p-1'>{itemName}</Card.Title>
                             <div className='d-flex align-items-center justify-content-center m-2'><img src={`${process.env.PUBLIC_URL + img}`} alt={itemName} className={"mw-100"} style={{ "objectFit": "contain", height: 70 + "px" }} /></div>
@@ -55,15 +55,4 @@ const Item = ({ itemName, img, tasks, num, inRaid, category }) => {
     )
 }
 export default Item
-
-//上記のようなコードで、CardをクリックするとbootstrapのOffcanvasが表示され、そこにはアイテムの詳細がが表示されるようにしたい。
-//Offcanvasのコードは以下の通り。
-
-//Offcanvasの表示は以下のようにしている。
-// const [show, setShow] = useState(false);
-// const handleClose = () => setShow(false);
-// const handleShow = () => setShow(true);
-// <OffCanvas show={show} onHide={handleClose} title={itemName} body={tasks} />
-// <Card onClick={handleShow} className='border border-light w-25 mb-1 mt-1 bg-dark text-white'>
-//     <Card.Body className='text-center p-1'>
 

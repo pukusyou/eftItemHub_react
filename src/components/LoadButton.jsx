@@ -11,10 +11,10 @@ function makeTags(bookMarkList) {
         bookMarkList.forEach(bookMark => {
             tags.push(
                 //{bookMark}の隣にゴミ箱アイコンをつける
-                <div className="form-check">
+                <div className="form-check" key={bookMark}>
                     <input className="form-check-input" type="radio" name="flexRadioDefault" id={bookMark} />
                     <label className="form-check-label" htmlFor={bookMark}>
-                        {bookMark}
+                        {bookMark.replace("bookMark_", "")}
                     </label>
                 </div>
             )
@@ -33,10 +33,13 @@ const LoadButton = ({ setShowLoadModal, showLoadModal, bookMarkList, setIdList }
         setShowLoadModal(false);
     };
     const handleLoad = () => {
-        let bookMarkName = document.querySelector('input[name="flexRadioDefault"]:checked').id;
-        let bookMark = JSON.parse(localStorage.getItem(bookMarkName));
-        setIdList(bookMark);
-        setShowLoadModal(false);
+        if (bookMarkList().length > 0) {
+            let bookMarkName = document.querySelector('input[name="flexRadioDefault"]:checked').id;
+            let bookMark = JSON.parse(localStorage.getItem(bookMarkName));
+            console.log(bookMarkName)
+            setIdList(bookMark);
+            setShowLoadModal(false);
+        }
     }
     const handleRemove = () => {
         if (bookMarkList().length > 0) {
@@ -62,7 +65,7 @@ const LoadButton = ({ setShowLoadModal, showLoadModal, bookMarkList, setIdList }
             }
             <Modal show={showLoadModal} onHide={handleClose} >
                 <div className={'bg-dark text-white'}>
-                    <Modal.Header closeButton>
+                    <Modal.Header>
                         <Modal.Title>保存</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>

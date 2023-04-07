@@ -108,14 +108,12 @@ function makeBin(ids) {
 
 //2進数の文字列を64進数に変換する
 function bin2hex64(bin) {
-    console.log(bin)
     var hex = "";
     var bin2hex = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!-";
     for (var i = 0; i < bin.length; i += 6) {
         var n = parseInt(bin.substr(i, 6), 2);
         hex += bin2hex[n];
     }
-    console.log(hex)
     return hex;
 }
 
@@ -222,7 +220,7 @@ function getId2Task(idList, dealer) {
     return taskList
 }
 
-const TaskItem = ({ dealer, setCode, idList }) => {
+const TaskSelect = ({ dealer, setCode, idList }) => {
     const search = useLocation().search;
     const query = new URLSearchParams(search);
     const id = query.get('id')
@@ -245,25 +243,27 @@ const TaskItem = ({ dealer, setCode, idList }) => {
     useEffect(() => {
         getLocalStorage(dealer) !== undefined ? setSelectedMissions(getLocalStorage(dealer)) : setSelectedMissions([])
     }, [dealer]);
-    if (renderFlgRef.current) {
-        saveLocalStorage(dealer, dict2array(selectedMissions))
-        let ids = []
-        Object.keys(data).forEach(dealer => {
-            ids = ids.concat(getLocalStorageId(dealer))
-        });
-        setCode(bin2hex64(makeBin(ids)))
-    } else {
-        if (id !== null) {
-            var hex = hex642bin(id)
+    useEffect(() => {
+        if (renderFlgRef.current) {
+            saveLocalStorage(dealer, dict2array(selectedMissions))
+            let ids = []
             Object.keys(data).forEach(dealer => {
-                saveLocalStorage(dealer, getHex2Task(dealer, hex))
-            })
-            //urlをクエリパラメータなしに変更[?id=xxxxx] -> []
-            window.history.replaceState(null, null, window.location.pathname);
-
+                ids = ids.concat(getLocalStorageId(dealer))
+            });
+            setCode(bin2hex64(makeBin(ids)))
+        } else {
+            if (id !== null) {
+                var hex = hex642bin(id)
+                Object.keys(data).forEach(dealer => {
+                    saveLocalStorage(dealer, getHex2Task(dealer, hex))
+                })
+                //urlをクエリパラメータなしに変更[?id=xxxxx] -> []
+                window.history.replaceState(null, null, window.location.pathname);
+            }
+            renderFlgRef.current = true
         }
-        renderFlgRef.current = true
-    }
+    }, [selectedMissions]);
+
 
     const handleSelectChange = (value) => {
         setSelectedMissions(array2dict(value.map(option => option.label)));
@@ -277,10 +277,10 @@ const TaskItem = ({ dealer, setCode, idList }) => {
                 value={selectedMissions}
                 onChange={handleSelectChange}
             />
-            <Checkbox missions={missions} selected={dict2array(selectedMissions)} setSelectedMissions={setSelectedMissions} />
+            <Checkbox missions={missions} selected={dict2array(selectedMissions)} setSelectedMissions={setSelectedMissions} dealer={dealer} />
         </>
     );
 };
 
-export default TaskItem;
+export default TaskSelect;
 

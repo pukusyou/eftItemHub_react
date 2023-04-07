@@ -8,7 +8,7 @@ const ShareButton = ({ set }) => {
         <>
             {isMobile ?
                 (
-                    <button className='btn btn-outline-light me-2 mb-2' onClick={handleShow}><FontAwesomeIcon icon={faShareFromSquare} /> Share</button>
+                    <button className='btn btn-outline-light me-2 mb-2' onClick={handleShow}><FontAwesomeIcon icon={faShareFromSquare} /></button>
                 ) :
                 (
                     //改行はなしで、右寄せにする
