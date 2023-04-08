@@ -19,7 +19,7 @@ const ItemOffCanvas = ({ show, onHide, title, num, tasks, img, inRaid }) => {
                 </Offcanvas.Header>
                 <Offcanvas.Body className='bg-secondary'>
                     <div className="card">
-                        <img src={img} alt={title} className="card-img-top w-100" />
+                        <img src={`${process.env.PUBLIC_URL + img}`} alt={title} className="card-img-top w-100" />
                         <div className="card-body">
                             <h5 className="card-title">タスク</h5>
                             <ul className="card-title">{taskTags}</ul>

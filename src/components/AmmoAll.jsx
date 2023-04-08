@@ -6,6 +6,7 @@ import Footer from './Footer';
 import SettingBar from './SettingBar';
 import AmmoSettingOffcanvas from './AmmoSettingOffcanvas';
 import App from './Table2';
+import BackButton from './BackButton';
 const pageUrl = 'https://wikiwiki.jp/eft/%E5%BC%BE%E8%96%AC';
 const pageName = '弾薬';
 
@@ -107,6 +108,7 @@ const AmmoAll = () => {
         <>
             <div className='d-flex justify-content-end me-0 mt-0 mb-2 bg-dark'>
                 <SettingBar setShowSetting={setShow} />
+                <BackButton link={"/"} />
             </div>
             <div className='min-vh-100'>
                 <App data={data} key={caliber} />

@@ -11,7 +11,7 @@ const TopPageAll = () => {
                 <TopImage />
                 {/* <TopMenuBar /> */}
                 <TopTitleBar title={"更新履歴"} />
-                <TopUpdateBar title={"サイトリニューアル"} date={"3/31"} content={"サイトの処理や見た目を一新しました。"} />
+                <TopUpdateBar title={"サイトリニューアル"} date={"4/08"} content={"サイトの処理や見た目を一新しました。"} />
 
                 <TopTitleBar title={"サイトの説明"} />
                 <p className='text-white m-auto w-75 p-2'>このサイトは「Escape from Tarkov」のタスク、ハイドアウトに必要なアイテムを確認するためのものです。使い方については下記を御覧ください。</p>

@@ -130,7 +130,7 @@ const TaskItemAll = () => {
     const [showLoot, setShowLoot] = useState(true)
     const [showWepon, setShowWepon] = useState(true)
     makeData(showKey, showLoot, showWepon).forEach((data, index) => {
-        tagList.push(<Item itemName={data[1]} img={data[4]} num={data[2] < 0 ? "" : "x" + data[2]}
+        tagList.push(<Item itemName={data[1]} img={data[4]} num={data[2] < 0 ? "Key" : "x" + data[2]}
             tasks={data[6]} inRaid={data[3] ? "inRaid" : "nonRaid"} category={data[5]} key={index} />)
     });
     return (

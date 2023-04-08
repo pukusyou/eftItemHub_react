@@ -19,9 +19,9 @@ const AmmoSettingOffcanvas = ({ setShowSetting, canvasShow, caliber, setCaliber,
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>表示設定</Offcanvas.Title>
                 </Offcanvas.Header>
-                <Offcanvas.Body>
+                <Offcanvas.Body className="bg-dark">
                     <div className="d-flex justify-content-between fs-4 pb-4">
-                        <div className="text-dark">戦利品のみの表示</div>
+                        <div className="text-white">戦利品のみの表示</div>
                         <div className="form-check form-switch">
                             <input
                                 className="form-check-input"
@@ -34,33 +34,33 @@ const AmmoSettingOffcanvas = ({ setShowSetting, canvasShow, caliber, setCaliber,
                             />
                         </div>
                     </div>
-                    <h3 className="ps-0 pb-1">口径</h3>
+                    <h3 className="ps-0 pb-1 text-white">口径</h3>
                     <div className="d-flex justify-content-between fs-5 mb-3">
                         <AmmoSelecter options={CaliberDict} setSelectedValue={setCaliber} value={caliber} isSearchable={true} />
                     </div>
-                    <h3 className="ps-0 pb-1">トレーダーレベル</h3>
+                    <h3 className="ps-0 pb-1 text-white">トレーダーレベル</h3>
                     <div className="d-flex justify-content-between fs-5">
-                        <p className="text-dark">Prapor</p>
+                        <p className="text-white">Prapor</p>
                         <div className="w-50"><AmmoSelecter options={LvDict} setSelectedValue={setPraporLv} value={praporLv} /></div>
                     </div>
                     <div className="d-flex justify-content-between fs-5">
-                        <div className="text-dark">Skier</div>
+                        <div className="text-white">Skier</div>
                         <div className="w-50"><AmmoSelecter options={LvDict} setSelectedValue={setSkierLv} value={skierLv} /></div>
                     </div>
                     <div className="d-flex justify-content-between fs-5">
-                        <div className="text-dark">Peacekeeper</div>
+                        <div className="text-white">Peacekeeper</div>
                         <div className="w-50"><AmmoSelecter options={LvDict} setSelectedValue={setPeacekeeperLv} value={peacekeeperLv} /></div>
                     </div>
                     <div className="d-flex justify-content-between fs-5">
-                        <div className="text-dark">Mechanic</div>
+                        <div className="text-white">Mechanic</div>
                         <div className="w-50"><AmmoSelecter options={LvDict} setSelectedValue={setMechanicLv} value={mechanicLv} /></div>
                     </div>
                     <div className="d-flex justify-content-between fs-5">
-                        <div className="text-dark">Jaeger</div>
+                        <div className="text-white">Jaeger</div>
                         <div className="w-50"><AmmoSelecter options={LvDict} setSelectedValue={setJaegerLv} value={jaegerLv} /></div>
                     </div>
                     <div className="d-flex justify-content-between fs-5">
-                        <div className="text-dark">Workbench</div>
+                        <div className="text-white">Workbench</div>
                         <div className="w-50"><AmmoSelecter options={LvDict} setSelectedValue={setWorkbenchLv} value={workbenchLv} /></div>
                     </div>
                 </Offcanvas.Body>
