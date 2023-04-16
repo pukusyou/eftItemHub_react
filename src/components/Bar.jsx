@@ -6,7 +6,6 @@ import Logo from '../logo.webp';
 
 const Bar = () => {
     const homepage = process.env.REACT_APP_HOMEPAGE;
-    console.log(homepage)
     return (
         <>
             <Navbar expand="lg" bg="dark" variant="dark">

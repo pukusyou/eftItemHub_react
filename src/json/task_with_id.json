@@ -1942,8 +1942,8 @@
             "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Scout",
             "id": 175
         },
-        "Surplus goods": {
-            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Surplus%20goods",
+        "Surplus Goods": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Surplus%20Goods",
             "items": {
                 "item1": {
                     "full_name": "RB-ST key",
@@ -1956,8 +1956,8 @@
             },
             "id": 176
         },
-        "Back door": {
-            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Back%20door",
+        "Back Door": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Back%20Door",
             "id": 177
         },
         "Signal - Part 3": {
@@ -2048,8 +2048,8 @@
             },
             "id": 183
         },
-        "Bad habit": {
-            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Bad%20habit",
+        "Bad Habit": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Bad%20Habit",
             "items": {
                 "item1": {
                     "full_name": "Malboro Cigarettes",
@@ -2130,8 +2130,8 @@
             },
             "id": 188
         },
-        "Chemistry closet": {
-            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Chemistry%20closet",
+        "Chemistry Closet": {
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Chemistry%20Closet",
             "items": {
                 "item1": {
                     "full_name": "Health Resort office key with a blue tape",

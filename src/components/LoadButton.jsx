@@ -65,7 +65,7 @@ const LoadButton = ({ setShowLoadModal, showLoadModal, bookMarkList, setIdList }
             <Modal show={showLoadModal} onHide={handleClose} >
                 <div className={'bg-dark text-white'}>
                     <Modal.Header>
-                        <Modal.Title>保存</Modal.Title>
+                        <Modal.Title>読み込み</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
                         {makeTags(bookMarkname).length > 0 ? makeTags(bookMarkname) : <div>ブックマークがありません</div>}

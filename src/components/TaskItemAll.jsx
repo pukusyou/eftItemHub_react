@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Item from "./ItemCard"
-import data from '../json/task.json';
+import data from '../json/task_with_id.json';
 import Footer from './Footer';
 import SettingBar from './SettingBar';
 import TaskItemOffCanvas from './TaskItemOffcanvas';
@@ -47,6 +47,29 @@ function getItemsFullData(dealer, taskName, num) {
     fullDatas.push([{ name: taskName, url: data[dealer][taskName]["wiki_url"], num: data[dealer][taskName]["items"][num]["num"] }])
     return fullDatas
 }
+function getLocalStorage(dealer) {
+    if (window.localStorage) {
+        let json = localStorage.getItem(dealer);
+        let array = JSON.parse(json);
+        if (array === null) {
+            return []
+        }
+        return array
+    }
+}
+
+function getId2Task(dealer, idList) {
+    let taskNameList = []
+    idList.forEach(id => {
+        getTasks(dealer).forEach(task => {
+            if (data[dealer][task]["id"] === Number(id)) {
+                taskNameList.push(task)
+            }
+        });
+    });
+    return taskNameList
+}
+
 /**
  * localStorageの値から残っているタスクを算出、アイテムの情報を取得します
  * @returns 残っているタスクのアイテムすべて(配列)
@@ -54,11 +77,8 @@ function getItemsFullData(dealer, taskName, num) {
 function getPlayerData() {
     var playerTasksData = []
     dealers.forEach(dealer => {
-        if (localStorage.getItem(dealer) !== null) {
-            var clearTasks = localStorage.getItem(dealer);
-        } else {
-            clearTasks = []
-        }
+        let clearTasks = []
+        clearTasks = getId2Task(dealer, getLocalStorage(dealer));
         var reTasks = getTasks(dealer).filter(i => clearTasks.indexOf(i) === -1)
         reTasks.forEach(task => {
             if (getItems(dealer, task) !== undefined) {
