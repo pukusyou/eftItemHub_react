@@ -23,7 +23,7 @@ function Footer({ pageName, pageUrl }) {
                         <p>{pageUrl && <small>このページは、<a href="https://wikiwiki.jp/eft/" className='text-info'>Escape From Tarkov JPN Wiki</a> の「<a
                             href={pageUrl} className='text-info'>{pageName}</a>」記事の素材を使用しており、Creative
                             Commons Attribution-NonCommercial-ShareAlike の下でライセンスされています。</small>}</p>
-                        <p className="float-start">v0.1.2</p>
+                        <p className="float-start">v0.1.3</p>
                         <p className="float-end">&copy; 2023 EFT Item Hub</p>
                     </Col>
                 </Row>

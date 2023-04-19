@@ -469,7 +469,7 @@
                     "full_name": "RB-SMP key",
                     "name": "RB-SMP",
                     "num": -1,
-                    "inRaid": true,
+                    "inRaid": false,
                     "img": "/img/Therapist/RB-SMP_key.webp",
                     "category": "key"
                 }
@@ -610,19 +610,11 @@
                     "category": "loot"
                 },
                 "item3": {
-                    "full_name": "TerraGroup Labs keycard (Blue)",
-                    "name": "Blue",
-                    "num": 1,
-                    "inRaid": false,
-                    "img": "/img/Therapist/TerraGroup_Labs_keycard_(Blue).webp",
-                    "category": "key"
-                },
-                "item4": {
-                    "full_name": "TerraGroup Labs keycard (Green)",
-                    "name": "Green",
-                    "num": 1,
-                    "inRaid": false,
-                    "img": "/img/Therapist/TerraGroup_Labs_keycard_(Green).webp",
+                    "full_name": "TerraGroup Labs access keycard",
+                    "name": "Access",
+                    "num": 10,
+                    "inRaid": true,
+                    "img": "/img/Therapist/Terragroup_Labs_access_keycard_icon.webp",
                     "category": "key"
                 }
             },
@@ -696,7 +688,7 @@
                 "item3": {
                     "full_name": "LEDX Skin Transilluminator",
                     "name": "LEDX",
-                    "num": 5,
+                    "num": 3,
                     "inRaid": true,
                     "img": "/img/Therapist/LEDX_Skin_Transilluminator.webp",
                     "category": "loot"
@@ -761,7 +753,7 @@
             "items": {
                 "item1": {
                     "full_name": "Unknown Key",
-                    "name": "Unk. key",
+                    "name": "Unknown",
                     "num": -1,
                     "inRaid": false,
                     "img": "/img/Skier/Unknown_Key.webp",
@@ -1070,6 +1062,14 @@
                     "inRaid": false,
                     "img": "/img/Skier/Radar_station_commandant_room_key.webp",
                     "category": "key"
+                },
+                "item2": {
+                    "full_name": "Digital secure DSP radio transmitter",
+                    "name": "DSPT",
+                    "num": -1,
+                    "inRaid": false,
+                    "img": "/img/Skier/DSP_transmitter_icon.webp",
+                    "category": "root"
                 }
             },
             "id": 106
@@ -1133,7 +1133,7 @@
             "items": {
                 "item1": {
                     "full_name": "Dorm room 314 marked key",
-                    "name": "Mark.Key",
+                    "name": "Dorm mrk.",
                     "num": -1,
                     "inRaid": false,
                     "img": "/img/Peacekeeper/Dorm_room_314_marked_key.webp",
@@ -1337,7 +1337,7 @@
             "items": {
                 "item1": {
                     "full_name": "East wing room 328 key",
-                    "name": "San 328",
+                    "name": "E328 San",
                     "num": -1,
                     "inRaid": false,
                     "img": "/img/Peacekeeper/East_wing_room_328_key.webp",
@@ -1345,7 +1345,7 @@
                 },
                 "item2": {
                     "full_name": "Health resort utility room key",
-                    "name": "Storageroom",
+                    "name": "San utll.",
                     "num": -1,
                     "inRaid": false,
                     "img": "/img/Peacekeeper/Health_resort_utility_room_key.webp",
@@ -1460,7 +1460,7 @@
                 "item2": {
                     "full_name": "Virtex programmable processor",
                     "name": "Virtex",
-                    "num": 1,
+                    "num": 2,
                     "inRaid": true,
                     "img": "/img/Peacekeeper/Virtex_programmable_processor.webp",
                     "category": "loot"
@@ -1482,7 +1482,7 @@
                 "item1": {
                     "full_name": "RB-ST key",
                     "name": "RB-ST",
-                    "num": 1,
+                    "num": -1,
                     "inRaid": false,
                     "img": "/img/Peacekeeper/RB-ST_key.webp",
                     "category": "key"
@@ -2261,7 +2261,7 @@
                     "full_name": "Radio repeater",
                     "name": "Repeater",
                     "num": 4,
-                    "inRaid": false,
+                    "inRaid": true,
                     "img": "/img/Mechanic/Radio_repeater.webp",
                     "category": "loot"
                 }
@@ -2307,7 +2307,7 @@
             "id": 202
         },
         "Key to the Tower": {
-            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Assessment%20-%20Part%203",
+            "wiki_url": "https://wikiwiki.jp/eft/Mechanic/Key%20to%20the%20Tower",
             "items": {
                 "item1": {
                     "full_name": "Piece of plexiglass",
@@ -2373,7 +2373,7 @@
                     "num": 4,
                     "inRaid": true,
                     "img": "/img/Mechanic/SVDS_7.62x54R_sniper_rifle.webp",
-                    "category": "loot"
+                    "category": "wepon"
                 }
             },
             "id": 207
@@ -2415,7 +2415,7 @@
             "items": {
                 "item1": {
                     "full_name": "Primorsky 46-48 skybridge key",
-                    "name": "Underpass",
+                    "name": "Skybridge",
                     "num": -1,
                     "inRaid": false,
                     "img": "/img/Ragman/Primorsky_46-48_skybridge_key.webp",
@@ -2429,7 +2429,7 @@
             "items": {
                 "item1": {
                     "full_name": "Primorsky 46-48 skybridge key",
-                    "name": "Underpass",
+                    "name": "Skybridge",
                     "num": -1,
                     "inRaid": false,
                     "img": "/img/Ragman/Primorsky_46-48_skybridge_key.webp",

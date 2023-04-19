@@ -6,10 +6,9 @@ import { isMobile } from "react-device-detect"
 import { Button, Modal } from 'react-bootstrap';
 import data from '../json/task_with_id.json';
 function saveBookMark(name) {
-    name = "bookMark_" + name;
-    const bookMarkName = "book_mark_name_list"
-    let array = [];
     if (window.localStorage) {
+        let array = [];
+        const bookMarkName = "book_mark_name_list"
         if (localStorage.getItem(bookMarkName) !== null) {
             let json = localStorage.getItem(bookMarkName);
             array = JSON.parse(json);
@@ -19,7 +18,7 @@ function saveBookMark(name) {
                 throw new Error("同じ名前のブックマークは作成できません");
             }
         }
-        if (name.length === 0) {
+        if (name.length === 0 || !name) {
             throw new Error("ブックマーク名を入力してください");
         } else if (name.indexOf(" ") >= 0) {
             throw new Error("空白は含めないでください");
@@ -27,9 +26,10 @@ function saveBookMark(name) {
             throw new Error("別の名前を入力してください");
         } else if (!name.match((/^[0-9a-zA-Z_]*$/))) {
             throw new Error("別の名前を入力してください");
-        } else if (name.length > 24) {
+        } else if (name.length > 25) {
             throw new Error("25文字以内で入力してください");
         }
+        name = "bookMark_" + name;
         let json = JSON.stringify(array.concat(name), undefined, 1);
         localStorage.setItem(bookMarkName, json);
         return true;

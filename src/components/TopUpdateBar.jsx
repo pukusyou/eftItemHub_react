@@ -7,7 +7,8 @@ const TopUpdateBar = ({ title, content, date }) => {
         <div className='text-white p-2 w-75 m-auto'>
             <dl>
                 <dt>{date}</dt>
-                <dd>サイトのリニューアル</dd>
+                <dd>{title}</dd>
+                <dd><small>{content}</small></dd>
             </dl>
         </div>
     )

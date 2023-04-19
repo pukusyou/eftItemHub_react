@@ -125,6 +125,10 @@ function makeData(showKey, showLoot, showWepon) {
                 itemsData[index][6].push(itemsData[next][6][0])
                 itemsData.splice(next, 1)
                 next--
+            } else if (itemsData[index][0] === itemsData[next][0]
+                && itemsData[index][3] === itemsData[next][3]) {
+                itemsData.splice(next, 1)
+                next--
             }
         }
     }
