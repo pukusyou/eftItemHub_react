@@ -1,5 +1,5 @@
 /* eslint-disable no-restricted-globals */
-
+var version = '0.1.4'
 // This service worker can be customized!
 // See https://developers.google.com/web/tools/workbox/modules
 // for the list of available Workbox modules, or add any other
