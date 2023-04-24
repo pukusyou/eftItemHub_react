@@ -1,5 +1,4 @@
 /* eslint-disable no-restricted-globals */
-var version = '0.1.4'
 // This service worker can be customized!
 // See https://developers.google.com/web/tools/workbox/modules
 // for the list of available Workbox modules, or add any other
@@ -12,6 +11,7 @@ import { ExpirationPlugin } from 'workbox-expiration';
 import { precacheAndRoute, createHandlerBoundToURL } from 'workbox-precaching';
 import { registerRoute } from 'workbox-routing';
 import { StaleWhileRevalidate } from 'workbox-strategies';
+var version = '0.1.4'
 
 clientsClaim();
 
