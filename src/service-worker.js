@@ -11,7 +11,7 @@ import { ExpirationPlugin } from 'workbox-expiration';
 import { precacheAndRoute, createHandlerBoundToURL } from 'workbox-precaching';
 import { registerRoute } from 'workbox-routing';
 import { StaleWhileRevalidate } from 'workbox-strategies';
-var version = '0.1.4'
+var version = 'v0.1.3'
 
 clientsClaim();
 
