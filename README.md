@@ -1,4 +1,4 @@
-![logo](https://github.com/pukusyou/eftItemHub_react/blob/master/src/logo.webp)
+![logo](https://github.com/pukusyou/eftItemHub_react/blob/master/src/logo.png)
 # アプリケーション名
 EFT Item Hub
 # アプリケーション概要
