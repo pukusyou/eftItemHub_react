@@ -1,70 +1,35 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# アプリケーション名
+EFT Item Hub
+# アプリケーション概要
+「[Escape From Tarkov](https://www.escapefromtarkov.com/)」の攻略アプリケーションで下記の機能があります。
+- タスクの進行状況を入力することで、今後必要になるアイテム一覧を表示
+  - アイテムをクリックすると、アイテムがどのタスクで何個必要か等の詳細画面を表示
+  - 詳細画面のタスク名をクリックすることで、そのタスクのWikiページに遷移
+- ハイドアウト(Hideout、隠れ家)の進行状況を入力すると、今後必要になるアイテム一覧を表示
+  - 設定画面から直近のレベルのみ表示をオンにすることで、次のレベルに必要なアイテムのみを表示
+  - アイテムをクリックすると、アイテムがどのハイドアウトで何個必要か等の詳細画面を表示
+- トレーダーのレベルを選択することで、購入可能な弾薬データを表示
+  - 各項目(ダメージ、貫通等)をクリックすることで並べ替えることが可能
+# URL
+[https://pukusyou.com/eft/](https://pukusyou.com/eft/)
+# 利用方法
+サイトにアクセスし、ヘッダーから使用したい機能を選択し、クリック
+## Task
+1. 各トレーダーの完了しているタスクをすべて選択
+   - Saveボタン: ブックマーク名を記入し、保存を押すことで、現在の選択の状況をテンプレートとして保存することが可能
+   - Loadボタン: 使用したいブックマークの名前を選択し、読み込みを押すことで、作成したブックマークの選択状況ロードし、反映することが可能
+   - Shareボタン: 共有URLが表示されるため、コピーし、そのURLにアクセスすることで選択状況を共有することが可能
+2. 決定ボタンをクリック
+3. アイテムをクリックすることで詳細情報表示
+   - Settingボタン: どの種類のアイテムを表示するか選択することが可能
+## Hideout
+1. ハイドアウトの各施設のレベルをそれぞれ選択
+2. 決定ボタンをクリック
+3. アイテムをクリックすることで詳細情報表示
+   - Settingボタン: 直近のレベルのみ表示するかを切り替えることが可能
+## Ammo
+1. Settingボタンを開く
+2. 必要な情報を入力
+3. 各列の一番上の表頭をクリックすると、クリックした列を基準に昇順、降順の切り替えが可能
+## 目指した課題解決
+Escape From Tarkovはゲーム内で得られる情報が限られているため、初心者の方にとって挫折しやすいゲームと考えております。実際、私の周りの友人も最初は熱中していましたが、さまざまなハードルに直面し、途中で離れていく方も多く見受けられました。そのため、一つでもハードルを取り除き、多くの人にプレイしてもらいたいと考えたため、本Webアプリケーションを開発いたしました。
