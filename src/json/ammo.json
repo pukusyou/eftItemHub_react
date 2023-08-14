@@ -292,7 +292,7 @@
         "damage": "52",
         "penetrate": "39",
         "aDamage": "53",
-        "accuracy": "+15",
+        "accuracy": "+5",
         "reaction": "+5",
         "crushing": "5.0",
         "velocity": "560",
@@ -345,6 +345,18 @@
         "crushing": "100.0",
         "velocity": "381",
         "dealer": "Skier.LL4 Jaeger.LL4 Workbench.LV3",
+        "remarks": " Skier.LL4-Setup\u5b8c\u4e86\u5f8c Jaeger.LL4(\u4ea4\u63db)"
+    },
+    "9x19mmFMJ M882": {
+        "img": "static/img/ammo_img/9x19mm RIP_cell.webp",
+        "damage": "56",
+        "penetrate": "18",
+        "aDamage": "35",
+        "accuracy": "",
+        "reaction": "",
+        "crushing": "20.0",
+        "velocity": "385",
+        "dealer": "Peacekeeper.LL3 Workbench.LV2",
         "remarks": " Skier.LL4-Setup\u5b8c\u4e86\u5f8c Jaeger.LL4(\u4ea4\u63db)"
     },
     "9x21mmBT gzh": {
@@ -548,7 +560,19 @@
         "reaction": "-22",
         "crushing": "20.0",
         "velocity": "290",
-        "dealer": "Mechanic.LL3",
+        "dealer": "Mechanic.LL2",
+        "remarks": ""
+    },
+    "4.6x30mmJSP SX": {
+        "img": "static/img/ammo_img/4.6x30SubsonicIcon.webp",
+        "damage": "46",
+        "penetrate": "32",
+        "aDamage": "37",
+        "accuracy": "",
+        "reaction": "",
+        "crushing": "30.0",
+        "velocity": "579",
+        "dealer": "Mechanic.LL2",
         "remarks": ""
     },
     "5.7x28mmL191": {
@@ -662,7 +686,7 @@
     "5.45x39mmBS": {
         "img": "static/img/ammo_img/5.45x39mm BS_cell.webp",
         "damage": "40",
-        "penetrate": "51",
+        "penetrate": "52",
         "aDamage": "57",
         "accuracy": "-3",
         "reaction": "+10",
@@ -674,7 +698,7 @@
     "5.45x39mmBT": {
         "img": "static/img/ammo_img/5.45x39mm BT_cell.webp",
         "damage": "42",
-        "penetrate": "40",
+        "penetrate": "42",
         "aDamage": "35",
         "accuracy": "-2",
         "reaction": "+3",
@@ -995,6 +1019,42 @@
         "dealer": "Prapor.LL3",
         "remarks": ""
     },
+    "7.62x39mmFMJ": {
+        "img": "static/img/ammo_img/7.62x39US.webp",
+        "damage": "63",
+        "penetrate": "26",
+        "aDamage": "33",
+        "accuracy": "+2",
+        "reaction": "-2",
+        "crushing": "30.0",
+        "velocity": "775",
+        "dealer": "Prapor.LL1",
+        "remarks": ""
+    },
+    "7.62x39mmSP": {
+        "img": "static/img/ammo_img/7.62x39US.webp",
+        "damage": "68",
+        "penetrate": "20",
+        "aDamage": "27",
+        "accuracy": "+5",
+        "reaction": "-5",
+        "crushing": "35.0",
+        "velocity": "772",
+        "dealer": "Skier.LL1",
+        "remarks": ""
+    },
+    "7.62x39mmPP gzh": {
+        "img": "static/img/ammo_img/7.62x39US.webp",
+        "damage": "55",
+        "penetrate": "41",
+        "aDamage": "57",
+        "accuracy": "-1",
+        "reaction": "+5",
+        "crushing": "15.0",
+        "velocity": "732",
+        "dealer": "WorkbenchLV3",
+        "remarks": ""
+    },
     "9x39mmBP gs": {
         "img": "static/img/ammo_img/7n12icon.webp",
         "damage": "60",
@@ -1100,7 +1160,7 @@
         "reaction": "",
         "crushing": "17.0",
         "velocity": "833",
-        "dealer": "Peacekeeper.LL4",
+        "dealer": "Peacekeeper.LL4 Workbench.LV2",
         "remarks": ""
     },
     "7.62x51mmM993": {
@@ -1199,6 +1259,18 @@
         "dealer": "Skier.LL3",
         "remarks": ""
     },
+    ".300 BlackoutCBJ": {
+        "img": "static/img/ammo_img/300BLK Whisper_cell.webp",
+        "damage": "58",
+        "penetrate": "43",
+        "aDamage": "57",
+        "accuracy": "",
+        "reaction": "+5",
+        "crushing": "15.0",
+        "velocity": "725",
+        "dealer": "Workbench.LV3",
+        "remarks": ""
+    },
     "7.62x54mmR BS gzh": {
         "img": "static/img/ammo_img/7N37_ICON.webp",
         "damage": "72",
@@ -1269,6 +1341,42 @@
         "crushing": "18.0",
         "velocity": "800",
         "dealer": "Prapor.LL2",
+        "remarks": ""
+    },
+    "7.62x54mmR FMJ": {
+        "img": "static/img/ammo_img/7.62x54R T46M_cell.webp",
+        "damage": "84",
+        "penetrate": "33",
+        "aDamage": "63",
+        "accuracy": "",
+        "reaction": "",
+        "crushing": "20.0",
+        "velocity": "760",
+        "dealer": "Prapor.LL1",
+        "remarks": ""
+    },
+    "7.62x54mmR HP BT": {
+        "img": "static/img/ammo_img/7.62x54R T46M_cell.webp",
+        "damage": "102",
+        "penetrate": "23",
+        "aDamage": "37",
+        "accuracy": "+10",
+        "reaction": "",
+        "crushing": "40.0",
+        "velocity": "807",
+        "dealer": "Jaeger.LL1",
+        "remarks": ""
+    },
+    "7.62x54mmR SP BT": {
+        "img": "static/img/ammo_img/7.62x54R T46M_cell.webp",
+        "damage": "92",
+        "penetrate": "27",
+        "aDamage": "56",
+        "accuracy": "+7",
+        "reaction": "",
+        "crushing": "24.0",
+        "velocity": "703",
+        "dealer": "Skier.LL1",
         "remarks": ""
     },
     ".338Lapua MagnumAP": {
@@ -1545,6 +1653,18 @@
         "crushing": "39.0",
         "velocity": "594",
         "dealer": "Jaeger.LL4",
+        "remarks": ""
+    },
+    "12/70Piranha": {
+        "img": "static/img/ammo_img/12-70_HP_SF_icon.webp",
+        "damage": "250",
+        "penetrate": "24",
+        "aDamage": "22",
+        "accuracy": "-5",
+        "reaction": "",
+        "crushing": "0",
+        "velocity": "310",
+        "dealer": "Workbench.LV2",
         "remarks": ""
     },
     "20/70\"Poleva-3\" slug": {

@@ -7,6 +7,7 @@ import { Button, Modal } from 'react-bootstrap';
 import data from '../json/task_with_id.json';
 function saveBookMark(name) {
     if (window.localStorage) {
+        name = "bookMark_" + name;
         let array = [];
         const bookMarkName = "book_mark_name_list"
         if (localStorage.getItem(bookMarkName) !== null) {
@@ -25,11 +26,11 @@ function saveBookMark(name) {
         } else if (Object.keys(localStorage).includes(name) || name === bookMarkName) {
             throw new Error("別の名前を入力してください");
         } else if (!name.match((/^[0-9a-zA-Z_]*$/))) {
-            throw new Error("別の名前を入力してください");
+            throw new Error("アルファベット、数字のみ使用できます");
         } else if (name.length > 25) {
             throw new Error("25文字以内で入力してください");
         }
-        name = "bookMark_" + name;
+        // name = "bookMark_" + name;
         let json = JSON.stringify(array.concat(name), undefined, 1);
         localStorage.setItem(bookMarkName, json);
         return true;

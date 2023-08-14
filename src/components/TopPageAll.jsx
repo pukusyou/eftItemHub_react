@@ -12,6 +12,8 @@ const TopPageAll = () => {
                 <TopImage />
                 {/* <TopMenuBar /> */}
                 <TopTitleBar title={"更新履歴"} />
+                <TopUpdateBar title={"新しい弾薬追加、弾薬ページのバグ修正"} date={"8/14"} content={"弾薬がすべて表示されないバグを修正しました。"} />
+                <TopUpdateBar title={"タスクマップを追加"} date={"8/10"} content={"タスク選択画面で「Taskmap」をクリックすると見ることができます。"} />
                 <TopUpdateBar title={"製作者欄 追加、データの更新とバグの修正"} date={"4/20"} content={"サイトの製作者についての情報を追加しました。タスク情報の更新、鍵が複数表示されるバグを修正しました。"} />
                 <TopUpdateBar title={"サイトリニューアル"} date={"4/08"} content={"サイトの処理や見た目を一新しました。"} />
 

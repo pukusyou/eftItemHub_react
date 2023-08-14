@@ -10,7 +10,7 @@ import BackButton from './BackButton';
 const pageUrl = 'https://wikiwiki.jp/eft/%E5%BC%BE%E8%96%AC';
 const pageName = '弾薬';
 
-const DealerList = ["Prapor.LL", "Therapist.LL", "Skier.LL", "Peacekeeper.LL", "Mechanic.LL", "Ragman.LL"]
+const DealerList = ["Prapor.LL", "Skier.LL", "Peacekeeper.LL", "Mechanic.LL", "Jaeger.LL","Workbench.LV"]
 
 function getCaliberAmmoData(caliber) {
     let CaliberAmmoData = JSON.stringify(AmmoData)

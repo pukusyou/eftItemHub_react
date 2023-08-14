@@ -8,6 +8,8 @@ import ShareButton from "./ShareButton";
 import BackButton from "./BackButton";
 import SaveButton from "./SaveButton";
 import LoadButton from "./LoadButton";
+import TaskMapButton from "./TaskMapButton";
+import TaskMap from "./TaskMap";
 
 const dealersDict = [{ value: "Prapor", label: "Prapor" }, { value: "Therapist", label: "Therapist" },
 { value: "Skier", label: "Skier" }, { value: "Peacekeeper", label: "Peacekeeper" }, { value: "Mechanic", label: "Mechanic" },
@@ -32,6 +34,7 @@ const TaskSettingAll = () => {
     const [selectedValue, setSelectedValue] = useState(dealersDict[0].value);
     const [code, setCode] = useState("");
     const [show, setShow] = useState(false);
+    const [taskmapShow, setTaskmapShow] = useState(false);
     const [loadShow, setLoadShow] = useState(false);
     const [textBox, setTextBox] = useState("");
     const [modalShowBool, setModalShowBool] = useState(false);
@@ -39,12 +42,14 @@ const TaskSettingAll = () => {
     return (
         <>
             <div className='d-flex justify-content-end me-0 mt-0 mb-2 bg-dark'>
+                <TaskMapButton set={setTaskmapShow} />
                 <SaveButton showBool={modalShowBool} setShowBool={setModalShowBool} textBox={textBox} setTextBox={setTextBox} />
                 <LoadButton setShowLoadModal={setLoadShow} showLoadModal={loadShow} bookMarkList={getBookMarkList} setIdList={setIdList} />
                 <ShareButton set={setShow} />
                 <BackButton link={"/"} />
             </div>
             <div className='min-vh-100'>
+                <TaskMap show={taskmapShow} setShow={setTaskmapShow}/>
                 <h1 className='text-white m-0'>タスク進行状況</h1>
                 <ModalComp url={thisUrl + "?id=" + code} showBool={show} setShowBool={setShow} />
                 <div className="w-75">

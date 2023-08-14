@@ -31,8 +31,7 @@ const Introduction = () => {
                                 <div class="row">
                                     <div class="col">
                                         <h4 className="mb-1">コメント</h4>
-                                        <p className="mb-1">情報に誤りがあった場合や改善、追加が必要な場合は、お気軽にご連絡ください。お問い合わせは、TwitterのDMまたは <a href="/contact/" className='text-info'>お問い合わせページ</a> からお願いします。</p>
-                                        <p>また、当サイトはサーバーをレンタルしており、運営費用がかかっています。そのため、もし可能であれば、Amazonをご利用いただく際は <a href="https://amzn.to/3GYAO8l" target="_blank" rel="noopener noreferrer" className='text-info'>こちら</a> から購入していただけると大変助かります。</p>
+                                        <p className="mb-1">情報に誤りがあった場合や改善、追加が必要な場合は、お気軽にご連絡ください。お問い合わせは、TwitterのDMまたは <a href="/eft/contact/" className='text-info'>お問い合わせページ</a> からお願いします。</p>
                                     </div>
                                 </div>
                             </div>
