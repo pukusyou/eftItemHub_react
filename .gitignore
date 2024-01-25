@@ -4,12 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
-.env*
+env*
 /eft
-
+*.zip
+.env
 # testing
 /coverage
-
+.vscode
 # production
 /build
 
