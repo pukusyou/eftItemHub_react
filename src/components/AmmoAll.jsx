@@ -6,8 +6,8 @@ import AmmoSettingOffcanvas from './AmmoSettingOffcanvas';
 import App from './Table2';
 import BackButton from './BackButton';
 import { get, set } from 'react-hook-form';
-const pageUrl = 'https://wikiwiki.jp/eft/%E5%BC%BE%E8%96%AC';
-const pageName = '弾薬';
+// const pageUrl = 'https://wikiwiki.jp/eft/%E5%BC%BE%E8%96%AC';
+// const pageName = '弾薬';
 
 const DealerList = ["Prapor.LL", "Skier.LL", "Peacekeeper.LL", "Mechanic.LL", "Jaeger.LL","Workbench.LV"]
 
@@ -31,6 +31,7 @@ function makeData(ammoData, caliber) {
     Object.keys(getCaliberAmmoData(ammoData, caliber)
     ).forEach(name => {
         Data.push({
+            "iconLink": process.env.PUBLIC_URL + "/" +ammoData[name]["iconLink"],
             "name": name,
             "damage": ammoData[name]["damage"],
             "penetrate": ammoData[name]["penetrationPower"],
@@ -94,7 +95,7 @@ const AmmoAll = () => {
                 <AmmoSettingOffcanvas canvasShow={settingShow} setShowSetting={setShow} caliber={caliber} setCaliber={setCaliber}
                     caliberList={caliberList} />
             </div>
-            <Footer pageUrl={pageUrl} pageName={pageName} />
+            <Footer />
         </>
     )
 }

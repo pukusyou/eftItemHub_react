@@ -14,6 +14,7 @@ new_query = """
   ){
     item{
       name
+      iconLink
     }
 		damage
     penetrationPower
@@ -27,28 +28,15 @@ new_query = """
 """
 
 result = run_query(new_query)
-# resultをjsonとして保存
-# with open('ammo.json', 'w') as f:
-#     json.dump(result, f, indent=4)
-# ammo.jsonを読み込み
-# with open('ammo.json', 'r') as f:
-#     result = json.load(f)
+
 ammo = result["data"]["ammo"]
-# for data in ammo:
-#     print(data["item"]["name"])
-#     print(data["damage"])
-#     print(data["penetrationPower"])
-#     print(data["armorDamage"])
-#     print(data["accuracyModifier"])
-#     print(data["recoilModifier"])
-#     print(data["fragmentationChance"])
-#     print(data["initialSpeed"])
-#     print("")
+
 result = {}
 for data in ammo:
     # 辞書型を作成, キーはnameにする
     ammo_dict = {data["item"]["name"]: 
                 {
+                    "iconLink": data["item"]["iconLink"],
                     "damage": int(data["damage"]),
                     "penetrationPower": int(data["penetrationPower"]),
                     "armorDamage": int(data["armorDamage"]),
@@ -61,5 +49,5 @@ for data in ammo:
     result.update(ammo_dict)
 
 # jsonとして保存
-with open('ammo_dict.json', 'w') as f:
+with open('/home/kitagawa/itemHub/eftItemHub_react/public/json/ammo_dict.json', 'w') as f:
     json.dump(result, f, indent=4)

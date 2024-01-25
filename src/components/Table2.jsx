@@ -1,7 +1,7 @@
 import React from "react";
 import { useSortBy, useTable } from "react-table";
 import { isMobile } from "react-device-detect"
-let columns = [{ Header: "名称", accessor: "name" }, { Header: "ダメージ", accessor: "damage" }, { Header: "貫通", accessor: "penetrate" }, { Header: "アーマーダメージ", accessor: "aDamage" }, { Header: "精度", accessor: "accuracy" }, { Header: "反動", accessor: "reaction" }, { Header: "破砕", accessor: "crushing" }, { Header: "弾速(m/s)", accessor: "velocity" }]
+let columns = [{ Header: "画像", accessor: "iconLink" }, { Header: "名称", accessor: "name" }, { Header: "ダメージ", accessor: "damage" }, { Header: "貫通", accessor: "penetrate" }, { Header: "アーマーダメージ", accessor: "aDamage" }, { Header: "精度", accessor: "accuracy" }, { Header: "反動", accessor: "reaction" }, { Header: "破砕", accessor: "crushing" }, { Header: "弾速(m/s)", accessor: "velocity" }]
 
 export default function App({ data }) {
 
@@ -61,7 +61,7 @@ export default function App({ data }) {
                             {row.cells.map((cell) => {
                                 return (
                                     <td {...cell.getCellProps()}>
-                                        {cell.render("Cell")}
+                                        {cell.column.id === 'iconLink' ? <img src={cell.value} alt="icon" /> : cell.render("Cell")}
                                     </td>
                                 )
                             })}
