@@ -1,7 +1,7 @@
 import React from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
-const TaskItemOffCanvas = ({ setShowSetting, setKeySetting, canvasShow, keyShow, setLootSetting, lootShow, setWeponSetting, weponShow }) => {
+const TaskItemOffCanvas = ({ setShowSetting, setKeySetting, canvasShow, keyShow, setLootSetting, lootShow, setWeponSetting, weponShow, setInRaidSetting, inRaidShow }) => {
     const handleClose = () => setShowSetting(false);
     return (
         <>
@@ -49,6 +49,20 @@ const TaskItemOffCanvas = ({ setShowSetting, setKeySetting, canvasShow, keyShow,
                                 checked={weponShow}
                                 onChange={(e) => {
                                     setWeponSetting(e.target.checked);
+                                }}
+                            />
+                        </div>
+                    </div>
+                    <div className="d-flex justify-content-between fs-4 p-1 mb-2">
+                        <div className="text-white">インレイド品のみ表示</div>
+                        <div className="form-check form-switch">
+                            <input
+                                className="form-check-input"
+                                type="checkbox"
+                                id="flexSwitchCheckDefault"
+                                checked={inRaidShow}
+                                onChange={(e) => {
+                                    setInRaidSetting(e.target.checked);
                                 }}
                             />
                         </div>

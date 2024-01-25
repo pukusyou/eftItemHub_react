@@ -92,16 +92,27 @@ function getPlayerData() {
     return playerTasksData
 }
 
-function categoryChange(showKey, showLoot, showWepon, itemData) {
+function categoryChange(showKey, showLoot, showWepon, showInRaid, itemData) {
     let resultData = []
     itemData.forEach(item => {
-        if (showKey && item[5] === "key") {
-            resultData.push(item)
-        } else if (showLoot && item[5] === "loot") {
-            resultData.push(item)
-        } else if (showWepon && item[5] === "wepon") {
-            resultData.push(item)
+        if (showInRaid && item[3]) {
+            if (showKey && item[5] === "key") {
+                resultData.push(item)
+            } else if (showLoot && item[5] === "loot") {
+                resultData.push(item)
+            } else if (showWepon && item[5] === "wepon") {
+                resultData.push(item)
+            }
+        } else if (!showInRaid) {
+            if (showKey && item[5] === "key") {
+                resultData.push(item)
+            } else if (showLoot && item[5] === "loot") {
+                resultData.push(item)
+            } else if (showWepon && item[5] === "wepon") {
+                resultData.push(item)
+            }
         }
+
     });
     return resultData
 }
@@ -111,10 +122,10 @@ function categoryChange(showKey, showLoot, showWepon, itemData) {
  * カテゴリーによるアイテムの表示非表示も切り替える
  * @returns 整形されたアイテム情報(配列)
  */
-function makeData(showKey, showLoot, showWepon) {
+function makeData(showKey, showLoot, showWepon, showInRaid) {
     let itemsData = getPlayerData()
     //カテゴリーによるアイテムの表示非表示
-    itemsData = categoryChange(showKey, showLoot, showWepon, itemsData)
+    itemsData = categoryChange(showKey, showLoot, showWepon, showInRaid, itemsData)
 
     //アイテムの重複を足す
     for (let index = 0; index < itemsData.length; index++) {
@@ -153,7 +164,8 @@ const TaskItemAll = () => {
     const [showKey, setShowKey] = useState(true)
     const [showLoot, setShowLoot] = useState(true)
     const [showWepon, setShowWepon] = useState(true)
-    makeData(showKey, showLoot, showWepon).forEach((data, index) => {
+    const [showInRaid, setShowInRaid] = useState(false)
+    makeData(showKey, showLoot, showWepon, showInRaid).forEach((data, index) => {
         tagList.push(<Item itemName={data[1]} img={data[4]} num={data[2] < 0 ? "Key" : "x" + data[2]}
             tasks={data[6]} inRaid={data[3] ? "inRaid" : "nonRaid"} category={data[5]} key={index} />)
     });
@@ -165,7 +177,7 @@ const TaskItemAll = () => {
             </div>
             <div className='min-vh-100 '>
                 <TaskItemOffCanvas setShowSetting={setShowSetting} canvasShow={showSetting} setKeySetting={setShowKey} keyShow={showKey}
-                    setLootSetting={setShowLoot} lootShow={showLoot} setWeponSetting={setShowWepon} weponShow={showWepon} />
+                    setLootSetting={setShowLoot} lootShow={showLoot} setWeponSetting={setShowWepon} weponShow={showWepon} setInRaidSetting={setShowInRaid} inRaidShow={showInRaid}/>
                 <div className='d-flex flex-wrap'>
                     {tagList}
                 </div>

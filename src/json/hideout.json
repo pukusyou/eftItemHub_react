@@ -1572,7 +1572,165 @@
 					"full_name": "Insulating tape",
 					"name": "Tape",
 					"num": 2,
+					"img": "/img/Stash/tape.webp"
+				}
+			}
+		}
+	},
+	"Weapon Stand": {
+		"Weapon Stand Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Handdrill",
+					"name": "Hand drill",
+					"num": 1,
+					"img": "/img/Stash/Handdrill.webp"
+				},
+				"item2": {
+					"full_name": "Metal cutting scissors",
+					"name": "M. Scissor",
+					"num": 1,
+					"img": "/img/Gym/Metal_cutting_scissors.webp"
+				},
+				"item3": {
+					"full_name": "Energy-saving lamp",
+					"name": "ES Lamp",
+					"num": 5,
+					"img": "/img/Illumination/Energy-saving_lamp.webp"
+				},
+				"item4": {
+					"full_name": "Xenomorph sealing foam",
+					"name": "Xeno",
+					"num": 3,
+					"img": "/img/Lavatory/Xenomorph_sealing_foam.webp"
+				},
+				"item5": {
+					"full_name": "Bolts",
+					"name": "Bolts",
+					"num": 15,
+					"img": "/img/Water collector/Bolts.webp"
+				},
+				"item6": {
+					"full_name": "Insulating tape",
+					"name": "Tape",
+					"num": 5,
+					"img": "/img/Stash/tape.webp"
+				},
+				"item7": {
+					"full_name": "Pack of nails",
+					"name": "Nails",
+					"num": 5,
+					"img": "/img/Shooting range/A_pack_of_nails.webp"
+				}
+			}
+		},
+		"Weapon Stand Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Electric drill",
+					"name": "Drill",
+					"num": 1,
+					"img": "/img/Lavatory/Electric_drill.webp"
+				},
+				"item2": {
+					"full_name": "Set of files Master",
+					"name": "Master",
+					"num": 1,
+					"img": "/img/Workbench/Set_of_files_Master.webp"
+				},
+				"item3": {
+					"full_name": "Energy-saving lamp",
+					"name": "ES Lamp",
+					"num": 10,
+					"img": "/img/Illumination/Energy-saving_lamp.webp"
+				},
+				"item4": {
+					"full_name": "Pack of screws",
+					"name": "Screws",
+					"num": 10,
+					"img": "/img/Lavatory/A_pack_of_screws.webp"
+				},
+				"item5": {
+					"full_name": "Duct tape",
+					"name": "Duct tape ",
+					"num": 5,
+					"img": "/img/Water collector/Duct_tape.webp"
+				},
+				"item6": {
+					"full_name": "Bundle of wires",
+					"name": "Wires",
+					"num": 10,
 					"img": "/img/Generator/Wires.webp"
+				},
+				"item7": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 5,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
+				},
+				"item8": {
+					"full_name": "Weapon parts",
+					"name": "W.parts",
+					"num": 5,
+					"img": "/img/Workbench/Weapon_parts.webp"
+				},
+				"item9": {
+					"full_name": "Tube of Poxeram Cold Welding",
+					"name": "Poxeram",
+					"num": 3,
+					"img": "/img/Shooting range/Tube_of_Poxeram_Cold_Welding.webp"
+				}
+			}
+		},
+		"Weapon Stand Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Electric drill",
+					"name": "Drill",
+					"num": 1,
+					"img": "/img/Lavatory/Electric_drill.webp"
+				},
+				"item2": {
+					"full_name": "Energy-saving lamp",
+					"name": "ES Lamp",
+					"num": 15,
+					"img": "/img/Illumination/Energy-saving_lamp.webp"
+				},
+				"item3": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 10,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
+				},
+				"item4": {
+					"full_name": "KEKTAPE duct tape",
+					"name": "KEK",
+					"num": 5,
+					"img": "/img/Lavatory/KEKTAPE_duct_tape.webp"
+				},
+				"item5": {
+					"full_name": "Bundle of wires",
+					"name": "Wires",
+					"num": 15,
+					"img": "/img/Generator/Wires.webp"
+				},
+				"item6": {
+					"full_name": "Shustrilo sealing foam",
+					"name": "Shus",
+					"num": 3,
+					"img": "/img/Water collector/Shustrilo_sealing_foam.webp"
+				},
+				"item7": {
+					"full_name": "Tech manual",
+					"name": "Manual",
+					"num": 1,
+					"img": "/img/Library/Tech_manual.webp"
+				},
+				"item8": {
+					"full_name": "FireKlean gun lube",
+					"name": "#FireKlean",
+					"num": 1,
+					"img": "/img/Workbench/FireKlean_gun_lube.webp"
 				}
 			}
 		}

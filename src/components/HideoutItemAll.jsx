@@ -6,9 +6,10 @@ import Item from './ItemCard';
 import OffCanvas from './OffCanvas';
 import SettingBar from './SettingBar';
 import BackButton from './BackButton';
+import jp from '../json/hideoutJP.json';
 const pageUrl = 'https://wikiwiki.jp/eft/%E9%9A%A0%E3%82%8C%E5%AE%B6';
 const pageName = '隠れ家';
-
+const lang = localStorage.getItem('lang') || 'en';
 /**
  * 設備の名前を配列で返します
  * @returns 隠れ家の設備の名前の配列
@@ -46,7 +47,7 @@ function getLocalStorage(hideoutName) {
 function getNextLv() {
     var hideoutNextLv = {}
     getHideouts().forEach(hideout => {
-        hideoutNextLv[hideout] = getLocalStorage(hideout) + 1
+        hideoutNextLv[hideout] = Number(getLocalStorage(hideout)) + 1
     });
     return hideoutNextLv
 }
@@ -132,11 +133,19 @@ function makeData(flag = false) {
 function makeTags(flag) {
     var tagList = []
     makeData(flag).forEach((data) => {
+        data[4].forEach((task) => {
+            // jpをfor文で回す
+            Object.keys(jp).forEach(key => {
+                task["name"] = task["name"].replace(key, jp[key])
+            })
+        })
+        
         tagList.push(
             <Item itemName={data[1]} img={data[3]} num={"x" + data[2]}
                 tasks={data[4]} key={data[0]} />
         )
     });
+
     return tagList
 }
 

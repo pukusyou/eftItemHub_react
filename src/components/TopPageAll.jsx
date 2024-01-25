@@ -12,10 +12,12 @@ const TopPageAll = () => {
                 <TopImage />
                 {/* <TopMenuBar /> */}
                 <TopTitleBar title={"更新履歴"} />
-                <TopUpdateBar title={"新しい弾薬追加、弾薬ページのバグ修正"} date={"8/14"} content={"弾薬がすべて表示されないバグを修正しました。"} />
-                <TopUpdateBar title={"タスクマップを追加"} date={"8/10"} content={"タスク選択画面で「Taskmap」をクリックすると見ることができます。"} />
-                <TopUpdateBar title={"製作者欄 追加、データの更新とバグの修正"} date={"4/20"} content={"サイトの製作者についての情報を追加しました。タスク情報の更新、鍵が複数表示されるバグを修正しました。"} />
-                <TopUpdateBar title={"サイトリニューアル"} date={"4/08"} content={"サイトの処理や見た目を一新しました。"} />
+                <TopUpdateBar title={"インレイド品のみ表示機能追加"} date={"2024/1/8"} content={"アイテム一覧画面で設定から選択することが出来ます。"} />
+                <TopUpdateBar title={"Hideoutの言語切替機能追加"} date={"2024/1/8"} content={"設備の名前を日本語・英語切り替えることができるようになりました。"} />
+                <TopUpdateBar title={"新しい弾薬追加、弾薬ページのバグ修正"} date={"2023/8/14"} content={"弾薬がすべて表示されないバグを修正しました。"} />
+                <TopUpdateBar title={"タスクマップを追加"} date={"2023/8/10"} content={"タスク選択画面で「Taskmap」をクリックすると見ることができます。"} />
+                <TopUpdateBar title={"製作者欄 追加、データの更新とバグの修正"} date={"2023/4/20"} content={"サイトの製作者についての情報を追加しました。タスク情報の更新、鍵が複数表示されるバグを修正しました。"} />
+                <TopUpdateBar title={"サイトリニューアル"} date={"2023/4/08"} content={"サイトの処理や見た目を一新しました。"} />
 
                 <TopTitleBar title={"サイトの説明"} />
                 <p className='text-white m-auto w-75 p-2'>このサイトは「Escape from Tarkov」のタスク、ハイドアウトに必要なアイテムを確認するためのものです。現在のタスク、ハイドアウトの進行状況を入力することで、その後必要になるアイテムを確認することができます。また、弾薬のパラメータ、どのトレーダーで購入できるか等も確認することができます。使い方については下記を御覧ください。</p>

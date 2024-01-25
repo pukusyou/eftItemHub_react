@@ -30,6 +30,8 @@ const HideoutLevel = ({ hideoutName, max }) => {
                 {max >= 2 ? <option value={2}>Lv.2</option> : null}
                 {max >= 3 ? <option value={3}>Lv.3</option> : null}
                 {max >= 4 ? <option value={4}>Lv.4</option> : null}
+                {max >= 5 ? <option value={5}>Lv.5</option> : null}
+                {max >= 6 ? <option value={6}>Lv.6</option> : null}
             </select>
         </>
 

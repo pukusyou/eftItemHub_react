@@ -1,0 +1,1550 @@
+{
+    "5.56x45mm M855": {
+        "damage": 57,
+        "penetrationPower": 31,
+        "armorDamage": 37,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 50,
+        "initialSpeed": 922
+    },
+    "5.56x45mm M855A1": {
+        "damage": 49,
+        "penetrationPower": 44,
+        "armorDamage": 47,
+        "accuracyModifier": -5,
+        "recoilModifier": 5,
+        "fragmentationChance": 44,
+        "initialSpeed": 945
+    },
+    "12/70 7mm buckshot": {
+        "damage": 39,
+        "penetrationPower": 3,
+        "armorDamage": 26,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 415
+    },
+    "7.62x54mm R SNB gzh": {
+        "damage": 75,
+        "penetrationPower": 62,
+        "armorDamage": 87,
+        "accuracyModifier": 0,
+        "recoilModifier": 10,
+        "fragmentationChance": 8,
+        "initialSpeed": 875
+    },
+    "7.62x39mm PS gzh": {
+        "damage": 57,
+        "penetrationPower": 35,
+        "armorDamage": 52,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 717
+    },
+    "40mm VOG-25 grenade": {
+        "damage": 199,
+        "penetrationPower": 0,
+        "armorDamage": 68,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "9x19mm Pst gzh": {
+        "damage": 54,
+        "penetrationPower": 20,
+        "armorDamage": 33,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 15,
+        "initialSpeed": 457
+    },
+    "5.45x39mm BP gs": {
+        "damage": 46,
+        "penetrationPower": 45,
+        "armorDamage": 46,
+        "accuracyModifier": -3,
+        "recoilModifier": 7,
+        "fragmentationChance": 16,
+        "initialSpeed": 890
+    },
+    "5.45x39mm BS gs": {
+        "damage": 43,
+        "penetrationPower": 54,
+        "armorDamage": 57,
+        "accuracyModifier": -4,
+        "recoilModifier": 10,
+        "fragmentationChance": 17,
+        "initialSpeed": 830
+    },
+    "5.45x39mm BT gs": {
+        "damage": 48,
+        "penetrationPower": 37,
+        "armorDamage": 44,
+        "accuracyModifier": -4,
+        "recoilModifier": 5,
+        "fragmentationChance": 16,
+        "initialSpeed": 880
+    },
+    "5.45x39mm FMJ": {
+        "damage": 55,
+        "penetrationPower": 24,
+        "armorDamage": 38,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 884
+    },
+    "5.45x39mm HP": {
+        "damage": 76,
+        "penetrationPower": 9,
+        "armorDamage": 15,
+        "accuracyModifier": 3,
+        "recoilModifier": -3,
+        "fragmentationChance": 35,
+        "initialSpeed": 884
+    },
+    "5.45x39mm PP gs": {
+        "damage": 50,
+        "penetrationPower": 34,
+        "armorDamage": 42,
+        "accuracyModifier": -2,
+        "recoilModifier": 3,
+        "fragmentationChance": 17,
+        "initialSpeed": 886
+    },
+    "5.45x39mm PRS gs": {
+        "damage": 70,
+        "penetrationPower": 13,
+        "armorDamage": 24,
+        "accuracyModifier": 0,
+        "recoilModifier": -5,
+        "fragmentationChance": 30,
+        "initialSpeed": 866
+    },
+    "5.45x39mm PS gs": {
+        "damage": 53,
+        "penetrationPower": 28,
+        "armorDamage": 40,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 40,
+        "initialSpeed": 890
+    },
+    "5.45x39mm SP": {
+        "damage": 65,
+        "penetrationPower": 15,
+        "armorDamage": 31,
+        "accuracyModifier": 5,
+        "recoilModifier": -5,
+        "fragmentationChance": 45,
+        "initialSpeed": 873
+    },
+    "5.45x39mm T gs": {
+        "damage": 57,
+        "penetrationPower": 20,
+        "armorDamage": 36,
+        "accuracyModifier": -3,
+        "recoilModifier": 0,
+        "fragmentationChance": 16,
+        "initialSpeed": 883
+    },
+    "5.45x39mm US gs": {
+        "damage": 63,
+        "penetrationPower": 17,
+        "armorDamage": 33,
+        "accuracyModifier": 0,
+        "recoilModifier": -15,
+        "fragmentationChance": 10,
+        "initialSpeed": 303
+    },
+    "7.62x25mm TT AKBS": {
+        "damage": 58,
+        "penetrationPower": 12,
+        "armorDamage": 32,
+        "accuracyModifier": 15,
+        "recoilModifier": -15,
+        "fragmentationChance": 25,
+        "initialSpeed": 425
+    },
+    "7.62x25mm TT FMJ43": {
+        "damage": 60,
+        "penetrationPower": 11,
+        "armorDamage": 29,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 427
+    },
+    "7.62x25mm TT LRN": {
+        "damage": 64,
+        "penetrationPower": 8,
+        "armorDamage": 28,
+        "accuracyModifier": 5,
+        "recoilModifier": -5,
+        "fragmentationChance": 35,
+        "initialSpeed": 375
+    },
+    "7.62x25mm TT LRNPC": {
+        "damage": 66,
+        "penetrationPower": 7,
+        "armorDamage": 27,
+        "accuracyModifier": 10,
+        "recoilModifier": -10,
+        "fragmentationChance": 35,
+        "initialSpeed": 385
+    },
+    "7.62x25mm TT P gl": {
+        "damage": 58,
+        "penetrationPower": 14,
+        "armorDamage": 32,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 430
+    },
+    "7.62x25mm TT Pst gzh": {
+        "damage": 50,
+        "penetrationPower": 25,
+        "armorDamage": 36,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 430
+    },
+    "7.62x25mm TT PT gzh": {
+        "damage": 55,
+        "penetrationPower": 18,
+        "armorDamage": 34,
+        "accuracyModifier": -10,
+        "recoilModifier": 0,
+        "fragmentationChance": 17,
+        "initialSpeed": 415
+    },
+    "9x18mm PM BZhT gzh": {
+        "damage": 53,
+        "penetrationPower": 18,
+        "armorDamage": 28,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 17,
+        "initialSpeed": 325
+    },
+    "9x18mm PM P gzh": {
+        "damage": 50,
+        "penetrationPower": 5,
+        "armorDamage": 16,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 302
+    },
+    "9x18mm PM PBM gzh": {
+        "damage": 40,
+        "penetrationPower": 28,
+        "armorDamage": 30,
+        "accuracyModifier": 0,
+        "recoilModifier": 4,
+        "fragmentationChance": 16,
+        "initialSpeed": 519
+    },
+    "9x18mm PMM PstM gzh": {
+        "damage": 58,
+        "penetrationPower": 24,
+        "armorDamage": 33,
+        "accuracyModifier": 0,
+        "recoilModifier": 5,
+        "fragmentationChance": 17,
+        "initialSpeed": 420
+    },
+    "9x18mm PM PPe gzh": {
+        "damage": 61,
+        "penetrationPower": 7,
+        "armorDamage": 15,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 35,
+        "initialSpeed": 297
+    },
+    "9x18mm PM PPT gzh": {
+        "damage": 59,
+        "penetrationPower": 8,
+        "armorDamage": 22,
+        "accuracyModifier": -5,
+        "recoilModifier": -7,
+        "fragmentationChance": 17,
+        "initialSpeed": 301
+    },
+    "9x18mm PM PRS gs": {
+        "damage": 58,
+        "penetrationPower": 6,
+        "armorDamage": 16,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 30,
+        "initialSpeed": 302
+    },
+    "9x18mm PM PS gs PPO": {
+        "damage": 55,
+        "penetrationPower": 6,
+        "armorDamage": 16,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 330
+    },
+    "9x18mm PM PSO gzh": {
+        "damage": 54,
+        "penetrationPower": 5,
+        "armorDamage": 13,
+        "accuracyModifier": 10,
+        "recoilModifier": 0,
+        "fragmentationChance": 35,
+        "initialSpeed": 315
+    },
+    "9x18mm PM Pst gzh": {
+        "damage": 50,
+        "penetrationPower": 12,
+        "armorDamage": 26,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 298
+    },
+    "9x18mm PM PSV": {
+        "damage": 69,
+        "penetrationPower": 3,
+        "armorDamage": 5,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 40,
+        "initialSpeed": 280
+    },
+    "9x18mm PM RG028 gzh": {
+        "damage": 65,
+        "penetrationPower": 13,
+        "armorDamage": 26,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 2,
+        "initialSpeed": 330
+    },
+    "9x18mm PM SP7 gzh": {
+        "damage": 77,
+        "penetrationPower": 2,
+        "armorDamage": 5,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 2,
+        "initialSpeed": 420
+    },
+    "9x18mm PM SP8 gzh": {
+        "damage": 67,
+        "penetrationPower": 1,
+        "armorDamage": 2,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 60,
+        "initialSpeed": 250
+    },
+    "9x39mm SP-5 gs": {
+        "damage": 71,
+        "penetrationPower": 28,
+        "armorDamage": 39,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 290
+    },
+    "9x39mm SP-6 gs": {
+        "damage": 60,
+        "penetrationPower": 48,
+        "armorDamage": 64,
+        "accuracyModifier": 0,
+        "recoilModifier": 5,
+        "fragmentationChance": 10,
+        "initialSpeed": 305
+    },
+    "12/70 lead slug": {
+        "damage": 167,
+        "penetrationPower": 15,
+        "armorDamage": 55,
+        "accuracyModifier": 120,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 370
+    },
+    "9x19mm PSO gzh": {
+        "damage": 59,
+        "penetrationPower": 10,
+        "armorDamage": 32,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 340
+    },
+    "7.62x54mm R LPS gzh": {
+        "damage": 81,
+        "penetrationPower": 42,
+        "armorDamage": 78,
+        "accuracyModifier": -5,
+        "recoilModifier": 0,
+        "fragmentationChance": 18,
+        "initialSpeed": 865
+    },
+    "7.62x51mm M80": {
+        "damage": 80,
+        "penetrationPower": 41,
+        "armorDamage": 66,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 17,
+        "initialSpeed": 833
+    },
+    "7.62x39mm BP gzh": {
+        "damage": 58,
+        "penetrationPower": 47,
+        "armorDamage": 63,
+        "accuracyModifier": -3,
+        "recoilModifier": 7,
+        "fragmentationChance": 12,
+        "initialSpeed": 730
+    },
+    "7.62x39mm T-45M1 gzh": {
+        "damage": 64,
+        "penetrationPower": 30,
+        "armorDamage": 46,
+        "accuracyModifier": -4,
+        "recoilModifier": -6,
+        "fragmentationChance": 12,
+        "initialSpeed": 720
+    },
+    "7.62x39mm US gzh": {
+        "damage": 56,
+        "penetrationPower": 29,
+        "armorDamage": 42,
+        "accuracyModifier": 5,
+        "recoilModifier": -30,
+        "fragmentationChance": 8,
+        "initialSpeed": 301
+    },
+    "7.62x39mm HP": {
+        "damage": 87,
+        "penetrationPower": 15,
+        "armorDamage": 20,
+        "accuracyModifier": -5,
+        "recoilModifier": 5,
+        "fragmentationChance": 40,
+        "initialSpeed": 754
+    },
+    ".366 TKM FMJ": {
+        "damage": 98,
+        "penetrationPower": 23,
+        "armorDamage": 48,
+        "accuracyModifier": 0,
+        "recoilModifier": 10,
+        "fragmentationChance": 25,
+        "initialSpeed": 580
+    },
+    ".366 TKM EKO": {
+        "damage": 73,
+        "penetrationPower": 30,
+        "armorDamage": 40,
+        "accuracyModifier": -10,
+        "recoilModifier": -15,
+        "fragmentationChance": 20,
+        "initialSpeed": 770
+    },
+    ".366 TKM Geksa": {
+        "damage": 110,
+        "penetrationPower": 14,
+        "armorDamage": 38,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 45,
+        "initialSpeed": 550
+    },
+    "5.56x45mm M856": {
+        "damage": 64,
+        "penetrationPower": 18,
+        "armorDamage": 26,
+        "accuracyModifier": -2,
+        "recoilModifier": -2,
+        "fragmentationChance": 33,
+        "initialSpeed": 874
+    },
+    "5.56x45mm M856A1": {
+        "damage": 52,
+        "penetrationPower": 38,
+        "armorDamage": 44,
+        "accuracyModifier": -4,
+        "recoilModifier": 4,
+        "fragmentationChance": 43,
+        "initialSpeed": 940
+    },
+    "5.56x45mm M995": {
+        "damage": 42,
+        "penetrationPower": 53,
+        "armorDamage": 52,
+        "accuracyModifier": -7,
+        "recoilModifier": 8,
+        "fragmentationChance": 42,
+        "initialSpeed": 1013
+    },
+    "5.56x45mm MK 255 Mod 0 (RRLP)": {
+        "damage": 72,
+        "penetrationPower": 11,
+        "armorDamage": 24,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 3,
+        "initialSpeed": 936
+    },
+    "5.56x45mm FMJ": {
+        "damage": 59,
+        "penetrationPower": 23,
+        "armorDamage": 33,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 50,
+        "initialSpeed": 957
+    },
+    "5.56x45mm HP": {
+        "damage": 79,
+        "penetrationPower": 7,
+        "armorDamage": 22,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 70,
+        "initialSpeed": 947
+    },
+    "7.62x54mm R PS gzh": {
+        "damage": 84,
+        "penetrationPower": 45,
+        "armorDamage": 84,
+        "accuracyModifier": 10,
+        "recoilModifier": 8,
+        "fragmentationChance": 8,
+        "initialSpeed": 875
+    },
+    "9x21mm PS gzh": {
+        "damage": 54,
+        "penetrationPower": 22,
+        "armorDamage": 39,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 410
+    },
+    "9x21mm P gzh": {
+        "damage": 65,
+        "penetrationPower": 18,
+        "armorDamage": 44,
+        "accuracyModifier": 1,
+        "recoilModifier": -3,
+        "fragmentationChance": 30,
+        "initialSpeed": 413
+    },
+    "9x21mm PE gzh": {
+        "damage": 80,
+        "penetrationPower": 15,
+        "armorDamage": 63,
+        "accuracyModifier": 3,
+        "recoilModifier": -5,
+        "fragmentationChance": 35,
+        "initialSpeed": 415
+    },
+    "9x21mm BT gzh": {
+        "damage": 49,
+        "penetrationPower": 32,
+        "armorDamage": 42,
+        "accuracyModifier": -5,
+        "recoilModifier": 5,
+        "fragmentationChance": 20,
+        "initialSpeed": 410
+    },
+    "20/70 7.5mm buckshot": {
+        "damage": 25,
+        "penetrationPower": 3,
+        "armorDamage": 14,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 430
+    },
+    "9x19mm Luger CCI": {
+        "damage": 70,
+        "penetrationPower": 10,
+        "armorDamage": 38,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 420
+    },
+    "7.62x51mm M61": {
+        "damage": 70,
+        "penetrationPower": 64,
+        "armorDamage": 83,
+        "accuracyModifier": 3,
+        "recoilModifier": 10,
+        "fragmentationChance": 13,
+        "initialSpeed": 849
+    },
+    "7.62x51mm M62 Tracer": {
+        "damage": 79,
+        "penetrationPower": 44,
+        "armorDamage": 75,
+        "accuracyModifier": -6,
+        "recoilModifier": -1,
+        "fragmentationChance": 14,
+        "initialSpeed": 816
+    },
+    "4.6x30mm FMJ SX": {
+        "damage": 43,
+        "penetrationPower": 40,
+        "armorDamage": 41,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 620
+    },
+    "4.6x30mm Action SX": {
+        "damage": 65,
+        "penetrationPower": 18,
+        "armorDamage": 28,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 50,
+        "initialSpeed": 690
+    },
+    "4.6x30mm AP SX": {
+        "damage": 35,
+        "penetrationPower": 53,
+        "armorDamage": 46,
+        "accuracyModifier": 0,
+        "recoilModifier": 10,
+        "fragmentationChance": 10,
+        "initialSpeed": 680
+    },
+    "4.6x30mm Subsonic SX": {
+        "damage": 52,
+        "penetrationPower": 23,
+        "armorDamage": 33,
+        "accuracyModifier": 10,
+        "recoilModifier": -22,
+        "fragmentationChance": 20,
+        "initialSpeed": 290
+    },
+    "9x19mm RIP": {
+        "damage": 102,
+        "penetrationPower": 2,
+        "armorDamage": 11,
+        "accuracyModifier": 0,
+        "recoilModifier": 5,
+        "fragmentationChance": 100,
+        "initialSpeed": 381
+    },
+    "12/70 RIP": {
+        "damage": 265,
+        "penetrationPower": 2,
+        "armorDamage": 11,
+        "accuracyModifier": 80,
+        "recoilModifier": 35,
+        "fragmentationChance": 100,
+        "initialSpeed": 410
+    },
+    "5.56x45mm Warmageddon": {
+        "damage": 88,
+        "penetrationPower": 3,
+        "armorDamage": 11,
+        "accuracyModifier": 10,
+        "recoilModifier": 10,
+        "fragmentationChance": 90,
+        "initialSpeed": 936
+    },
+    "5.45x39mm PPBS gs \"Igolnik\"": {
+        "damage": 37,
+        "penetrationPower": 62,
+        "armorDamage": 59,
+        "accuracyModifier": -5,
+        "recoilModifier": 15,
+        "fragmentationChance": 2,
+        "initialSpeed": 905
+    },
+    "9x39mm SPP gs": {
+        "damage": 68,
+        "penetrationPower": 35,
+        "armorDamage": 48,
+        "accuracyModifier": 10,
+        "recoilModifier": 7,
+        "fragmentationChance": 20,
+        "initialSpeed": 310
+    },
+    "9x39mm BP gs": {
+        "damage": 58,
+        "penetrationPower": 54,
+        "armorDamage": 69,
+        "accuracyModifier": 10,
+        "recoilModifier": 15,
+        "fragmentationChance": 10,
+        "initialSpeed": 295
+    },
+    "9x19mm Green Tracer": {
+        "damage": 58,
+        "penetrationPower": 14,
+        "armorDamage": 33,
+        "accuracyModifier": -5,
+        "recoilModifier": -6,
+        "fragmentationChance": 15,
+        "initialSpeed": 365
+    },
+    "9x19mm AP 6.3": {
+        "damage": 52,
+        "penetrationPower": 30,
+        "armorDamage": 48,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 5,
+        "initialSpeed": 392
+    },
+    "12.7x55mm PS12": {
+        "damage": 115,
+        "penetrationPower": 28,
+        "armorDamage": 60,
+        "accuracyModifier": 10,
+        "recoilModifier": 0,
+        "fragmentationChance": 30,
+        "initialSpeed": 285
+    },
+    "12.7x55mm PS12A": {
+        "damage": 165,
+        "penetrationPower": 10,
+        "armorDamage": 22,
+        "accuracyModifier": -15,
+        "recoilModifier": -12,
+        "fragmentationChance": 70,
+        "initialSpeed": 290
+    },
+    "12.7x55mm PS12B": {
+        "damage": 102,
+        "penetrationPower": 46,
+        "armorDamage": 57,
+        "accuracyModifier": 0,
+        "recoilModifier": 15,
+        "fragmentationChance": 30,
+        "initialSpeed": 300
+    },
+    "5.7x28mm SS190": {
+        "damage": 49,
+        "penetrationPower": 37,
+        "armorDamage": 43,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 715
+    },
+    "5.7x28mm L191": {
+        "damage": 53,
+        "penetrationPower": 33,
+        "armorDamage": 41,
+        "accuracyModifier": -4,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 715
+    },
+    "5.7x28mm SB193": {
+        "damage": 59,
+        "penetrationPower": 27,
+        "armorDamage": 37,
+        "accuracyModifier": 5,
+        "recoilModifier": -15,
+        "fragmentationChance": 35,
+        "initialSpeed": 299
+    },
+    "5.7x28mm SS198LF": {
+        "damage": 70,
+        "penetrationPower": 17,
+        "armorDamage": 19,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 80,
+        "initialSpeed": 792
+    },
+    "5.7x28mm SS197SR": {
+        "damage": 62,
+        "penetrationPower": 25,
+        "armorDamage": 22,
+        "accuracyModifier": 10,
+        "recoilModifier": 0,
+        "fragmentationChance": 50,
+        "initialSpeed": 594
+    },
+    "5.7x28mm R37.F": {
+        "damage": 98,
+        "penetrationPower": 8,
+        "armorDamage": 7,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 100,
+        "initialSpeed": 729
+    },
+    "5.7x28mm R37.X": {
+        "damage": 81,
+        "penetrationPower": 11,
+        "armorDamage": 9,
+        "accuracyModifier": -5,
+        "recoilModifier": 0,
+        "fragmentationChance": 70,
+        "initialSpeed": 724
+    },
+    "12/70 5.25mm buckshot": {
+        "damage": 37,
+        "penetrationPower": 1,
+        "armorDamage": 15,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 330
+    },
+    "12/70 6.5mm Express buckshot": {
+        "damage": 35,
+        "penetrationPower": 3,
+        "armorDamage": 26,
+        "accuracyModifier": 15,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 430
+    },
+    "12/70 8.5mm Magnum buckshot": {
+        "damage": 50,
+        "penetrationPower": 2,
+        "armorDamage": 26,
+        "accuracyModifier": -15,
+        "recoilModifier": 115,
+        "fragmentationChance": 0,
+        "initialSpeed": 385
+    },
+    "12/70 Grizzly 40 slug": {
+        "damage": 190,
+        "penetrationPower": 12,
+        "armorDamage": 48,
+        "accuracyModifier": 80,
+        "recoilModifier": 20,
+        "fragmentationChance": 12,
+        "initialSpeed": 390
+    },
+    "12/70 \"Poleva-3\" slug": {
+        "damage": 140,
+        "penetrationPower": 17,
+        "armorDamage": 40,
+        "accuracyModifier": 110,
+        "recoilModifier": -15,
+        "fragmentationChance": 20,
+        "initialSpeed": 410
+    },
+    "12/70 \"Poleva-6u\" slug": {
+        "damage": 150,
+        "penetrationPower": 20,
+        "armorDamage": 50,
+        "accuracyModifier": 115,
+        "recoilModifier": -10,
+        "fragmentationChance": 15,
+        "initialSpeed": 430
+    },
+    "12/70 AP-20 armor-piercing slug": {
+        "damage": 164,
+        "penetrationPower": 37,
+        "armorDamage": 65,
+        "accuracyModifier": 80,
+        "recoilModifier": 50,
+        "fragmentationChance": 3,
+        "initialSpeed": 510
+    },
+    "12/70 Copper Sabot Premier HP slug": {
+        "damage": 206,
+        "penetrationPower": 14,
+        "armorDamage": 46,
+        "accuracyModifier": 150,
+        "recoilModifier": 10,
+        "fragmentationChance": 38,
+        "initialSpeed": 442
+    },
+    "12/70 makeshift .50 BMG slug": {
+        "damage": 197,
+        "penetrationPower": 26,
+        "armorDamage": 57,
+        "accuracyModifier": 90,
+        "recoilModifier": 25,
+        "fragmentationChance": 5,
+        "initialSpeed": 410
+    },
+    "12/70 SuperFormance HP slug": {
+        "damage": 220,
+        "penetrationPower": 5,
+        "armorDamage": 12,
+        "accuracyModifier": 170,
+        "recoilModifier": -15,
+        "fragmentationChance": 39,
+        "initialSpeed": 594
+    },
+    "12/70 Dual Sabot slug": {
+        "damage": 85,
+        "penetrationPower": 17,
+        "armorDamage": 65,
+        "accuracyModifier": 100,
+        "recoilModifier": 15,
+        "fragmentationChance": 10,
+        "initialSpeed": 415
+    },
+    "12/70 FTX Custom Lite slug": {
+        "damage": 183,
+        "penetrationPower": 20,
+        "armorDamage": 50,
+        "accuracyModifier": 135,
+        "recoilModifier": -25,
+        "fragmentationChance": 10,
+        "initialSpeed": 480
+    },
+    "12/70 flechette": {
+        "damage": 25,
+        "penetrationPower": 31,
+        "armorDamage": 26,
+        "accuracyModifier": -10,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 320
+    },
+    "20/70 5.6mm buckshot": {
+        "damage": 26,
+        "penetrationPower": 1,
+        "armorDamage": 12,
+        "accuracyModifier": -10,
+        "recoilModifier": 10,
+        "fragmentationChance": 0,
+        "initialSpeed": 340
+    },
+    "20/70 6.2mm buckshot": {
+        "damage": 22,
+        "penetrationPower": 2,
+        "armorDamage": 13,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 410
+    },
+    "20/70 7.3mm buckshot": {
+        "damage": 23,
+        "penetrationPower": 3,
+        "armorDamage": 13,
+        "accuracyModifier": 0,
+        "recoilModifier": 15,
+        "fragmentationChance": 0,
+        "initialSpeed": 475
+    },
+    "20/70 Star slug": {
+        "damage": 154,
+        "penetrationPower": 16,
+        "armorDamage": 42,
+        "accuracyModifier": 130,
+        "recoilModifier": 5,
+        "fragmentationChance": 10,
+        "initialSpeed": 415
+    },
+    "20/70 \"Poleva-6u\" slug": {
+        "damage": 135,
+        "penetrationPower": 17,
+        "armorDamage": 40,
+        "accuracyModifier": 110,
+        "recoilModifier": -10,
+        "fragmentationChance": 15,
+        "initialSpeed": 445
+    },
+    "20/70 \"Poleva-3\" slug": {
+        "damage": 120,
+        "penetrationPower": 14,
+        "armorDamage": 35,
+        "accuracyModifier": 110,
+        "recoilModifier": -15,
+        "fragmentationChance": 20,
+        "initialSpeed": 425
+    },
+    "20/70 Devastator slug": {
+        "damage": 198,
+        "penetrationPower": 5,
+        "armorDamage": 13,
+        "accuracyModifier": 125,
+        "recoilModifier": 30,
+        "fragmentationChance": 100,
+        "initialSpeed": 405
+    },
+    "7.62x54mm R T-46M gzh": {
+        "damage": 82,
+        "penetrationPower": 41,
+        "armorDamage": 83,
+        "accuracyModifier": -1,
+        "recoilModifier": -5,
+        "fragmentationChance": 18,
+        "initialSpeed": 800
+    },
+    "7.62x54mm R BT gzh": {
+        "damage": 78,
+        "penetrationPower": 55,
+        "armorDamage": 87,
+        "accuracyModifier": -2,
+        "recoilModifier": -4,
+        "fragmentationChance": 8,
+        "initialSpeed": 875
+    },
+    "7.62x54mm R BS gs": {
+        "damage": 72,
+        "penetrationPower": 70,
+        "armorDamage": 88,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 8,
+        "initialSpeed": 785
+    },
+    "7.62x51mm BCP FMJ": {
+        "damage": 83,
+        "penetrationPower": 35,
+        "armorDamage": 42,
+        "accuracyModifier": -7,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 840
+    },
+    "7.62x51mm TCW SP": {
+        "damage": 87,
+        "penetrationPower": 30,
+        "armorDamage": 25,
+        "accuracyModifier": -2,
+        "recoilModifier": -3,
+        "fragmentationChance": 35,
+        "initialSpeed": 808
+    },
+    "7.62x51mm Ultra Nosler": {
+        "damage": 107,
+        "penetrationPower": 15,
+        "armorDamage": 20,
+        "accuracyModifier": 10,
+        "recoilModifier": -5,
+        "fragmentationChance": 70,
+        "initialSpeed": 822
+    },
+    ".45 ACP Match FMJ": {
+        "damage": 72,
+        "penetrationPower": 25,
+        "armorDamage": 36,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 1,
+        "initialSpeed": 340
+    },
+    "23x75mm Shrapnel-10 buckshot": {
+        "damage": 87,
+        "penetrationPower": 11,
+        "armorDamage": 20,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 270
+    },
+    "23x75mm Zvezda flashbang round": {
+        "damage": 0,
+        "penetrationPower": 0,
+        "armorDamage": 0,
+        "accuracyModifier": 0,
+        "recoilModifier": 20,
+        "fragmentationChance": 30,
+        "initialSpeed": 80
+    },
+    "23x75mm Barrikada slug": {
+        "damage": 192,
+        "penetrationPower": 39,
+        "armorDamage": 75,
+        "accuracyModifier": -5,
+        "recoilModifier": 25,
+        "fragmentationChance": 20,
+        "initialSpeed": 420
+    },
+    ".45 ACP RIP": {
+        "damage": 130,
+        "penetrationPower": 3,
+        "armorDamage": 12,
+        "accuracyModifier": -5,
+        "recoilModifier": 0,
+        "fragmentationChance": 100,
+        "initialSpeed": 293
+    },
+    "40x46mm M406 (HE) grenade": {
+        "damage": 199,
+        "penetrationPower": 1,
+        "armorDamage": 95,
+        "accuracyModifier": 15,
+        "recoilModifier": -10,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "40x46mm M441 (HE) grenade": {
+        "damage": 199,
+        "penetrationPower": 1,
+        "armorDamage": 95,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "40x46mm M381 (HE) grenade": {
+        "damage": 199,
+        "penetrationPower": 1,
+        "armorDamage": 95,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "40x46mm M576 (MP-APERS) grenade": {
+        "damage": 160,
+        "penetrationPower": 5,
+        "armorDamage": 95,
+        "accuracyModifier": 100,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 269
+    },
+    "40x46mm M386 (HE) grenade": {
+        "damage": 199,
+        "penetrationPower": 1,
+        "armorDamage": 95,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "7.62x51mm M993": {
+        "damage": 67,
+        "penetrationPower": 70,
+        "armorDamage": 85,
+        "accuracyModifier": 5,
+        "recoilModifier": 8,
+        "fragmentationChance": 13,
+        "initialSpeed": 910
+    },
+    ".45 ACP AP": {
+        "damage": 66,
+        "penetrationPower": 38,
+        "armorDamage": 48,
+        "accuracyModifier": -5,
+        "recoilModifier": 7,
+        "fragmentationChance": 1,
+        "initialSpeed": 299
+    },
+    ".45 ACP Lasermatch FMJ": {
+        "damage": 76,
+        "penetrationPower": 19,
+        "armorDamage": 37,
+        "accuracyModifier": 10,
+        "recoilModifier": 0,
+        "fragmentationChance": 1,
+        "initialSpeed": 290
+    },
+    "9x19mm PBP gzh": {
+        "damage": 52,
+        "penetrationPower": 39,
+        "armorDamage": 55,
+        "accuracyModifier": 5,
+        "recoilModifier": 5,
+        "fragmentationChance": 5,
+        "initialSpeed": 560
+    },
+    "9x19mm QuakeMaker": {
+        "damage": 85,
+        "penetrationPower": 8,
+        "armorDamage": 22,
+        "accuracyModifier": 10,
+        "recoilModifier": 10,
+        "fragmentationChance": 10,
+        "initialSpeed": 290
+    },
+    ".45 ACP Hydra-Shok": {
+        "damage": 100,
+        "penetrationPower": 13,
+        "armorDamage": 30,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 50,
+        "initialSpeed": 274
+    },
+    ".366 TKM AP-M": {
+        "damage": 90,
+        "penetrationPower": 42,
+        "armorDamage": 60,
+        "accuracyModifier": -28,
+        "recoilModifier": 35,
+        "fragmentationChance": 1,
+        "initialSpeed": 602
+    },
+    "40x46mm M433 (HEDP) grenade": {
+        "damage": 199,
+        "penetrationPower": 1,
+        "armorDamage": 95,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "23x75mm Shrapnel-25 buckshot": {
+        "damage": 78,
+        "penetrationPower": 10,
+        "armorDamage": 20,
+        "accuracyModifier": 20,
+        "recoilModifier": 10,
+        "fragmentationChance": 0,
+        "initialSpeed": 375
+    },
+    ".300 Blackout BCP FMJ": {
+        "damage": 60,
+        "penetrationPower": 30,
+        "armorDamage": 36,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 30,
+        "initialSpeed": 605
+    },
+    ".338 Lapua Magnum FMJ": {
+        "damage": 122,
+        "penetrationPower": 47,
+        "armorDamage": 83,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 900
+    },
+    ".338 Lapua Magnum AP": {
+        "damage": 115,
+        "penetrationPower": 79,
+        "armorDamage": 89,
+        "accuracyModifier": 0,
+        "recoilModifier": 10,
+        "fragmentationChance": 13,
+        "initialSpeed": 849
+    },
+    ".338 Lapua Magnum TAC-X": {
+        "damage": 196,
+        "penetrationPower": 18,
+        "armorDamage": 55,
+        "accuracyModifier": 10,
+        "recoilModifier": -5,
+        "fragmentationChance": 50,
+        "initialSpeed": 880
+    },
+    ".338 Lapua Magnum UCW": {
+        "damage": 142,
+        "penetrationPower": 32,
+        "armorDamage": 70,
+        "accuracyModifier": -5,
+        "recoilModifier": 0,
+        "fragmentationChance": 60,
+        "initialSpeed": 849
+    },
+    ".300 Blackout AP": {
+        "damage": 51,
+        "penetrationPower": 48,
+        "armorDamage": 65,
+        "accuracyModifier": 0,
+        "recoilModifier": 3,
+        "fragmentationChance": 10,
+        "initialSpeed": 635
+    },
+    "5.56x45mm MK 318 Mod 0 (SOST)": {
+        "damage": 55,
+        "penetrationPower": 33,
+        "armorDamage": 39,
+        "accuracyModifier": 2,
+        "recoilModifier": 3,
+        "fragmentationChance": 35,
+        "initialSpeed": 902
+    },
+    "5.56x45mm SSA AP": {
+        "damage": 38,
+        "penetrationPower": 57,
+        "armorDamage": 58,
+        "accuracyModifier": -9,
+        "recoilModifier": 6,
+        "fragmentationChance": 30,
+        "initialSpeed": 1013
+    },
+    "7.62x39mm MAI AP": {
+        "damage": 47,
+        "penetrationPower": 58,
+        "armorDamage": 76,
+        "accuracyModifier": -5,
+        "recoilModifier": 10,
+        "fragmentationChance": 5,
+        "initialSpeed": 875
+    },
+    "5.45x39mm 7N40": {
+        "damage": 52,
+        "penetrationPower": 42,
+        "armorDamage": 45,
+        "accuracyModifier": 50,
+        "recoilModifier": -10,
+        "fragmentationChance": 2,
+        "initialSpeed": 915
+    },
+    "9x39mm PAB-9 gs": {
+        "damage": 62,
+        "penetrationPower": 43,
+        "armorDamage": 57,
+        "accuracyModifier": -15,
+        "recoilModifier": 10,
+        "fragmentationChance": 10,
+        "initialSpeed": 320
+    },
+    ".300 Blackout V-Max": {
+        "damage": 72,
+        "penetrationPower": 20,
+        "armorDamage": 25,
+        "accuracyModifier": 30,
+        "recoilModifier": -10,
+        "fragmentationChance": 25,
+        "initialSpeed": 723
+    },
+    ".300 Whisper": {
+        "damage": 90,
+        "penetrationPower": 14,
+        "armorDamage": 18,
+        "accuracyModifier": 5,
+        "recoilModifier": -5,
+        "fragmentationChance": 35,
+        "initialSpeed": 853
+    },
+    ".300 Blackout M62 Tracer": {
+        "damage": 54,
+        "penetrationPower": 36,
+        "armorDamage": 40,
+        "accuracyModifier": 0,
+        "recoilModifier": 1,
+        "fragmentationChance": 20,
+        "initialSpeed": 442
+    },
+    ".357 Magnum FMJ": {
+        "damage": 70,
+        "penetrationPower": 35,
+        "armorDamage": 43,
+        "accuracyModifier": 0,
+        "recoilModifier": 12,
+        "fragmentationChance": 1,
+        "initialSpeed": 385
+    },
+    ".357 Magnum HP": {
+        "damage": 99,
+        "penetrationPower": 18,
+        "armorDamage": 20,
+        "accuracyModifier": 15,
+        "recoilModifier": 15,
+        "fragmentationChance": 60,
+        "initialSpeed": 481
+    },
+    ".357 Magnum JHP": {
+        "damage": 88,
+        "penetrationPower": 24,
+        "armorDamage": 28,
+        "accuracyModifier": 15,
+        "recoilModifier": 8,
+        "fragmentationChance": 60,
+        "initialSpeed": 425
+    },
+    ".357 Magnum SP": {
+        "damage": 108,
+        "penetrationPower": 12,
+        "armorDamage": 15,
+        "accuracyModifier": 27,
+        "recoilModifier": -29,
+        "fragmentationChance": 20,
+        "initialSpeed": 455
+    },
+    "26x75mm flare cartridge (Green)": {
+        "damage": 37,
+        "penetrationPower": 0,
+        "armorDamage": 60,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 80
+    },
+    "26x75mm flare cartridge (Red)": {
+        "damage": 37,
+        "penetrationPower": 0,
+        "armorDamage": 60,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 80
+    },
+    "26x75mm flare cartridge (White)": {
+        "damage": 37,
+        "penetrationPower": 0,
+        "armorDamage": 60,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 80
+    },
+    "26x75mm flare cartridge (Yellow)": {
+        "damage": 37,
+        "penetrationPower": 0,
+        "armorDamage": 60,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 80
+    },
+    "26x75mm distress signal flare (Poison Green)": {
+        "damage": 37,
+        "penetrationPower": 0,
+        "armorDamage": 60,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 80
+    },
+    "4.6x30mm JSP SX": {
+        "damage": 46,
+        "penetrationPower": 32,
+        "armorDamage": 37,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 30,
+        "initialSpeed": 579
+    },
+    "7.62x39mm PP gzh": {
+        "damage": 55,
+        "penetrationPower": 41,
+        "armorDamage": 57,
+        "accuracyModifier": -1,
+        "recoilModifier": 5,
+        "fragmentationChance": 15,
+        "initialSpeed": 732
+    },
+    "7.62x39mm FMJ": {
+        "damage": 63,
+        "penetrationPower": 26,
+        "armorDamage": 33,
+        "accuracyModifier": 2,
+        "recoilModifier": -2,
+        "fragmentationChance": 30,
+        "initialSpeed": 775
+    },
+    "7.62x39mm SP": {
+        "damage": 68,
+        "penetrationPower": 20,
+        "armorDamage": 27,
+        "accuracyModifier": 5,
+        "recoilModifier": -5,
+        "fragmentationChance": 35,
+        "initialSpeed": 772
+    },
+    "9x19mm FMJ M882": {
+        "damage": 56,
+        "penetrationPower": 18,
+        "armorDamage": 35,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 385
+    },
+    ".300 Blackout CBJ": {
+        "damage": 58,
+        "penetrationPower": 43,
+        "armorDamage": 57,
+        "accuracyModifier": 0,
+        "recoilModifier": 5,
+        "fragmentationChance": 15,
+        "initialSpeed": 725
+    },
+    "12/70 Piranha": {
+        "damage": 25,
+        "penetrationPower": 24,
+        "armorDamage": 22,
+        "accuracyModifier": -5,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 310
+    },
+    "7.62x54mm R FMJ": {
+        "damage": 84,
+        "penetrationPower": 33,
+        "armorDamage": 63,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 760
+    },
+    "7.62x54mm R SP BT": {
+        "damage": 92,
+        "penetrationPower": 27,
+        "armorDamage": 56,
+        "accuracyModifier": 7,
+        "recoilModifier": 0,
+        "fragmentationChance": 24,
+        "initialSpeed": 703
+    },
+    "7.62x54mm R HP BT": {
+        "damage": 102,
+        "penetrationPower": 23,
+        "armorDamage": 37,
+        "accuracyModifier": 10,
+        "recoilModifier": 0,
+        "fragmentationChance": 40,
+        "initialSpeed": 807
+    },
+    "6.8x51mm SIG Hybrid": {
+        "damage": 72,
+        "penetrationPower": 47,
+        "armorDamage": 58,
+        "accuracyModifier": 3,
+        "recoilModifier": 10,
+        "fragmentationChance": 12,
+        "initialSpeed": 914
+    },
+    "6.8x51mm SIG FMJ": {
+        "damage": 80,
+        "penetrationPower": 36,
+        "armorDamage": 49,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 18,
+        "initialSpeed": 899
+    },
+    "9x21mm 7N42 \"Zubilo\"": {
+        "damage": 45,
+        "penetrationPower": 38,
+        "armorDamage": 47,
+        "accuracyModifier": -3,
+        "recoilModifier": 10,
+        "fragmentationChance": 10,
+        "initialSpeed": 400
+    },
+    "9x21mm 7U4": {
+        "damage": 47,
+        "penetrationPower": 27,
+        "armorDamage": 44,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 300
+    },
+    "9x39mm FMJ": {
+        "damage": 75,
+        "penetrationPower": 17,
+        "armorDamage": 28,
+        "accuracyModifier": 5,
+        "recoilModifier": -5,
+        "fragmentationChance": 30,
+        "initialSpeed": 330
+    }
+}

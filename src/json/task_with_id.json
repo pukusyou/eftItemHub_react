@@ -2040,7 +2040,7 @@
                 "item2": {
                     "full_name": "CPU fan",
                     "name": "CPU fan",
-                    "num": 8,
+                    "num": 15,
                     "inRaid": true,
                     "img": "/img/Mechanic/CPU_fan.webp",
                     "category": "loot"
