@@ -12,6 +12,7 @@ const TopPageAll = () => {
                 <TopImage />
                 {/* <TopMenuBar /> */}
                 <TopTitleBar title={"更新履歴"} />
+                <TopUpdateBar title={"Hideoutの情報を更新"} date={"2024/12/27"} content={"現時点の情報に更新しました。"} />
                 <TopUpdateBar title={"インレイド品のみ表示機能追加"} date={"2024/1/8"} content={"アイテム一覧画面で設定から選択することが出来ます。"} />
                 <TopUpdateBar title={"Hideoutの言語切替機能追加"} date={"2024/1/8"} content={"設備の名前を日本語・英語切り替えることができるようになりました。"} />
                 <TopUpdateBar title={"新しい弾薬追加、弾薬ページのバグ修正"} date={"2023/8/14"} content={"弾薬がすべて表示されないバグを修正しました。"} />

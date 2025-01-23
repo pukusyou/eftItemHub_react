@@ -785,6 +785,12 @@
 					"name": "PSU",
 					"num": 5,
 					"img": "/img/Bitcoin Farm/Power_supply_unit.webp"
+				},
+				"item5": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 7,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
 				}
 			}
 		}
@@ -1079,38 +1085,20 @@
 				"item1": {
 					"full_name": "Metal spare parts",
 					"name": "M.parts",
-					"num": 2,
+					"num": 1,
 					"img": "/img/Booze Generator/Metal_spare_parts.webp"
 				},
 				"item2": {
-					"full_name": "A pack of screws",
-					"name": "Screws",
-					"num": 2,
-					"img": "/img/Lavatory/A_pack_of_screws.webp"
-				},
-				"item3": {
-					"full_name": "Duct tape",
-					"name": "Duct tape",
-					"num": 3,
-					"img": "/img/Water collector/Duct_tape.webp"
-				},
-				"item4": {
 					"full_name": "Bolts",
 					"name": "Bolts",
-					"num": 5,
+					"num": 1,
 					"img": "/img/Water collector/Bolts.webp"
 				},
-				"item5": {
+				"item3": {
 					"full_name": "Screw nut",
 					"name": "Screw nut",
-					"num": 5,
+					"num": 1,
 					"img": "/img/Water collector/Screw_nut.webp"
-				},
-				"item6": {
-					"full_name": "A pack of nails",
-					"name": "Nails",
-					"num": 4,
-					"img": "/img/Shooting range/A_pack_of_nails.webp"
 				}
 			}
 		},
@@ -1274,6 +1262,10 @@
 		}
 	},
 	"Vents": {
+		"Vents Lv1": {
+			"items": {
+			}
+		},
 		"Vents Lv2": {
 			"items": {
 				"item1": {
@@ -1338,6 +1330,10 @@
 		}
 	},
 	"Stash": {
+		"Stash Lv1": {
+			"items": {
+			}
+		},
 		"Stash Lv2": {
 			"items": {
 				"item1": {
@@ -1418,6 +1414,10 @@
 		}
 	},
 	"Defective wall": {
+		"Defective wall Lv1": {
+			"items": {
+			}
+		},
 		"Defective wall Lv2": {
 			"items": {
 				"item1": {
@@ -1732,6 +1732,340 @@
 					"num": 1,
 					"img": "/img/Workbench/FireKlean_gun_lube.webp"
 				}
+			}
+		}
+	},
+	"Cultist Circle": {
+		"Cultist Circle Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "PAID AntiRoach spray",
+					"name": "PAID",
+					"num": 1,
+					"img": "/img/Cultist_Circle/PAID.webp"
+				},
+				"item2": {
+					"full_name": "Light bulb",
+					"name": "Bulb",
+					"num": 5,
+					"img": "/img/Illumination/Light_bulb.webp"
+				},
+				"item3": {
+					"full_name": "Can of white salt",
+					"name": "Salt",
+					"num": 3,
+					"img": "/img/Nutrition Unit/Can_of_white_salt.webp"
+				},
+				"item4": {
+					"full_name": "SurvL Survivor Lighter",
+					"name": "SurvL",
+					"num": 1,
+					"img": "/img/Cultist_Circle/SurvL.webp"
+				},
+				"item5": {
+					"full_name": "Construction measuring tape",
+					"name": "Mtape",
+					"num": 1,
+					"img": "/img/Security/Construction_measuring_tape.webp"
+				},
+				"item6": {
+					"full_name": "WI-FI Camera",
+					"name": "Camera",
+					"num": 1,
+					"img": "/img/Shooting range/WIFI_Camera.webp"
+				}
+			}
+		}
+	},
+	"Gear Rack": {
+		"Gear Rack Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Electric drill",
+					"name": "Drill",
+					"num": 1,
+					"img": "/img/Lavatory/Electric_drill.webp"
+				},
+				"item2": {
+					"full_name": "Sewing kit",
+					"name": "Krasavch.",
+					"num": 1,
+					"img": "/img/Lavatory/Sewing_kit.webp"
+				},
+				"item3": {
+					"full_name": "Awl",
+					"name": "Awl",
+					"num": 1,
+					"img": "/img/Lavatory/Awl.webp"
+				},
+				"item4": {
+					"full_name": "Leatherman Multitool",
+					"name": "tools",
+					"num": 1,
+					"img": "/img/Workbench/Leatherman_Multitool.webp"
+				},
+				"item5": {
+					"full_name": "Bolts",
+					"name": "Bolts",
+					"num": 15,
+					"img": "/img/Water collector/Bolts.webp"
+				},
+				"item6": {
+					"full_name": "Fleece cloth",
+					"name": "Fleece",
+					"num": 10,
+					"img": "/img/Ragman/Fleece_cloth.webp"
+				},
+				"item7": {
+					"full_name": "Energy-saving lamp",
+					"name": "ES Lamp",
+					"num": 8,
+					"img": "/img/Illumination/Energy-saving_lamp.webp"
+				}
+			}
+		},
+		"Gear Rack Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Electric drill",
+					"name": "Drill",
+					"num": 1,
+					"img": "/img/Lavatory/Electric_drill.webp"
+				},
+				"item2": {
+					"full_name": "Duct tape",
+					"name": "Duct tape",
+					"num": 5,
+					"img": "/img/Water collector/Duct_tape.webp"
+				},
+				"item3": {
+					"full_name": "Shustrilo sealing foam",
+					"name": "Shus",
+					"num": 3,
+					"img": "/img/Water collector/Shustrilo_sealing_foam.webp"
+				},
+				"item4": {
+					"full_name": "A pack of nails",
+					"name": "Nails",
+					"num": 8,
+					"img": "/img/Shooting range/A_pack_of_nails.webp"
+				},
+				"item5": {
+					"full_name": "Energy-saving lamp",
+					"name": "ES Lamp",
+					"num": 12,
+					"img": "/img/Illumination/Energy-saving_lamp.webp"
+				},
+				"item6": {
+                    "full_name": "Aramid fiber cloth",
+                    "name": "Aramid",
+                    "num": 10,
+                    "img": "/img/Ragman/Aramid_fiber_cloth.webp"
+                },
+				"item7": {
+					"full_name": "Wrench",
+					"name": "Wrench",
+					"num": 4,
+					"img": "/img/Nutrition Unit/Wrench.webp"
+				}
+			}
+		},
+		"Gear Rack Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Body armor repair kit",
+					"name": "Armor repair kit",
+					"num": 1,
+					"img": "/img/Gear_Rack/ArmorRepairKit.webp"
+				},
+                "item2": {
+                    "full_name": "Polyamide fabric Cordura",
+                    "name": "Cordura",
+                    "num": 10,
+                    "img": "/img/Ragman/Polyamide_fabric_Cordura.webp"
+                },
+				"item3": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 15,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
+				},
+				"item4": {
+					"full_name": "KEKTAPE duct tape",
+					"name": "KEK",
+					"num": 5,
+					"img": "/img/Lavatory/KEKTAPE_duct_tape.webp"
+				},
+				"item5": {
+					"full_name": "Energy-saving lamp",
+					"name": "ES Lamp",
+					"num": 15,
+					"img": "/img/Illumination/Energy-saving_lamp.webp"
+				},
+				"item6": {
+					"full_name": "Set of files Master",
+					"name": "Master",
+					"num": 1,
+					"img": "/img/Workbench/Set_of_files_Master.webp"
+				},
+				"item7": {
+					"full_name": "Ratchet wrench",
+					"name": "Ratch.",
+					"num": 1,
+					"img": "/img/Stash/Ratchet_wrench.webp"
+				}
+			}
+		}
+	},
+	"Hall of Fame": {
+		"Hall of Fame Lv1": {
+			"items": {
+				"item1": {
+					"full_name": "Insulating tape",
+					"name": "Tape",
+					"num": 2,
+					"img": "/img/Stash/tape.webp"
+				},
+				"item2": {
+					"full_name": "A pack of nails",
+					"name": "Nails",
+					"num": 5,
+					"img": "/img/Shooting range/A_pack_of_nails.webp"
+				},
+				"item3": {
+					"full_name": "Light bulb",
+					"name": "Bulb",
+					"num": 5,
+					"img": "/img/Illumination/Light_bulb.webp"
+				},
+                "item4": {
+                    "full_name": "Cat figurine",
+                    "name": "Cat",
+                    "num": 1,
+                    "img": "/img/Ragman/Cat_figurine.webp"
+                },
+				"item5": {
+					"full_name": "Fleece cloth",
+					"name": "Fleece",
+					"num": 5,
+					"img": "/img/Ragman/Fleece_cloth.webp"
+				},
+				"item6": {
+					"full_name": "Round pliers",
+					"name": "RPliers",
+					"num": 1,
+					"img": "/img/Hall of Fame/RoundPliers.webp"
+				}
+			}
+		},
+		"Hall of Fame Lv2": {
+			"items": {
+				"item1": {
+					"full_name": "Tech manual",
+					"name": "Manual",
+					"num": 1,
+					"img": "/img/Library/Tech_manual.webp"
+				},
+				"item2": {
+					"full_name": "Pliers Elite",
+					"name": "Pliers",
+					"num": 1,
+					"img": "/img/Water collector/Pliers_Elite.webp"
+				},
+				"item3": {
+					"full_name": "A set of tools",
+					"name": "Set",
+					"num": 1,
+					"img": "/img/Lavatory/A_set_of_tools.webp"
+				},
+				"item4": {
+					"full_name": "Golden rooster",
+					"name": "Rooster",
+					"num": 1,
+					"img": "/img/Scav case/Golden_rooster.webp"
+				},
+				"item5": {
+					"full_name": "Energy-saving lamp",
+					"name": "ES Lamp",
+					"num": 10,
+					"img": "/img/Illumination/Energy-saving_lamp.webp"
+				},
+				"item6": {
+					"full_name": "A pack of screws",
+					"name": "Screws",
+					"num": 5,
+					"img": "/img/Lavatory/A_pack_of_screws.webp"
+				},
+				"item7": {
+					"full_name": "Duct tape",
+					"name": "Duct tape",
+					"num": 3,
+					"img": "/img/Water collector/Duct_tape.webp"
+				},
+				"item8": {
+					"full_name": "Xenomorph sealing foam",
+					"name": "Xeno",
+					"num": 2,
+					"img": "/img/Lavatory/Xenomorph_sealing_foam.webp"
+				},
+				"item9": {
+					"full_name": "Tube of Poxeram Cold Welding",
+					"name": "Poxeram",
+					"num": 2,
+					"img": "/img/Shooting range/Tube_of_Poxeram_Cold_Welding.webp"
+				}
+			}
+		},
+		"Hall of Fame Lv3": {
+			"items": {
+				"item1": {
+					"full_name": "Set of files Master",
+					"name": "Master",
+					"num": 1,
+					"img": "/img/Workbench/Set_of_files_Master.webp"
+				},
+				"item2": {
+					"full_name": "Electric drill",
+					"name": "Drill",
+					"num": 1,
+					"img": "/img/Lavatory/Electric_drill.webp"
+				},
+				"item3": {
+					"full_name": "Bronze lion",
+					"name": "Lion",
+					"num": 1,
+					"img": "/img/Scav case/Bronze_lion.webp"
+				},
+				"item4": {
+					"full_name": "Energy-saving lamp",
+					"name": "ES Lamp",
+					"num": 15,
+					"img": "/img/Illumination/Energy-saving_lamp.webp"
+				},
+				"item5": {
+					"full_name": "KEKTAPE duct tape",
+					"name": "KEK",
+					"num": 3,
+					"img": "/img/Lavatory/KEKTAPE_duct_tape.webp"
+				},
+				"item6": {
+					"full_name": "T-Shaped Plug",
+					"name": "T-Plug",
+					"num": 3,
+					"img": "/img/Bitcoin Farm/T-Shaped_Plug.webp"
+				},
+				"item7": {
+					"full_name": "Metal spare parts",
+					"name": "M.parts",
+					"num": 15,
+					"img": "/img/Booze Generator/Metal_spare_parts.webp"
+				},
+				"item8": {
+                    "full_name": "Powercord",
+                    "name": "Cord",
+                    "num": 5,
+                    "img": "/img/Mechanic/Power_cord.webp"
+                }
 			}
 		}
 	}

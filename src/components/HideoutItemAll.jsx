@@ -139,7 +139,7 @@ function makeTags(flag) {
                 task["name"] = task["name"].replace(key, jp[key])
             })
         })
-        
+
         tagList.push(
             <Item itemName={data[1]} img={data[3]} num={"x" + data[2]}
                 tasks={data[4]} key={data[0]} />
