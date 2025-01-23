@@ -1,0 +1,1732 @@
+{
+    "5.56x45mm M855": {
+        "iconLink": "https://assets.tarkov.dev/54527a984bdc2d4e668b4567-icon.webp",
+        "damage": 57,
+        "penetrationPower": 31,
+        "armorDamage": 37,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 50,
+        "initialSpeed": 922
+    },
+    "5.56x45mm M855A1": {
+        "iconLink": "https://assets.tarkov.dev/54527ac44bdc2d36668b4567-icon.webp",
+        "damage": 49,
+        "penetrationPower": 44,
+        "armorDamage": 47,
+        "accuracyModifier": -5,
+        "recoilModifier": 5,
+        "fragmentationChance": 44,
+        "initialSpeed": 945
+    },
+    "12/70 7mm buckshot": {
+        "iconLink": "https://assets.tarkov.dev/560d5e524bdc2d25448b4571-icon.webp",
+        "damage": 39,
+        "penetrationPower": 3,
+        "armorDamage": 26,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 415
+    },
+    "7.62x54mm R SNB gzh": {
+        "iconLink": "https://assets.tarkov.dev/560d61e84bdc2da74d8b4571-icon.webp",
+        "damage": 75,
+        "penetrationPower": 62,
+        "armorDamage": 87,
+        "accuracyModifier": 0,
+        "recoilModifier": 10,
+        "fragmentationChance": 8,
+        "initialSpeed": 875
+    },
+    "7.62x39mm PS gzh": {
+        "iconLink": "https://assets.tarkov.dev/5656d7c34bdc2d9d198b4587-icon.webp",
+        "damage": 57,
+        "penetrationPower": 35,
+        "armorDamage": 52,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 717
+    },
+    "40mm VOG-25 grenade": {
+        "iconLink": "https://assets.tarkov.dev/5656eb674bdc2d35148b457c-icon.webp",
+        "damage": 199,
+        "penetrationPower": 0,
+        "armorDamage": 68,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "9x19mm Pst gzh": {
+        "iconLink": "https://assets.tarkov.dev/56d59d3ad2720bdb418b4577-icon.webp",
+        "damage": 54,
+        "penetrationPower": 20,
+        "armorDamage": 33,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 15,
+        "initialSpeed": 457
+    },
+    "5.45x39mm BP gs": {
+        "iconLink": "https://assets.tarkov.dev/56dfef82d2720bbd668b4567-icon.webp",
+        "damage": 46,
+        "penetrationPower": 45,
+        "armorDamage": 46,
+        "accuracyModifier": -3,
+        "recoilModifier": 7,
+        "fragmentationChance": 16,
+        "initialSpeed": 890
+    },
+    "5.45x39mm BS gs": {
+        "iconLink": "https://assets.tarkov.dev/56dff026d2720bb8668b4567-icon.webp",
+        "damage": 43,
+        "penetrationPower": 54,
+        "armorDamage": 57,
+        "accuracyModifier": -4,
+        "recoilModifier": 10,
+        "fragmentationChance": 17,
+        "initialSpeed": 830
+    },
+    "5.45x39mm BT gs": {
+        "iconLink": "https://assets.tarkov.dev/56dff061d2720bb5668b4567-icon.webp",
+        "damage": 48,
+        "penetrationPower": 37,
+        "armorDamage": 44,
+        "accuracyModifier": -4,
+        "recoilModifier": 5,
+        "fragmentationChance": 16,
+        "initialSpeed": 880
+    },
+    "5.45x39mm FMJ": {
+        "iconLink": "https://assets.tarkov.dev/56dff0bed2720bb0668b4567-icon.webp",
+        "damage": 55,
+        "penetrationPower": 24,
+        "armorDamage": 38,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 884
+    },
+    "5.45x39mm HP": {
+        "iconLink": "https://assets.tarkov.dev/56dff216d2720bbd668b4568-icon.webp",
+        "damage": 76,
+        "penetrationPower": 9,
+        "armorDamage": 15,
+        "accuracyModifier": 3,
+        "recoilModifier": -3,
+        "fragmentationChance": 35,
+        "initialSpeed": 884
+    },
+    "5.45x39mm PP gs": {
+        "iconLink": "https://assets.tarkov.dev/56dff2ced2720bb4668b4567-icon.webp",
+        "damage": 50,
+        "penetrationPower": 34,
+        "armorDamage": 42,
+        "accuracyModifier": -2,
+        "recoilModifier": 3,
+        "fragmentationChance": 17,
+        "initialSpeed": 886
+    },
+    "5.45x39mm PRS gs": {
+        "iconLink": "https://assets.tarkov.dev/56dff338d2720bbd668b4569-icon.webp",
+        "damage": 70,
+        "penetrationPower": 13,
+        "armorDamage": 24,
+        "accuracyModifier": 0,
+        "recoilModifier": -5,
+        "fragmentationChance": 30,
+        "initialSpeed": 866
+    },
+    "5.45x39mm PS gs": {
+        "iconLink": "https://assets.tarkov.dev/56dff3afd2720bba668b4567-icon.webp",
+        "damage": 53,
+        "penetrationPower": 28,
+        "armorDamage": 40,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 40,
+        "initialSpeed": 890
+    },
+    "5.45x39mm SP": {
+        "iconLink": "https://assets.tarkov.dev/56dff421d2720b5f5a8b4567-icon.webp",
+        "damage": 65,
+        "penetrationPower": 15,
+        "armorDamage": 31,
+        "accuracyModifier": 5,
+        "recoilModifier": -5,
+        "fragmentationChance": 45,
+        "initialSpeed": 873
+    },
+    "5.45x39mm T gs": {
+        "iconLink": "https://assets.tarkov.dev/56dff4a2d2720bbd668b456a-icon.webp",
+        "damage": 57,
+        "penetrationPower": 20,
+        "armorDamage": 36,
+        "accuracyModifier": -3,
+        "recoilModifier": 0,
+        "fragmentationChance": 16,
+        "initialSpeed": 883
+    },
+    "5.45x39mm US gs": {
+        "iconLink": "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-icon.webp",
+        "damage": 63,
+        "penetrationPower": 17,
+        "armorDamage": 33,
+        "accuracyModifier": 0,
+        "recoilModifier": -15,
+        "fragmentationChance": 10,
+        "initialSpeed": 303
+    },
+    "7.62x25mm TT AKBS": {
+        "iconLink": "https://assets.tarkov.dev/5735fdcd2459776445391d61-icon.webp",
+        "damage": 58,
+        "penetrationPower": 12,
+        "armorDamage": 32,
+        "accuracyModifier": 15,
+        "recoilModifier": -15,
+        "fragmentationChance": 25,
+        "initialSpeed": 425
+    },
+    "7.62x25mm TT FMJ43": {
+        "iconLink": "https://assets.tarkov.dev/5735ff5c245977640e39ba7e-icon.webp",
+        "damage": 60,
+        "penetrationPower": 11,
+        "armorDamage": 29,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 427
+    },
+    "7.62x25mm TT LRN": {
+        "iconLink": "https://assets.tarkov.dev/573601b42459776410737435-icon.webp",
+        "damage": 64,
+        "penetrationPower": 8,
+        "armorDamage": 28,
+        "accuracyModifier": 5,
+        "recoilModifier": -5,
+        "fragmentationChance": 35,
+        "initialSpeed": 375
+    },
+    "7.62x25mm TT LRNPC": {
+        "iconLink": "https://assets.tarkov.dev/573602322459776445391df1-icon.webp",
+        "damage": 66,
+        "penetrationPower": 7,
+        "armorDamage": 27,
+        "accuracyModifier": 10,
+        "recoilModifier": -10,
+        "fragmentationChance": 35,
+        "initialSpeed": 385
+    },
+    "7.62x25mm TT P gl": {
+        "iconLink": "https://assets.tarkov.dev/5736026a245977644601dc61-icon.webp",
+        "damage": 58,
+        "penetrationPower": 14,
+        "armorDamage": 32,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 430
+    },
+    "7.62x25mm TT Pst gzh": {
+        "iconLink": "https://assets.tarkov.dev/573603562459776430731618-icon.webp",
+        "damage": 50,
+        "penetrationPower": 25,
+        "armorDamage": 36,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 430
+    },
+    "7.62x25mm TT PT gzh": {
+        "iconLink": "https://assets.tarkov.dev/573603c924597764442bd9cb-icon.webp",
+        "damage": 55,
+        "penetrationPower": 18,
+        "armorDamage": 34,
+        "accuracyModifier": -10,
+        "recoilModifier": 0,
+        "fragmentationChance": 17,
+        "initialSpeed": 415
+    },
+    "9x18mm PM BZhT gzh": {
+        "iconLink": "https://assets.tarkov.dev/573718ba2459775a75491131-icon.webp",
+        "damage": 53,
+        "penetrationPower": 18,
+        "armorDamage": 28,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 17,
+        "initialSpeed": 325
+    },
+    "9x18mm PM P gzh": {
+        "iconLink": "https://assets.tarkov.dev/573719762459775a626ccbc1-icon.webp",
+        "damage": 50,
+        "penetrationPower": 5,
+        "armorDamage": 16,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 302
+    },
+    "9x18mm PM PBM gzh": {
+        "iconLink": "https://assets.tarkov.dev/573719df2459775a626ccbc2-icon.webp",
+        "damage": 40,
+        "penetrationPower": 28,
+        "armorDamage": 30,
+        "accuracyModifier": 0,
+        "recoilModifier": 4,
+        "fragmentationChance": 16,
+        "initialSpeed": 519
+    },
+    "9x18mm PMM PstM gzh": {
+        "iconLink": "https://assets.tarkov.dev/57371aab2459775a77142f22-icon.webp",
+        "damage": 58,
+        "penetrationPower": 24,
+        "armorDamage": 33,
+        "accuracyModifier": 0,
+        "recoilModifier": 5,
+        "fragmentationChance": 17,
+        "initialSpeed": 420
+    },
+    "9x18mm PM PPe gzh": {
+        "iconLink": "https://assets.tarkov.dev/57371b192459775a9f58a5e0-icon.webp",
+        "damage": 61,
+        "penetrationPower": 7,
+        "armorDamage": 15,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 35,
+        "initialSpeed": 297
+    },
+    "9x18mm PM PPT gzh": {
+        "iconLink": "https://assets.tarkov.dev/57371e4124597760ff7b25f1-icon.webp",
+        "damage": 59,
+        "penetrationPower": 8,
+        "armorDamage": 22,
+        "accuracyModifier": -5,
+        "recoilModifier": -7,
+        "fragmentationChance": 17,
+        "initialSpeed": 301
+    },
+    "9x18mm PM PRS gs": {
+        "iconLink": "https://assets.tarkov.dev/57371eb62459776125652ac1-icon.webp",
+        "damage": 58,
+        "penetrationPower": 6,
+        "armorDamage": 16,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 30,
+        "initialSpeed": 302
+    },
+    "9x18mm PM PS gs PPO": {
+        "iconLink": "https://assets.tarkov.dev/57371f2b24597761224311f1-icon.webp",
+        "damage": 55,
+        "penetrationPower": 6,
+        "armorDamage": 16,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 330
+    },
+    "9x18mm PM PSO gzh": {
+        "iconLink": "https://assets.tarkov.dev/57371f8d24597761006c6a81-icon.webp",
+        "damage": 54,
+        "penetrationPower": 5,
+        "armorDamage": 13,
+        "accuracyModifier": 10,
+        "recoilModifier": 0,
+        "fragmentationChance": 35,
+        "initialSpeed": 315
+    },
+    "9x18mm PM Pst gzh": {
+        "iconLink": "https://assets.tarkov.dev/5737201124597760fc4431f1-icon.webp",
+        "damage": 50,
+        "penetrationPower": 12,
+        "armorDamage": 26,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 298
+    },
+    "9x18mm PM PSV": {
+        "iconLink": "https://assets.tarkov.dev/5737207f24597760ff7b25f2-icon.webp",
+        "damage": 69,
+        "penetrationPower": 3,
+        "armorDamage": 5,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 40,
+        "initialSpeed": 280
+    },
+    "9x18mm PM RG028 gzh": {
+        "iconLink": "https://assets.tarkov.dev/573720e02459776143012541-icon.webp",
+        "damage": 65,
+        "penetrationPower": 13,
+        "armorDamage": 26,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 2,
+        "initialSpeed": 330
+    },
+    "9x18mm PM SP7 gzh": {
+        "iconLink": "https://assets.tarkov.dev/57372140245977611f70ee91-icon.webp",
+        "damage": 77,
+        "penetrationPower": 2,
+        "armorDamage": 5,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 2,
+        "initialSpeed": 420
+    },
+    "9x18mm PM SP8 gzh": {
+        "iconLink": "https://assets.tarkov.dev/5737218f245977612125ba51-icon.webp",
+        "damage": 67,
+        "penetrationPower": 1,
+        "armorDamage": 2,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 60,
+        "initialSpeed": 250
+    },
+    "9x39mm SP-5 gs": {
+        "iconLink": "https://assets.tarkov.dev/57a0dfb82459774d3078b56c-icon.webp",
+        "damage": 71,
+        "penetrationPower": 28,
+        "armorDamage": 39,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 290
+    },
+    "9x39mm SP-6 gs": {
+        "iconLink": "https://assets.tarkov.dev/57a0e5022459774d1673f889-icon.webp",
+        "damage": 60,
+        "penetrationPower": 48,
+        "armorDamage": 64,
+        "accuracyModifier": 0,
+        "recoilModifier": 5,
+        "fragmentationChance": 10,
+        "initialSpeed": 305
+    },
+    "12/70 lead slug": {
+        "iconLink": "https://assets.tarkov.dev/58820d1224597753c90aeb13-icon.webp",
+        "damage": 167,
+        "penetrationPower": 15,
+        "armorDamage": 55,
+        "accuracyModifier": 120,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 370
+    },
+    "9x19mm PSO gzh": {
+        "iconLink": "https://assets.tarkov.dev/58864a4f2459770fcc257101-icon.webp",
+        "damage": 59,
+        "penetrationPower": 10,
+        "armorDamage": 32,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 340
+    },
+    "7.62x54mm R LPS gzh": {
+        "iconLink": "https://assets.tarkov.dev/5887431f2459777e1612938f-icon.webp",
+        "damage": 81,
+        "penetrationPower": 42,
+        "armorDamage": 78,
+        "accuracyModifier": -5,
+        "recoilModifier": 0,
+        "fragmentationChance": 18,
+        "initialSpeed": 865
+    },
+    "7.62x51mm M80": {
+        "iconLink": "https://assets.tarkov.dev/58dd3ad986f77403051cba8f-icon.webp",
+        "damage": 80,
+        "penetrationPower": 41,
+        "armorDamage": 66,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 17,
+        "initialSpeed": 833
+    },
+    "7.62x39mm BP gzh": {
+        "iconLink": "https://assets.tarkov.dev/59e0d99486f7744a32234762-icon.webp",
+        "damage": 58,
+        "penetrationPower": 47,
+        "armorDamage": 63,
+        "accuracyModifier": -3,
+        "recoilModifier": 7,
+        "fragmentationChance": 12,
+        "initialSpeed": 730
+    },
+    "7.62x39mm T-45M1 gzh": {
+        "iconLink": "https://assets.tarkov.dev/59e4cf5286f7741778269d8a-icon.webp",
+        "damage": 64,
+        "penetrationPower": 30,
+        "armorDamage": 46,
+        "accuracyModifier": -4,
+        "recoilModifier": -6,
+        "fragmentationChance": 12,
+        "initialSpeed": 720
+    },
+    "7.62x39mm US gzh": {
+        "iconLink": "https://assets.tarkov.dev/59e4d24686f7741776641ac7-icon.webp",
+        "damage": 56,
+        "penetrationPower": 29,
+        "armorDamage": 42,
+        "accuracyModifier": 5,
+        "recoilModifier": -30,
+        "fragmentationChance": 8,
+        "initialSpeed": 301
+    },
+    "7.62x39mm HP": {
+        "iconLink": "https://assets.tarkov.dev/59e4d3d286f774176a36250a-icon.webp",
+        "damage": 87,
+        "penetrationPower": 15,
+        "armorDamage": 20,
+        "accuracyModifier": -5,
+        "recoilModifier": 5,
+        "fragmentationChance": 40,
+        "initialSpeed": 754
+    },
+    ".366 TKM FMJ": {
+        "iconLink": "https://assets.tarkov.dev/59e6542b86f77411dc52a77a-icon.webp",
+        "damage": 98,
+        "penetrationPower": 23,
+        "armorDamage": 48,
+        "accuracyModifier": 0,
+        "recoilModifier": 10,
+        "fragmentationChance": 25,
+        "initialSpeed": 580
+    },
+    ".366 TKM EKO": {
+        "iconLink": "https://assets.tarkov.dev/59e655cb86f77411dc52a77b-icon.webp",
+        "damage": 73,
+        "penetrationPower": 30,
+        "armorDamage": 40,
+        "accuracyModifier": -10,
+        "recoilModifier": -15,
+        "fragmentationChance": 20,
+        "initialSpeed": 770
+    },
+    ".366 TKM Geksa": {
+        "iconLink": "https://assets.tarkov.dev/59e6658b86f77411d949b250-icon.webp",
+        "damage": 110,
+        "penetrationPower": 14,
+        "armorDamage": 38,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 45,
+        "initialSpeed": 550
+    },
+    "5.56x45mm M856": {
+        "iconLink": "https://assets.tarkov.dev/59e68f6f86f7746c9f75e846-icon.webp",
+        "damage": 64,
+        "penetrationPower": 18,
+        "armorDamage": 26,
+        "accuracyModifier": -2,
+        "recoilModifier": -2,
+        "fragmentationChance": 33,
+        "initialSpeed": 874
+    },
+    "5.56x45mm M856A1": {
+        "iconLink": "https://assets.tarkov.dev/59e6906286f7746c9f75e847-icon.webp",
+        "damage": 52,
+        "penetrationPower": 38,
+        "armorDamage": 44,
+        "accuracyModifier": -4,
+        "recoilModifier": 4,
+        "fragmentationChance": 43,
+        "initialSpeed": 940
+    },
+    "5.56x45mm M995": {
+        "iconLink": "https://assets.tarkov.dev/59e690b686f7746c9f75e848-icon.webp",
+        "damage": 42,
+        "penetrationPower": 53,
+        "armorDamage": 52,
+        "accuracyModifier": -7,
+        "recoilModifier": 8,
+        "fragmentationChance": 42,
+        "initialSpeed": 1013
+    },
+    "5.56x45mm MK 255 Mod 0 (RRLP)": {
+        "iconLink": "https://assets.tarkov.dev/59e6918f86f7746c9f75e849-icon.webp",
+        "damage": 72,
+        "penetrationPower": 11,
+        "armorDamage": 24,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 3,
+        "initialSpeed": 936
+    },
+    "5.56x45mm FMJ": {
+        "iconLink": "https://assets.tarkov.dev/59e6920f86f77411d82aa167-icon.webp",
+        "damage": 59,
+        "penetrationPower": 23,
+        "armorDamage": 33,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 50,
+        "initialSpeed": 957
+    },
+    "5.56x45mm HP": {
+        "iconLink": "https://assets.tarkov.dev/59e6927d86f77411da468256-icon.webp",
+        "damage": 79,
+        "penetrationPower": 7,
+        "armorDamage": 22,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 70,
+        "initialSpeed": 947
+    },
+    "7.62x54mm R PS gzh": {
+        "iconLink": "https://assets.tarkov.dev/59e77a2386f7742ee578960a-icon.webp",
+        "damage": 84,
+        "penetrationPower": 45,
+        "armorDamage": 84,
+        "accuracyModifier": 10,
+        "recoilModifier": 8,
+        "fragmentationChance": 8,
+        "initialSpeed": 875
+    },
+    "9x21mm PS gzh": {
+        "iconLink": "https://assets.tarkov.dev/5a269f97c4a282000b151807-icon.webp",
+        "damage": 54,
+        "penetrationPower": 22,
+        "armorDamage": 39,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 410
+    },
+    "9x21mm P gzh": {
+        "iconLink": "https://assets.tarkov.dev/5a26abfac4a28232980eabff-icon.webp",
+        "damage": 65,
+        "penetrationPower": 18,
+        "armorDamage": 44,
+        "accuracyModifier": 1,
+        "recoilModifier": -3,
+        "fragmentationChance": 30,
+        "initialSpeed": 413
+    },
+    "9x21mm PE gzh": {
+        "iconLink": "https://assets.tarkov.dev/5a26ac06c4a282000c5a90a8-icon.webp",
+        "damage": 80,
+        "penetrationPower": 15,
+        "armorDamage": 63,
+        "accuracyModifier": 3,
+        "recoilModifier": -5,
+        "fragmentationChance": 35,
+        "initialSpeed": 415
+    },
+    "9x21mm BT gzh": {
+        "iconLink": "https://assets.tarkov.dev/5a26ac0ec4a28200741e1e18-icon.webp",
+        "damage": 49,
+        "penetrationPower": 32,
+        "armorDamage": 42,
+        "accuracyModifier": -5,
+        "recoilModifier": 5,
+        "fragmentationChance": 20,
+        "initialSpeed": 410
+    },
+    "20/70 7.5mm buckshot": {
+        "iconLink": "https://assets.tarkov.dev/5a38ebd9c4a282000d722a5b-icon.webp",
+        "damage": 25,
+        "penetrationPower": 3,
+        "armorDamage": 14,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 430
+    },
+    "9x19mm Luger CCI": {
+        "iconLink": "https://assets.tarkov.dev/5a3c16fe86f77452b62de32a-icon.webp",
+        "damage": 70,
+        "penetrationPower": 10,
+        "armorDamage": 38,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 420
+    },
+    "7.62x51mm M61": {
+        "iconLink": "https://assets.tarkov.dev/5a6086ea4f39f99cd479502f-icon.webp",
+        "damage": 70,
+        "penetrationPower": 64,
+        "armorDamage": 83,
+        "accuracyModifier": 3,
+        "recoilModifier": 10,
+        "fragmentationChance": 13,
+        "initialSpeed": 849
+    },
+    "7.62x51mm M62 Tracer": {
+        "iconLink": "https://assets.tarkov.dev/5a608bf24f39f98ffc77720e-icon.webp",
+        "damage": 79,
+        "penetrationPower": 44,
+        "armorDamage": 75,
+        "accuracyModifier": -6,
+        "recoilModifier": -1,
+        "fragmentationChance": 14,
+        "initialSpeed": 816
+    },
+    "4.6x30mm FMJ SX": {
+        "iconLink": "https://assets.tarkov.dev/5ba2678ad4351e44f824b344-icon.webp",
+        "damage": 43,
+        "penetrationPower": 40,
+        "armorDamage": 41,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 620
+    },
+    "4.6x30mm Action SX": {
+        "iconLink": "https://assets.tarkov.dev/5ba26812d4351e003201fef1-icon.webp",
+        "damage": 65,
+        "penetrationPower": 18,
+        "armorDamage": 28,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 50,
+        "initialSpeed": 690
+    },
+    "4.6x30mm AP SX": {
+        "iconLink": "https://assets.tarkov.dev/5ba26835d4351e0035628ff5-icon.webp",
+        "damage": 35,
+        "penetrationPower": 53,
+        "armorDamage": 46,
+        "accuracyModifier": 0,
+        "recoilModifier": 10,
+        "fragmentationChance": 10,
+        "initialSpeed": 680
+    },
+    "4.6x30mm Subsonic SX": {
+        "iconLink": "https://assets.tarkov.dev/5ba26844d4351e00334c9475-icon.webp",
+        "damage": 52,
+        "penetrationPower": 23,
+        "armorDamage": 33,
+        "accuracyModifier": 10,
+        "recoilModifier": -22,
+        "fragmentationChance": 20,
+        "initialSpeed": 290
+    },
+    "9x19mm RIP": {
+        "iconLink": "https://assets.tarkov.dev/5c0d56a986f774449d5de529-icon.webp",
+        "damage": 102,
+        "penetrationPower": 2,
+        "armorDamage": 11,
+        "accuracyModifier": 0,
+        "recoilModifier": 5,
+        "fragmentationChance": 100,
+        "initialSpeed": 381
+    },
+    "12/70 RIP": {
+        "iconLink": "https://assets.tarkov.dev/5c0d591486f7744c505b416f-icon.webp",
+        "damage": 265,
+        "penetrationPower": 2,
+        "armorDamage": 11,
+        "accuracyModifier": 80,
+        "recoilModifier": 35,
+        "fragmentationChance": 100,
+        "initialSpeed": 410
+    },
+    "5.56x45mm Warmageddon": {
+        "iconLink": "https://assets.tarkov.dev/5c0d5ae286f7741e46554302-icon.webp",
+        "damage": 88,
+        "penetrationPower": 3,
+        "armorDamage": 11,
+        "accuracyModifier": 10,
+        "recoilModifier": 10,
+        "fragmentationChance": 90,
+        "initialSpeed": 936
+    },
+    "5.45x39mm PPBS gs \"Igolnik\"": {
+        "iconLink": "https://assets.tarkov.dev/5c0d5e4486f77478390952fe-icon.webp",
+        "damage": 37,
+        "penetrationPower": 62,
+        "armorDamage": 59,
+        "accuracyModifier": -5,
+        "recoilModifier": 15,
+        "fragmentationChance": 2,
+        "initialSpeed": 905
+    },
+    "9x39mm SPP gs": {
+        "iconLink": "https://assets.tarkov.dev/5c0d668f86f7747ccb7f13b2-icon.webp",
+        "damage": 68,
+        "penetrationPower": 35,
+        "armorDamage": 48,
+        "accuracyModifier": 10,
+        "recoilModifier": 7,
+        "fragmentationChance": 20,
+        "initialSpeed": 310
+    },
+    "9x39mm BP gs": {
+        "iconLink": "https://assets.tarkov.dev/5c0d688c86f77413ae3407b2-icon.webp",
+        "damage": 58,
+        "penetrationPower": 54,
+        "armorDamage": 69,
+        "accuracyModifier": 10,
+        "recoilModifier": 15,
+        "fragmentationChance": 10,
+        "initialSpeed": 295
+    },
+    "9x19mm Green Tracer": {
+        "iconLink": "https://assets.tarkov.dev/5c3df7d588a4501f290594e5-icon.webp",
+        "damage": 58,
+        "penetrationPower": 14,
+        "armorDamage": 33,
+        "accuracyModifier": -5,
+        "recoilModifier": -6,
+        "fragmentationChance": 15,
+        "initialSpeed": 365
+    },
+    "9x19mm AP 6.3": {
+        "iconLink": "https://assets.tarkov.dev/5c925fa22e221601da359b7b-icon.webp",
+        "damage": 52,
+        "penetrationPower": 30,
+        "armorDamage": 48,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 5,
+        "initialSpeed": 392
+    },
+    "12.7x55mm PS12": {
+        "iconLink": "https://assets.tarkov.dev/5cadf6ddae9215051e1c23b2-icon.webp",
+        "damage": 115,
+        "penetrationPower": 28,
+        "armorDamage": 60,
+        "accuracyModifier": 10,
+        "recoilModifier": 0,
+        "fragmentationChance": 30,
+        "initialSpeed": 285
+    },
+    "12.7x55mm PS12A": {
+        "iconLink": "https://assets.tarkov.dev/5cadf6e5ae921500113bb973-icon.webp",
+        "damage": 165,
+        "penetrationPower": 10,
+        "armorDamage": 22,
+        "accuracyModifier": -15,
+        "recoilModifier": -12,
+        "fragmentationChance": 70,
+        "initialSpeed": 290
+    },
+    "12.7x55mm PS12B": {
+        "iconLink": "https://assets.tarkov.dev/5cadf6eeae921500134b2799-icon.webp",
+        "damage": 102,
+        "penetrationPower": 46,
+        "armorDamage": 57,
+        "accuracyModifier": 0,
+        "recoilModifier": 15,
+        "fragmentationChance": 30,
+        "initialSpeed": 300
+    },
+    "5.7x28mm SS190": {
+        "iconLink": "https://assets.tarkov.dev/5cc80f38e4a949001152b560-icon.webp",
+        "damage": 49,
+        "penetrationPower": 37,
+        "armorDamage": 43,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 715
+    },
+    "5.7x28mm L191": {
+        "iconLink": "https://assets.tarkov.dev/5cc80f53e4a949000e1ea4f8-icon.webp",
+        "damage": 53,
+        "penetrationPower": 33,
+        "armorDamage": 41,
+        "accuracyModifier": -4,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 715
+    },
+    "5.7x28mm SB193": {
+        "iconLink": "https://assets.tarkov.dev/5cc80f67e4a949035e43bbba-icon.webp",
+        "damage": 59,
+        "penetrationPower": 27,
+        "armorDamage": 37,
+        "accuracyModifier": 5,
+        "recoilModifier": -15,
+        "fragmentationChance": 35,
+        "initialSpeed": 299
+    },
+    "5.7x28mm SS198LF": {
+        "iconLink": "https://assets.tarkov.dev/5cc80f79e4a949033c7343b2-icon.webp",
+        "damage": 70,
+        "penetrationPower": 17,
+        "armorDamage": 19,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 80,
+        "initialSpeed": 792
+    },
+    "5.7x28mm SS197SR": {
+        "iconLink": "https://assets.tarkov.dev/5cc80f8fe4a949033b0224a2-icon.webp",
+        "damage": 62,
+        "penetrationPower": 25,
+        "armorDamage": 22,
+        "accuracyModifier": 10,
+        "recoilModifier": 0,
+        "fragmentationChance": 50,
+        "initialSpeed": 594
+    },
+    "5.7x28mm R37.F": {
+        "iconLink": "https://assets.tarkov.dev/5cc86832d7f00c000d3a6e6c-icon.webp",
+        "damage": 98,
+        "penetrationPower": 8,
+        "armorDamage": 7,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 100,
+        "initialSpeed": 729
+    },
+    "5.7x28mm R37.X": {
+        "iconLink": "https://assets.tarkov.dev/5cc86840d7f00c002412c56c-icon.webp",
+        "damage": 81,
+        "penetrationPower": 11,
+        "armorDamage": 9,
+        "accuracyModifier": -5,
+        "recoilModifier": 0,
+        "fragmentationChance": 70,
+        "initialSpeed": 724
+    },
+    "12/70 5.25mm buckshot": {
+        "iconLink": "https://assets.tarkov.dev/5d6e6772a4b936088465b17c-icon.webp",
+        "damage": 37,
+        "penetrationPower": 1,
+        "armorDamage": 15,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 330
+    },
+    "12/70 6.5mm Express buckshot": {
+        "iconLink": "https://assets.tarkov.dev/5d6e67fba4b9361bc73bc779-icon.webp",
+        "damage": 35,
+        "penetrationPower": 3,
+        "armorDamage": 26,
+        "accuracyModifier": 15,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 430
+    },
+    "12/70 8.5mm Magnum buckshot": {
+        "iconLink": "https://assets.tarkov.dev/5d6e6806a4b936088465b17e-icon.webp",
+        "damage": 50,
+        "penetrationPower": 2,
+        "armorDamage": 26,
+        "accuracyModifier": -15,
+        "recoilModifier": 115,
+        "fragmentationChance": 0,
+        "initialSpeed": 385
+    },
+    "12/70 Grizzly 40 slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e6869a4b9361c140bcfde-icon.webp",
+        "damage": 190,
+        "penetrationPower": 12,
+        "armorDamage": 48,
+        "accuracyModifier": 80,
+        "recoilModifier": 20,
+        "fragmentationChance": 12,
+        "initialSpeed": 390
+    },
+    "12/70 \"Poleva-3\" slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e6891a4b9361bd473feea-icon.webp",
+        "damage": 140,
+        "penetrationPower": 17,
+        "armorDamage": 40,
+        "accuracyModifier": 110,
+        "recoilModifier": -15,
+        "fragmentationChance": 20,
+        "initialSpeed": 410
+    },
+    "12/70 \"Poleva-6u\" slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e689ca4b9361bc8618956-icon.webp",
+        "damage": 150,
+        "penetrationPower": 20,
+        "armorDamage": 50,
+        "accuracyModifier": 115,
+        "recoilModifier": -10,
+        "fragmentationChance": 15,
+        "initialSpeed": 430
+    },
+    "12/70 AP-20 armor-piercing slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e68a8a4b9360b6c0d54e2-icon.webp",
+        "damage": 164,
+        "penetrationPower": 37,
+        "armorDamage": 65,
+        "accuracyModifier": 80,
+        "recoilModifier": 50,
+        "fragmentationChance": 3,
+        "initialSpeed": 510
+    },
+    "12/70 Copper Sabot Premier HP slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e68b3a4b9361bca7e50b5-icon.webp",
+        "damage": 206,
+        "penetrationPower": 14,
+        "armorDamage": 46,
+        "accuracyModifier": 150,
+        "recoilModifier": 10,
+        "fragmentationChance": 38,
+        "initialSpeed": 442
+    },
+    "12/70 makeshift .50 BMG slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e68c4a4b9361b93413f79-icon.webp",
+        "damage": 197,
+        "penetrationPower": 26,
+        "armorDamage": 57,
+        "accuracyModifier": 90,
+        "recoilModifier": 25,
+        "fragmentationChance": 5,
+        "initialSpeed": 410
+    },
+    "12/70 SuperFormance HP slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e68d1a4b93622fe60e845-icon.webp",
+        "damage": 220,
+        "penetrationPower": 5,
+        "armorDamage": 12,
+        "accuracyModifier": 170,
+        "recoilModifier": -15,
+        "fragmentationChance": 39,
+        "initialSpeed": 594
+    },
+    "12/70 Dual Sabot slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e68dea4b9361bcc29e659-icon.webp",
+        "damage": 85,
+        "penetrationPower": 17,
+        "armorDamage": 65,
+        "accuracyModifier": 100,
+        "recoilModifier": 15,
+        "fragmentationChance": 10,
+        "initialSpeed": 415
+    },
+    "12/70 FTX Custom Lite slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e68e6a4b9361c140bcfe0-icon.webp",
+        "damage": 183,
+        "penetrationPower": 20,
+        "armorDamage": 50,
+        "accuracyModifier": 135,
+        "recoilModifier": -25,
+        "fragmentationChance": 10,
+        "initialSpeed": 480
+    },
+    "12/70 flechette": {
+        "iconLink": "https://assets.tarkov.dev/5d6e6911a4b9361bd5780d52-icon.webp",
+        "damage": 25,
+        "penetrationPower": 31,
+        "armorDamage": 26,
+        "accuracyModifier": -10,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 320
+    },
+    "20/70 5.6mm buckshot": {
+        "iconLink": "https://assets.tarkov.dev/5d6e695fa4b936359b35d852-icon.webp",
+        "damage": 26,
+        "penetrationPower": 1,
+        "armorDamage": 12,
+        "accuracyModifier": -10,
+        "recoilModifier": 10,
+        "fragmentationChance": 0,
+        "initialSpeed": 340
+    },
+    "20/70 6.2mm buckshot": {
+        "iconLink": "https://assets.tarkov.dev/5d6e69b9a4b9361bc8618958-icon.webp",
+        "damage": 22,
+        "penetrationPower": 2,
+        "armorDamage": 13,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 410
+    },
+    "20/70 7.3mm buckshot": {
+        "iconLink": "https://assets.tarkov.dev/5d6e69c7a4b9360b6c0d54e4-icon.webp",
+        "damage": 23,
+        "penetrationPower": 3,
+        "armorDamage": 13,
+        "accuracyModifier": 0,
+        "recoilModifier": 15,
+        "fragmentationChance": 0,
+        "initialSpeed": 475
+    },
+    "20/70 Star slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e6a05a4b93618084f58d0-icon.webp",
+        "damage": 154,
+        "penetrationPower": 16,
+        "armorDamage": 42,
+        "accuracyModifier": 130,
+        "recoilModifier": 5,
+        "fragmentationChance": 10,
+        "initialSpeed": 415
+    },
+    "20/70 \"Poleva-6u\" slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e6a42a4b9364f07165f52-icon.webp",
+        "damage": 135,
+        "penetrationPower": 17,
+        "armorDamage": 40,
+        "accuracyModifier": 110,
+        "recoilModifier": -10,
+        "fragmentationChance": 15,
+        "initialSpeed": 445
+    },
+    "20/70 \"Poleva-3\" slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e6a53a4b9361bd473feec-icon.webp",
+        "damage": 120,
+        "penetrationPower": 14,
+        "armorDamage": 35,
+        "accuracyModifier": 110,
+        "recoilModifier": -15,
+        "fragmentationChance": 20,
+        "initialSpeed": 425
+    },
+    "20/70 Devastator slug": {
+        "iconLink": "https://assets.tarkov.dev/5d6e6a5fa4b93614ec501745-icon.webp",
+        "damage": 198,
+        "penetrationPower": 5,
+        "armorDamage": 13,
+        "accuracyModifier": 125,
+        "recoilModifier": 30,
+        "fragmentationChance": 100,
+        "initialSpeed": 405
+    },
+    "7.62x54mm R T-46M gzh": {
+        "iconLink": "https://assets.tarkov.dev/5e023cf8186a883be655e54f-icon.webp",
+        "damage": 82,
+        "penetrationPower": 41,
+        "armorDamage": 83,
+        "accuracyModifier": -1,
+        "recoilModifier": -5,
+        "fragmentationChance": 18,
+        "initialSpeed": 800
+    },
+    "7.62x54mm R BT gzh": {
+        "iconLink": "https://assets.tarkov.dev/5e023d34e8a400319a28ed44-icon.webp",
+        "damage": 78,
+        "penetrationPower": 55,
+        "armorDamage": 87,
+        "accuracyModifier": -2,
+        "recoilModifier": -4,
+        "fragmentationChance": 8,
+        "initialSpeed": 875
+    },
+    "7.62x54mm R BS gs": {
+        "iconLink": "https://assets.tarkov.dev/5e023d48186a883be655e551-icon.webp",
+        "damage": 72,
+        "penetrationPower": 70,
+        "armorDamage": 88,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 8,
+        "initialSpeed": 785
+    },
+    "7.62x51mm BCP FMJ": {
+        "iconLink": "https://assets.tarkov.dev/5e023e53d4353e3302577c4c-icon.webp",
+        "damage": 83,
+        "penetrationPower": 35,
+        "armorDamage": 42,
+        "accuracyModifier": -7,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 840
+    },
+    "7.62x51mm TCW SP": {
+        "iconLink": "https://assets.tarkov.dev/5e023e6e34d52a55c3304f71-icon.webp",
+        "damage": 87,
+        "penetrationPower": 30,
+        "armorDamage": 25,
+        "accuracyModifier": -2,
+        "recoilModifier": -3,
+        "fragmentationChance": 35,
+        "initialSpeed": 808
+    },
+    "7.62x51mm Ultra Nosler": {
+        "iconLink": "https://assets.tarkov.dev/5e023e88277cce2b522ff2b1-icon.webp",
+        "damage": 107,
+        "penetrationPower": 15,
+        "armorDamage": 20,
+        "accuracyModifier": 10,
+        "recoilModifier": -5,
+        "fragmentationChance": 70,
+        "initialSpeed": 822
+    },
+    ".45 ACP Match FMJ": {
+        "iconLink": "https://assets.tarkov.dev/5e81f423763d9f754677bf2e-icon.webp",
+        "damage": 72,
+        "penetrationPower": 25,
+        "armorDamage": 36,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 1,
+        "initialSpeed": 340
+    },
+    "23x75mm Shrapnel-10 buckshot": {
+        "iconLink": "https://assets.tarkov.dev/5e85a9a6eacf8c039e4e2ac1-icon.webp",
+        "damage": 87,
+        "penetrationPower": 11,
+        "armorDamage": 20,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 270
+    },
+    "23x75mm Zvezda flashbang round": {
+        "iconLink": "https://assets.tarkov.dev/5e85a9f4add9fe03027d9bf1-icon.webp",
+        "damage": 0,
+        "penetrationPower": 0,
+        "armorDamage": 0,
+        "accuracyModifier": 0,
+        "recoilModifier": 20,
+        "fragmentationChance": 30,
+        "initialSpeed": 80
+    },
+    "23x75mm Barrikada slug": {
+        "iconLink": "https://assets.tarkov.dev/5e85aa1a988a8701445df1f5-icon.webp",
+        "damage": 192,
+        "penetrationPower": 39,
+        "armorDamage": 75,
+        "accuracyModifier": -5,
+        "recoilModifier": 25,
+        "fragmentationChance": 20,
+        "initialSpeed": 420
+    },
+    ".45 ACP RIP": {
+        "iconLink": "https://assets.tarkov.dev/5ea2a8e200685063ec28c05a-icon.webp",
+        "damage": 130,
+        "penetrationPower": 3,
+        "armorDamage": 12,
+        "accuracyModifier": -5,
+        "recoilModifier": 0,
+        "fragmentationChance": 100,
+        "initialSpeed": 293
+    },
+    "40x46mm M406 (HE) grenade": {
+        "iconLink": "https://assets.tarkov.dev/5ede4739e0350d05467f73e8-icon.webp",
+        "damage": 199,
+        "penetrationPower": 1,
+        "armorDamage": 95,
+        "accuracyModifier": 15,
+        "recoilModifier": -10,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "40x46mm M441 (HE) grenade": {
+        "iconLink": "https://assets.tarkov.dev/5ede47405b097655935d7d16-icon.webp",
+        "damage": 199,
+        "penetrationPower": 1,
+        "armorDamage": 95,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "40x46mm M381 (HE) grenade": {
+        "iconLink": "https://assets.tarkov.dev/5ede474b0c226a66f5402622-icon.webp",
+        "damage": 199,
+        "penetrationPower": 1,
+        "armorDamage": 95,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "40x46mm M576 (MP-APERS) grenade": {
+        "iconLink": "https://assets.tarkov.dev/5ede475339ee016e8c534742-icon.webp",
+        "damage": 160,
+        "penetrationPower": 5,
+        "armorDamage": 95,
+        "accuracyModifier": 100,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 269
+    },
+    "40x46mm M386 (HE) grenade": {
+        "iconLink": "https://assets.tarkov.dev/5ede475b549eed7c6d5c18fb-icon.webp",
+        "damage": 199,
+        "penetrationPower": 1,
+        "armorDamage": 95,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "7.62x51mm M993": {
+        "iconLink": "https://assets.tarkov.dev/5efb0c1bd79ff02a1f5e68d9-icon.webp",
+        "damage": 67,
+        "penetrationPower": 70,
+        "armorDamage": 85,
+        "accuracyModifier": 5,
+        "recoilModifier": 8,
+        "fragmentationChance": 13,
+        "initialSpeed": 910
+    },
+    ".45 ACP AP": {
+        "iconLink": "https://assets.tarkov.dev/5efb0cabfb3e451d70735af5-icon.webp",
+        "damage": 66,
+        "penetrationPower": 38,
+        "armorDamage": 48,
+        "accuracyModifier": -5,
+        "recoilModifier": 7,
+        "fragmentationChance": 1,
+        "initialSpeed": 299
+    },
+    ".45 ACP Lasermatch FMJ": {
+        "iconLink": "https://assets.tarkov.dev/5efb0d4f4bc50b58e81710f3-icon.webp",
+        "damage": 76,
+        "penetrationPower": 19,
+        "armorDamage": 37,
+        "accuracyModifier": 10,
+        "recoilModifier": 0,
+        "fragmentationChance": 1,
+        "initialSpeed": 290
+    },
+    "9x19mm PBP gzh": {
+        "iconLink": "https://assets.tarkov.dev/5efb0da7a29a85116f6ea05f-icon.webp",
+        "damage": 52,
+        "penetrationPower": 39,
+        "armorDamage": 55,
+        "accuracyModifier": 5,
+        "recoilModifier": 5,
+        "fragmentationChance": 5,
+        "initialSpeed": 560
+    },
+    "9x19mm QuakeMaker": {
+        "iconLink": "https://assets.tarkov.dev/5efb0e16aeb21837e749c7ff-icon.webp",
+        "damage": 85,
+        "penetrationPower": 8,
+        "armorDamage": 22,
+        "accuracyModifier": 10,
+        "recoilModifier": 10,
+        "fragmentationChance": 10,
+        "initialSpeed": 290
+    },
+    ".45 ACP Hydra-Shok": {
+        "iconLink": "https://assets.tarkov.dev/5efb0fc6aeb21837e749c801-icon.webp",
+        "damage": 100,
+        "penetrationPower": 13,
+        "armorDamage": 30,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 50,
+        "initialSpeed": 274
+    },
+    ".366 TKM AP-M": {
+        "iconLink": "https://assets.tarkov.dev/5f0596629e22f464da6bbdd9-icon.webp",
+        "damage": 90,
+        "penetrationPower": 42,
+        "armorDamage": 60,
+        "accuracyModifier": -28,
+        "recoilModifier": 35,
+        "fragmentationChance": 1,
+        "initialSpeed": 602
+    },
+    "40x46mm M433 (HEDP) grenade": {
+        "iconLink": "https://assets.tarkov.dev/5f0c892565703e5c461894e9-icon.webp",
+        "damage": 199,
+        "penetrationPower": 1,
+        "armorDamage": 95,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 76
+    },
+    "23x75mm Shrapnel-25 buckshot": {
+        "iconLink": "https://assets.tarkov.dev/5f647f31b6238e5dd066e196-icon.webp",
+        "damage": 78,
+        "penetrationPower": 10,
+        "armorDamage": 20,
+        "accuracyModifier": 20,
+        "recoilModifier": 10,
+        "fragmentationChance": 0,
+        "initialSpeed": 375
+    },
+    ".300 Blackout BCP FMJ": {
+        "iconLink": "https://assets.tarkov.dev/5fbe3ffdf8b6a877a729ea82-icon.webp",
+        "damage": 60,
+        "penetrationPower": 30,
+        "armorDamage": 36,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 30,
+        "initialSpeed": 605
+    },
+    ".338 Lapua Magnum FMJ": {
+        "iconLink": "https://assets.tarkov.dev/5fc275cf85fd526b824a571a-icon.webp",
+        "damage": 122,
+        "penetrationPower": 47,
+        "armorDamage": 83,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 900
+    },
+    ".338 Lapua Magnum AP": {
+        "iconLink": "https://assets.tarkov.dev/5fc382a9d724d907e2077dab-icon.webp",
+        "damage": 115,
+        "penetrationPower": 79,
+        "armorDamage": 89,
+        "accuracyModifier": 0,
+        "recoilModifier": 10,
+        "fragmentationChance": 13,
+        "initialSpeed": 849
+    },
+    ".338 Lapua Magnum TAC-X": {
+        "iconLink": "https://assets.tarkov.dev/5fc382b6d6fa9c00c571bbc3-icon.webp",
+        "damage": 196,
+        "penetrationPower": 18,
+        "armorDamage": 55,
+        "accuracyModifier": 10,
+        "recoilModifier": -5,
+        "fragmentationChance": 50,
+        "initialSpeed": 880
+    },
+    ".338 Lapua Magnum UCW": {
+        "iconLink": "https://assets.tarkov.dev/5fc382c1016cce60e8341b20-icon.webp",
+        "damage": 142,
+        "penetrationPower": 32,
+        "armorDamage": 70,
+        "accuracyModifier": -5,
+        "recoilModifier": 0,
+        "fragmentationChance": 60,
+        "initialSpeed": 849
+    },
+    ".300 Blackout AP": {
+        "iconLink": "https://assets.tarkov.dev/5fd20ff893a8961fc660a954-icon.webp",
+        "damage": 51,
+        "penetrationPower": 48,
+        "armorDamage": 65,
+        "accuracyModifier": 0,
+        "recoilModifier": 3,
+        "fragmentationChance": 10,
+        "initialSpeed": 635
+    },
+    "5.56x45mm MK 318 Mod 0 (SOST)": {
+        "iconLink": "https://assets.tarkov.dev/60194943740c5d77f6705eea-icon.webp",
+        "damage": 55,
+        "penetrationPower": 33,
+        "armorDamage": 39,
+        "accuracyModifier": 2,
+        "recoilModifier": 3,
+        "fragmentationChance": 35,
+        "initialSpeed": 902
+    },
+    "5.56x45mm SSA AP": {
+        "iconLink": "https://assets.tarkov.dev/601949593ae8f707c4608daa-icon.webp",
+        "damage": 38,
+        "penetrationPower": 57,
+        "armorDamage": 58,
+        "accuracyModifier": -9,
+        "recoilModifier": 6,
+        "fragmentationChance": 30,
+        "initialSpeed": 1013
+    },
+    "7.62x39mm MAI AP": {
+        "iconLink": "https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-icon.webp",
+        "damage": 47,
+        "penetrationPower": 58,
+        "armorDamage": 76,
+        "accuracyModifier": -5,
+        "recoilModifier": 10,
+        "fragmentationChance": 5,
+        "initialSpeed": 875
+    },
+    "5.45x39mm 7N40": {
+        "iconLink": "https://assets.tarkov.dev/61962b617c6c7b169525f168-icon.webp",
+        "damage": 52,
+        "penetrationPower": 42,
+        "armorDamage": 45,
+        "accuracyModifier": 50,
+        "recoilModifier": -10,
+        "fragmentationChance": 2,
+        "initialSpeed": 915
+    },
+    "9x39mm PAB-9 gs": {
+        "iconLink": "https://assets.tarkov.dev/61962d879bb3d20b0946d385-icon.webp",
+        "damage": 62,
+        "penetrationPower": 43,
+        "armorDamage": 57,
+        "accuracyModifier": -15,
+        "recoilModifier": 10,
+        "fragmentationChance": 10,
+        "initialSpeed": 320
+    },
+    ".300 Blackout V-Max": {
+        "iconLink": "https://assets.tarkov.dev/6196364158ef8c428c287d9f-icon.webp",
+        "damage": 72,
+        "penetrationPower": 20,
+        "armorDamage": 25,
+        "accuracyModifier": 30,
+        "recoilModifier": -10,
+        "fragmentationChance": 25,
+        "initialSpeed": 723
+    },
+    ".300 Whisper": {
+        "iconLink": "https://assets.tarkov.dev/6196365d58ef8c428c287da1-icon.webp",
+        "damage": 90,
+        "penetrationPower": 14,
+        "armorDamage": 18,
+        "accuracyModifier": 5,
+        "recoilModifier": -5,
+        "fragmentationChance": 35,
+        "initialSpeed": 853
+    },
+    ".300 Blackout M62 Tracer": {
+        "iconLink": "https://assets.tarkov.dev/619636be6db0f2477964e710-icon.webp",
+        "damage": 54,
+        "penetrationPower": 36,
+        "armorDamage": 40,
+        "accuracyModifier": 0,
+        "recoilModifier": 1,
+        "fragmentationChance": 20,
+        "initialSpeed": 442
+    },
+    ".357 Magnum FMJ": {
+        "iconLink": "https://assets.tarkov.dev/62330b3ed4dc74626d570b95-icon.webp",
+        "damage": 70,
+        "penetrationPower": 35,
+        "armorDamage": 43,
+        "accuracyModifier": 0,
+        "recoilModifier": 12,
+        "fragmentationChance": 1,
+        "initialSpeed": 385
+    },
+    ".357 Magnum HP": {
+        "iconLink": "https://assets.tarkov.dev/62330bfadc5883093563729b-icon.webp",
+        "damage": 99,
+        "penetrationPower": 18,
+        "armorDamage": 20,
+        "accuracyModifier": 15,
+        "recoilModifier": 15,
+        "fragmentationChance": 60,
+        "initialSpeed": 481
+    },
+    ".357 Magnum JHP": {
+        "iconLink": "https://assets.tarkov.dev/62330c18744e5e31df12f516-icon.webp",
+        "damage": 88,
+        "penetrationPower": 24,
+        "armorDamage": 28,
+        "accuracyModifier": 15,
+        "recoilModifier": 8,
+        "fragmentationChance": 60,
+        "initialSpeed": 425
+    },
+    ".357 Magnum SP": {
+        "iconLink": "https://assets.tarkov.dev/62330c40bdd19b369e1e53d1-icon.webp",
+        "damage": 108,
+        "penetrationPower": 12,
+        "armorDamage": 15,
+        "accuracyModifier": 27,
+        "recoilModifier": -29,
+        "fragmentationChance": 20,
+        "initialSpeed": 455
+    },
+    "26x75mm flare cartridge (Green)": {
+        "iconLink": "https://assets.tarkov.dev/62389aaba63f32501b1b444f-icon.webp",
+        "damage": 37,
+        "penetrationPower": 0,
+        "armorDamage": 60,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 80
+    },
+    "26x75mm flare cartridge (Red)": {
+        "iconLink": "https://assets.tarkov.dev/62389ba9a63f32501b1b4451-icon.webp",
+        "damage": 37,
+        "penetrationPower": 0,
+        "armorDamage": 60,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 80
+    },
+    "26x75mm flare cartridge (White)": {
+        "iconLink": "https://assets.tarkov.dev/62389bc9423ed1685422dc57-icon.webp",
+        "damage": 37,
+        "penetrationPower": 0,
+        "armorDamage": 60,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 80
+    },
+    "26x75mm flare cartridge (Yellow)": {
+        "iconLink": "https://assets.tarkov.dev/62389be94d5d474bf712e709-icon.webp",
+        "damage": 37,
+        "penetrationPower": 0,
+        "armorDamage": 60,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 80
+    },
+    "26x75mm flare cartridge (Acid Green)": {
+        "iconLink": "https://assets.tarkov.dev/635267f063651329f75a4ee8-icon.webp",
+        "damage": 37,
+        "penetrationPower": 0,
+        "armorDamage": 60,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 80
+    },
+    "4.6x30mm JSP SX": {
+        "iconLink": "https://assets.tarkov.dev/64b6979341772715af0f9c39-icon.webp",
+        "damage": 46,
+        "penetrationPower": 32,
+        "armorDamage": 37,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 30,
+        "initialSpeed": 579
+    },
+    "7.62x39mm PP gzh": {
+        "iconLink": "https://assets.tarkov.dev/64b7af434b75259c590fa893-icon.webp",
+        "damage": 55,
+        "penetrationPower": 41,
+        "armorDamage": 57,
+        "accuracyModifier": -1,
+        "recoilModifier": 5,
+        "fragmentationChance": 15,
+        "initialSpeed": 732
+    },
+    "7.62x39mm FMJ": {
+        "iconLink": "https://assets.tarkov.dev/64b7af5a8532cf95ee0a0dbd-icon.webp",
+        "damage": 63,
+        "penetrationPower": 26,
+        "armorDamage": 33,
+        "accuracyModifier": 2,
+        "recoilModifier": -2,
+        "fragmentationChance": 30,
+        "initialSpeed": 775
+    },
+    "7.62x39mm SP": {
+        "iconLink": "https://assets.tarkov.dev/64b7af734b75259c590fa895-icon.webp",
+        "damage": 68,
+        "penetrationPower": 20,
+        "armorDamage": 27,
+        "accuracyModifier": 5,
+        "recoilModifier": -5,
+        "fragmentationChance": 35,
+        "initialSpeed": 772
+    },
+    "9x19mm FMJ M882": {
+        "iconLink": "https://assets.tarkov.dev/64b7bbb74b75259c590fa897-icon.webp",
+        "damage": 56,
+        "penetrationPower": 18,
+        "armorDamage": 35,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 385
+    },
+    ".300 Blackout CBJ": {
+        "iconLink": "https://assets.tarkov.dev/64b8725c4b75259c590fa899-icon.webp",
+        "damage": 58,
+        "penetrationPower": 43,
+        "armorDamage": 57,
+        "accuracyModifier": 0,
+        "recoilModifier": 5,
+        "fragmentationChance": 15,
+        "initialSpeed": 725
+    },
+    "12/70 Piranha": {
+        "iconLink": "https://assets.tarkov.dev/64b8ee384b75259c590fa89b-icon.webp",
+        "damage": 25,
+        "penetrationPower": 24,
+        "armorDamage": 22,
+        "accuracyModifier": -5,
+        "recoilModifier": 0,
+        "fragmentationChance": 0,
+        "initialSpeed": 310
+    },
+    "7.62x54mm R FMJ": {
+        "iconLink": "https://assets.tarkov.dev/64b8f7968532cf95ee0a0dbf-icon.webp",
+        "damage": 84,
+        "penetrationPower": 33,
+        "armorDamage": 63,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 20,
+        "initialSpeed": 760
+    },
+    "7.62x54mm R SP BT": {
+        "iconLink": "https://assets.tarkov.dev/64b8f7b5389d7ffd620ccba2-icon.webp",
+        "damage": 92,
+        "penetrationPower": 27,
+        "armorDamage": 56,
+        "accuracyModifier": 7,
+        "recoilModifier": 0,
+        "fragmentationChance": 24,
+        "initialSpeed": 703
+    },
+    "7.62x54mm R HP BT": {
+        "iconLink": "https://assets.tarkov.dev/64b8f7c241772715af0f9c3d-icon.webp",
+        "damage": 102,
+        "penetrationPower": 23,
+        "armorDamage": 37,
+        "accuracyModifier": 10,
+        "recoilModifier": 0,
+        "fragmentationChance": 40,
+        "initialSpeed": 807
+    },
+    "6.8x51mm SIG Hybrid": {
+        "iconLink": "https://assets.tarkov.dev/6529243824cbe3c74a05e5c1-icon.webp",
+        "damage": 72,
+        "penetrationPower": 47,
+        "armorDamage": 58,
+        "accuracyModifier": 3,
+        "recoilModifier": 10,
+        "fragmentationChance": 12,
+        "initialSpeed": 914
+    },
+    "6.8x51mm SIG FMJ": {
+        "iconLink": "https://assets.tarkov.dev/6529302b8c26af6326029fb7-icon.webp",
+        "damage": 80,
+        "penetrationPower": 36,
+        "armorDamage": 49,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 18,
+        "initialSpeed": 899
+    },
+    "9x21mm 7N42 \"Zubilo\"": {
+        "iconLink": "https://assets.tarkov.dev/6576f4708ca9c4381d16cd9d-icon.webp",
+        "damage": 45,
+        "penetrationPower": 38,
+        "armorDamage": 47,
+        "accuracyModifier": -3,
+        "recoilModifier": 10,
+        "fragmentationChance": 10,
+        "initialSpeed": 400
+    },
+    "9x21mm 7U4": {
+        "iconLink": "https://assets.tarkov.dev/6576f93989f0062e741ba952-icon.webp",
+        "damage": 47,
+        "penetrationPower": 27,
+        "armorDamage": 44,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "fragmentationChance": 25,
+        "initialSpeed": 300
+    },
+    "9x39mm FMJ": {
+        "iconLink": "https://assets.tarkov.dev/6576f96220d53a5b8f3e395e-icon.webp",
+        "damage": 75,
+        "penetrationPower": 17,
+        "armorDamage": 28,
+        "accuracyModifier": 5,
+        "recoilModifier": -5,
+        "fragmentationChance": 30,
+        "initialSpeed": 330
+    },
+    "20x1mm disk": {
+        "iconLink": "https://assets.tarkov.dev/6601546f86889319850bd566-icon.webp",
+        "damage": 1,
+        "penetrationPower": 0,
+        "armorDamage": 0,
+        "accuracyModifier": 0,
+        "recoilModifier": 1,
+        "fragmentationChance": 0,
+        "initialSpeed": 20
+    }
+}
