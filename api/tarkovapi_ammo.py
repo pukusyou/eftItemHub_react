@@ -49,5 +49,5 @@ for data in ammo:
     result.update(ammo_dict)
 
 # jsonとして保存
-with open('/home/kitagawa/itemHub/eftItemHub_react/public/json/ammo_dict.json', 'w') as f:
+with open('/home/kitagawa/asobiba/itemHub/eftItemHub_react/public/json/ammo_dict2.json', 'w') as f:
     json.dump(result, f, indent=4)
