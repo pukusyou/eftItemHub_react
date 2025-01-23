@@ -34,3 +34,18 @@ EFT Item Hub
 3. 各列の一番上の表頭をクリックすると、クリックした列を基準に昇順、降順の切り替えが可能
 ## 目指した課題解決
 Escape From Tarkovはゲーム内で得られる情報が限られているため、初心者の方にとって挫折しやすいゲームと考えております。実際、私の周りの友人も最初は熱中していましたが、さまざまなハードルに直面し、途中で離れていく方も多く見受けられました。そのため、一つでもハードルを取り除き、多くの人にプレイしてもらいたいと考えたため、本Webアプリケーションを開発いたしました。
+
+## 技術スタック
+- フロントエンド
+<p>
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?logo=javascript&style=flat&logoColor=black">
+  <img src="https://img.shields.io/badge/-React-61DAFB.svg?logo=react&style=flat&logoColor=white">
+  <img src="https://img.shields.io/badge/-LocalStorage-005A9C.svg?logo=storage&style=flat&logoColor=white">
+</p>
+
+- Webサーバ
+<p>
+  <img src="https://img.shields.io/badge/-Nginx-009639.svg?logo=nginx&style=flat&logoColor=white">
+</p>
+
+
