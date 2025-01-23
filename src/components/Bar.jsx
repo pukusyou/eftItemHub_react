@@ -15,7 +15,7 @@ const Bar = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href={homepage + "/task/"}>Task</Nav.Link>
-                            <Nav.Link href={homepage + "/hideout/"}>hideout</Nav.Link>
+                            <Nav.Link href={homepage + "/hideout/"}>Hideout</Nav.Link>
                             <Nav.Link href={homepage + "/ammo/"}>Ammo</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
