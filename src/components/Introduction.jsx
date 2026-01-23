@@ -32,7 +32,7 @@ const Introduction = () => {
                                 <div class="row">
                                     <div class="col">
                                         <h4 className="mb-1">コメント</h4>
-                                        <p className="mb-1">情報に誤りがあった場合や改善、追加が必要な場合は、お気軽にご連絡ください。お問い合わせは、XのDMまたは <a href="/eft/contact/" className='text-info'>お問い合わせページ</a> からお願いします。</p>
+                                        <p className="mb-1">情報に誤りがあった場合や改善、追加が必要な場合は、お気軽にお問い合わせフォームからご連絡ください。</p>
                                     </div>
                                 </div>
                             </div>
