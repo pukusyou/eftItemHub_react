@@ -3,31 +3,31 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.12.1",
+    "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
     "@fortawesome/react-fontawesome": "^3.1.1",
-    "@mui/material": "^5.18.0",
-    "@mui/styled-engine-sc": "^5.14.12",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@mui/material": "^7.3.7",
+    "@mui/styled-engine-sc": "^7.3.7",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
     "bootstrap": "^5.3.8",
     "buffer": "^6.0.3",
-    "react": "^18.3.1",
+    "react": "^19.2.3",
     "react-bootstrap": "^2.10.10",
     "react-copy-to-clipboard": "^5.1.0",
     "react-device-detect": "^2.2.3",
-    "react-dom": "^18.3.1",
+    "react-dom": "^19.2.3",
     "react-hook-form": "^7.71.1",
-    "react-router-dom": "^6.30.3",
+    "react-router-dom": "^7.12.0",
     "react-scripts": "5.0.1",
     "react-select": "^5.10.2",
     "react-table": "^7.8.0",
     "semantic-ui-react": "^2.1.5",
-    "styled-components": "^5.3.11",
-    "web-vitals": "^2.1.4",
+    "styled-components": "^6.3.8",
+    "web-vitals": "^5.1.0",
     "zlib": "^1.0.5"
   },
   "scripts": {
@@ -55,16 +55,15 @@
     ]
   },
   "homepage": "https://pukusyou.com/eft",
-  "devDependencies": {
-    "eslint": "^8.57.1"
-  },
   "pnpm": {
     "overrides": {
       "glob": "^10.4.5",
       "rimraf": "^6.0.1",
       "source-map": "^0.7.4",
       "svgo": "^3.3.2",
-      "sourcemap-codec": "^1.4.8"
+      "sourcemap-codec": "^1.4.8",
+      "eslint": "^8.57.0",
+      "eslint-webpack-plugin": "^4.0.1"
     }
   }
 }
