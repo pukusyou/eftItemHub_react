@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../logo.webp';
 
 const Bar = () => {
-    const homepage = process.env.REACT_APP_HOMEPAGE;
+    const homepage = process.env.REACT_APP_HOMEPAGE || '';
     return (
         <>
             <Navbar expand="lg" bg="dark" variant="dark">
