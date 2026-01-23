@@ -13,7 +13,6 @@ function Footer({ pageName, pageUrl }) {
                             <Container>
                                 <Nav className="me-auto m-auto">
                                     <Nav.Link href={(process.env.REACT_APP_HOMEPAGE || '') + "/privacy/"} className='me-4'>プライバシーポリシー</Nav.Link>
-                                    <Nav.Link href={(process.env.REACT_APP_HOMEPAGE || '') + "/contact/"} className='ms-4'>お問い合わせ</Nav.Link>
                                 </Nav>
                             </Container>
                         </Navbar>

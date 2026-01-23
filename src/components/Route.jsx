@@ -6,7 +6,8 @@ import TaskItemAll from "./TaskItemAll";
 import TaskSettingAll from "./TaskSettingAll";
 import TopPageAll from "./TopPageAll";
 import AmmoAll from "./AmmoAll";
-import ContactForm from "./ContanctAll";
+import Contact from "./Contact";
+
 const TaskRoute = () => {
     return (
         <BrowserRouter basename={process.env.REACT_APP_HOMEPAGE || ''}>
@@ -18,8 +19,9 @@ const TaskRoute = () => {
                 <Route path={`/hideout/item/`} element={<HideoutItemAll />} />
                 <Route path={`/privacy/`} element={<PrivacyPolicy />} />
                 <Route path={`/ammo/`} element={<AmmoAll />} />
-                <Route path={`/contact/`} element={<ContactForm />} />
             </Routes>
+            {/* 全ページに右下に表示されるお問い合わせボタン */}
+            <Contact />
         </BrowserRouter>
     );
 };

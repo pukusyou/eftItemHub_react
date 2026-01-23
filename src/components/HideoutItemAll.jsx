@@ -9,7 +9,7 @@ import BackButton from './BackButton';
 import jp from '../json/hideoutJP.json';
 const pageUrl = 'https://wikiwiki.jp/eft/%E9%9A%A0%E3%82%8C%E5%AE%B6';
 const pageName = '隠れ家';
-const lang = localStorage.getItem('lang') || 'en';
+// const lang = localStorage.getItem('lang') || 'en';
 /**
  * 設備の名前を配列で返します
  * @returns 隠れ家の設備の名前の配列
@@ -152,18 +152,18 @@ function makeTags(flag) {
 
 
 const HideoutItemAll = () => {
+    const [showSetting, setShowSetting] = useState(false);
+    const [itemSetting, setItemSetting] = useState(false);
     const nextTags = makeTags(false);
     const onlyNextTags = makeTags(true);
     const [tags, changeTag] = useState(nextTags);
-    const [showSetting, setShowSetting] = useState(false);
-    const [itemSetting, setItemSetting] = useState(false);
     useEffect(() => {
         if (itemSetting) {
             changeTag(onlyNextTags)
         } else {
             changeTag(nextTags)
         }
-    }, [itemSetting])
+    }, [itemSetting, nextTags, onlyNextTags])
     return (
         <>
             <div className='d-flex justify-content-end me-0 mt-0 mb-2 bg-dark'>

@@ -52,6 +52,7 @@ function getLocalStorage(dealerName) {
                     result.push(mission)
                     return true
                 }
+                return false
             });
         });
     }
@@ -74,6 +75,7 @@ function array2dict(array) {
                     missions.push({ value: getTaskId(dealer, task), label: element })
                     return true
                 }
+                return false
             });
         });
 
@@ -237,7 +239,7 @@ const TaskSelect = ({ dealer, setCode, idList }) => {
             })
             setSelectedMissions(getLocalStorage(dealer))
         }
-    }, [idList]);
+    }, [idList, dealer]);
     //dealerが変わるたびに呼び出し
     useEffect(() => {
         getLocalStorage(dealer) !== undefined ? setSelectedMissions(getLocalStorage(dealer)) : setSelectedMissions([])
@@ -261,7 +263,7 @@ const TaskSelect = ({ dealer, setCode, idList }) => {
             }
             renderFlgRef.current = true
         }
-    }, [selectedMissions]);
+    }, [selectedMissions, dealer, id, setCode]);
 
 
     const handleSelectChange = (value) => {

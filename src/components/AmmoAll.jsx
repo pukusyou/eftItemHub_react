@@ -5,11 +5,10 @@ import SettingBar from './SettingBar';
 import AmmoSettingOffcanvas from './AmmoSettingOffcanvas';
 import App from './Table2';
 import BackButton from './BackButton';
-import { get, set } from 'react-hook-form';
 // const pageUrl = 'https://wikiwiki.jp/eft/%E5%BC%BE%E8%96%AC';
 // const pageName = '弾薬';
 
-const DealerList = ["Prapor.LL", "Skier.LL", "Peacekeeper.LL", "Mechanic.LL", "Jaeger.LL","Workbench.LV"]
+// const DealerList = ["Prapor.LL", "Skier.LL", "Peacekeeper.LL", "Mechanic.LL", "Jaeger.LL", "Workbench.LV"]
 
 const jsonFilePath = process.env.PUBLIC_URL + '/json/ammo_dict.json';
 
@@ -31,7 +30,7 @@ function makeData(ammoData, caliber) {
     Object.keys(getCaliberAmmoData(ammoData, caliber)
     ).forEach(name => {
         Data.push({
-            "iconLink": process.env.PUBLIC_URL + "/" +ammoData[name]["iconLink"],
+            "iconLink": process.env.PUBLIC_URL + "/" + ammoData[name]["iconLink"],
             "name": name,
             "damage": ammoData[name]["damage"],
             "penetrate": ammoData[name]["penetrationPower"],
@@ -54,7 +53,7 @@ function getCaliberList(data) {
     CaliberList = Array.from(new Set(CaliberList))
     CaliberList.unshift("All")
     // sortする
-    CaliberList.sort((a,b) => (a > b ? -1 : 1))
+    CaliberList.sort((a, b) => (a > b ? -1 : 1))
     // console.log(CaliberList)
     return CaliberList
 }
@@ -67,17 +66,17 @@ const AmmoAll = () => {
     let data = []
     useEffect(() => {
         const fetchData = async () => {
-          try {
-            const response = await fetch(jsonFilePath);
-            const data = await response.json();
-            setJsonData(data);
-          } catch (error) {
-            console.error("Error fetching data: ", error);
-          }
+            try {
+                const response = await fetch(jsonFilePath);
+                const data = await response.json();
+                setJsonData(data);
+            } catch (error) {
+                console.error("Error fetching data: ", error);
+            }
         }
-    
+
         fetchData();
-      }, []);
+    }, []);
     if (jsonData !== undefined) {
         // console.log(jsonData)
         // setCaliberList(getCaliberList(jsonData))

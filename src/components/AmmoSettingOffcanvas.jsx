@@ -2,8 +2,8 @@ import React from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import AmmoSelecter from "./AmmoSelecter";
 
-const LvDict = [{ value: 1, label: "Lv.1" }, { value: 2, label: "Lv.2" },
-{ value: 3, label: "Lv.3" }, { value: 4, label: "Lv.4" }]
+// const LvDict = [{ value: 1, label: "Lv.1" }, { value: 2, label: "Lv.2" },
+// { value: 3, label: "Lv.3" }, { value: 4, label: "Lv.4" }]
 
 // 配列を{value: , label: }の形に変換する
 function makeOptions(array) {
@@ -14,7 +14,7 @@ function makeOptions(array) {
     return options
 }
 
-const AmmoSettingOffcanvas = ({ setShowSetting, canvasShow, caliber, setCaliber, caliberList}) => {
+const AmmoSettingOffcanvas = ({ setShowSetting, canvasShow, caliber, setCaliber, caliberList }) => {
     const handleClose = () => setShowSetting(false);
     return (
         <>

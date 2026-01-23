@@ -15,6 +15,7 @@ function array2dict(array) {
                     missions.push({ value: getTaskId(dealer, task), label: element })
                     return true
                 }
+                return false
             });
         });
 
