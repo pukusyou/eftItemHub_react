@@ -54,7 +54,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://pukusyou.com/eft",
+  "homepage": "/eft",
   "pnpm": {
     "overrides": {
       "glob": "^10.4.5",
