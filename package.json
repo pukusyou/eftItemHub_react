@@ -54,7 +54,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "/eft",
   "pnpm": {
     "overrides": {
       "glob": "^10.4.5",
