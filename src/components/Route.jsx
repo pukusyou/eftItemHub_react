@@ -7,6 +7,7 @@ import TaskSettingAll from "./TaskSettingAll";
 import TopPageAll from "./TopPageAll";
 import AmmoAll from "./AmmoAll";
 import Contact from "./Contact";
+import NotFound from "./NotFound";
 
 const TaskRoute = () => {
     return (
@@ -20,6 +21,7 @@ const TaskRoute = () => {
                 <Route path={`/hideout/item/`} element={<HideoutItemAll />} />
                 <Route path={`/privacy/`} element={<PrivacyPolicy />} />
                 <Route path={`/ammo/`} element={<AmmoAll />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
             {/* 全ページに右下に表示されるお問い合わせボタン */}
             <Contact />
