@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import HideoutItemAll from "./HideoutItemAll";
 import HideoutSettingAll from "./HideoutSettingAll";
 import PrivacyPolicy from "./PrivacyPolicy";
@@ -12,6 +12,7 @@ const TaskRoute = () => {
     return (
         <BrowserRouter basename={process.env.REACT_APP_HOMEPAGE || ''}>
             <Routes>
+                <Route path={`/eft`} element={<Navigate to="/" replace />} />
                 <Route path={`/`} element={<TopPageAll />} />
                 <Route path={`/task/`} element={<TaskSettingAll />} />
                 <Route path={`/task/item/`} element={<TaskItemAll />} />
