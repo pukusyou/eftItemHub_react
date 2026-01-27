@@ -1,58 +1,134 @@
 import React, { useState } from 'react';
-import { isMobile } from "react-device-detect"
-import { Card } from 'react-bootstrap';
+import { isMobile } from "react-device-detect";
 import OffCanvas from './ItemOffcanvas';
+
 const Item = ({ itemName, img, tasks, num, inRaid, category }) => {
     const [show, setShow] = useState(false);
+    const [isHovered, setIsHovered] = useState(false);
+
     const handleCanvas = () => {
-        if (show) {
-            setShow(false);
-        } else {
-            setShow(true);
-        }
+        setShow(!show);
     }
 
-    const textColor = inRaid === "inRaid" ? "text-warning" : "text-success"
+    const isInRaid = inRaid === "inRaid";
+
     return (
         <>
             <OffCanvas show={show} onHide={handleCanvas} title={itemName} num={num} tasks={tasks} img={img} inRaid={inRaid} />
-            {isMobile ?
-                (
-                    <Card onClick={handleCanvas} className='border border-light w-25 mb-1 mt-1 bg-dark text-white' style={{ cursor: "pointer" }}>
-                        <Card.Body className='text-center p-1'>
-                            <Card.Title className='border-bottom m-0 p-1' style={{ fontSize: "2vw" }}>{itemName}</Card.Title>
-                            <div className='d-flex align-items-center justify-content-center m-2'><img src={`${process.env.PUBLIC_URL + img}`} alt={itemName} className={"mw-100"} style={{ "objectFit": "contain", height: 68 + "px" }} /></div>
-                            <div className='border-top'>
-                                <Card.Text className='m-2'>
-                                    {num}
-                                </Card.Text>
-                                <Card.Text className={'m-2 ' + textColor}>
-                                    {inRaid}
-                                </Card.Text>
-                            </div>
-                        </Card.Body>
-                    </Card>
-                ) :
-                (
-                    <Card onClick={handleCanvas} className='border m-1 bg-dark text-white' style={{ width: 11.8 + "%", cursor: "pointer" }}>
-                        <Card.Body className='text-center'>
-                            <Card.Title className='border-bottom m-0 p-1'>{itemName}</Card.Title>
-                            <div className='d-flex align-items-center justify-content-center m-2'><img src={`${process.env.PUBLIC_URL + img}`} alt={itemName} className={"mw-100"} style={{ "objectFit": "contain", height: 70 + "px" }} /></div>
-                            <div className='border-top'>
-                                <Card.Text className='float-start m-2'>
-                                    {num}
-                                </Card.Text>
-                                <Card.Text className={'float-end m-2 ' + textColor}>
-                                    {inRaid}
-                                </Card.Text>
-                            </div>
 
-                        </Card.Body>
-                    </Card>
-                )
-            }
+            <div
+                onClick={handleCanvas}
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
+                style={{
+                    background: isHovered
+                        ? 'linear-gradient(145deg, #1e1e2a 0%, #16161f 100%)'
+                        : 'linear-gradient(145deg, #1a1a25 0%, #12121a 100%)',
+                    border: isHovered
+                        ? '1px solid rgba(245, 158, 11, 0.3)'
+                        : '1px solid rgba(255, 255, 255, 0.08)',
+                    borderRadius: '10px',
+                    cursor: 'pointer',
+                    transition: 'all 0.25s ease',
+                    transform: isHovered ? 'translateY(-4px)' : 'translateY(0)',
+                    boxShadow: isHovered
+                        ? '0 8px 32px rgba(0, 0, 0, 0.5), 0 0 40px rgba(245, 158, 11, 0.15)'
+                        : '0 2px 8px rgba(0, 0, 0, 0.3)',
+                    overflow: 'hidden',
+                    width: isMobile ? '48%' : '140px',
+                    flexShrink: 0
+                }}
+            >
+                {/* Item Name */}
+                <div style={{
+                    padding: '0.5rem 0.4rem',
+                    borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
+                    background: 'rgba(0, 0, 0, 0.2)'
+                }}>
+                    <h3 style={{
+                        fontFamily: "'Rajdhani', sans-serif",
+                        fontSize: isMobile ? '0.7rem' : '0.8rem',
+                        fontWeight: 600,
+                        color: '#f8fafc',
+                        textAlign: 'center',
+                        margin: 0,
+                        lineHeight: 1.2,
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        whiteSpace: 'nowrap'
+                    }}>
+                        {itemName}
+                    </h3>
+                </div>
+
+                {/* Item Image */}
+                <div style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    padding: '0.5rem',
+                    minHeight: '60px',
+                    background: isHovered
+                        ? 'rgba(245, 158, 11, 0.03)'
+                        : 'transparent',
+                    transition: 'background 0.25s ease'
+                }}>
+                    <img
+                        src={`${process.env.PUBLIC_URL + img}`}
+                        alt={itemName}
+                        style={{
+                            maxWidth: '100%',
+                            maxHeight: '70px',
+                            objectFit: 'contain',
+                            filter: isHovered
+                                ? 'drop-shadow(0 0 8px rgba(245, 158, 11, 0.3))'
+                                : 'none',
+                            transition: 'filter 0.25s ease'
+                        }}
+                    />
+                </div>
+
+                {/* Item Info */}
+                <div style={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    padding: '0.5rem 0.6rem',
+                    borderTop: '1px solid rgba(255, 255, 255, 0.08)',
+                    background: 'rgba(0, 0, 0, 0.2)'
+                }}>
+                    {/* Count */}
+                    <span style={{
+                        fontFamily: "'Rajdhani', sans-serif",
+                        fontSize: '1rem',
+                        fontWeight: 700,
+                        color: '#f8fafc'
+                    }}>
+                        ×{num}
+                    </span>
+
+                    {/* InRaid Badge */}
+                    <span style={{
+                        fontSize: '0.7rem',
+                        fontWeight: 600,
+                        padding: '0.2rem 0.5rem',
+                        borderRadius: '4px',
+                        background: isInRaid
+                            ? 'rgba(239, 68, 68, 0.2)'
+                            : 'rgba(34, 197, 94, 0.2)',
+                        color: isInRaid ? '#ef4444' : '#22c55e',
+                        border: isInRaid
+                            ? '1px solid rgba(239, 68, 68, 0.3)'
+                            : '1px solid rgba(34, 197, 94, 0.3)',
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.05em'
+                    }}>
+                        {isInRaid ? 'FIR' : 'ANY'}
+                    </span>
+                </div>
+            </div>
         </>
     )
 }
-export default Item
 
+export default Item;

@@ -1,9 +1,8 @@
-//Web3Formsを使用して、右下に常時表示されるフローティングお問い合わせフォームを作成する
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
-import Select from 'react-select'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaperPlane, faCommentDots, faTimes } from '@fortawesome/free-solid-svg-icons'
+import Select from 'react-select';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperPlane, faCommentDots, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const options = [
     { value: 'ご意見・ご感想', label: 'ご意見・ご感想' },
@@ -13,6 +12,45 @@ const options = [
 ];
 
 const ACCESS_KEY = process.env.REACT_APP_WEB3FORMS_ACCESS_KEY || "58194ea6-b700-45c2-8938-68b002a12b2b";
+
+const selectStyles = {
+    control: (base, state) => ({
+        ...base,
+        backgroundColor: '#1a1a25',
+        borderColor: state.isFocused ? '#f59e0b' : 'rgba(255, 255, 255, 0.08)',
+        color: '#f8fafc',
+        minHeight: '40px',
+        fontSize: '14px',
+        borderRadius: '6px',
+        boxShadow: state.isFocused ? '0 0 0 3px rgba(245, 158, 11, 0.15)' : 'none',
+        '&:hover': {
+            borderColor: 'rgba(255, 255, 255, 0.15)'
+        }
+    }),
+    menu: (base) => ({
+        ...base,
+        backgroundColor: '#12121a',
+        border: '1px solid rgba(255, 255, 255, 0.08)',
+        borderRadius: '6px'
+    }),
+    option: (base, state) => ({
+        ...base,
+        backgroundColor: state.isFocused ? 'rgba(245, 158, 11, 0.1)' : state.isSelected ? '#f59e0b' : '#12121a',
+        color: state.isSelected ? '#000' : '#f8fafc',
+        fontSize: '14px',
+        cursor: 'pointer'
+    }),
+    singleValue: (base) => ({
+        ...base,
+        color: '#f8fafc',
+        fontSize: '14px'
+    }),
+    indicatorSeparator: () => ({ display: 'none' }),
+    dropdownIndicator: (base) => ({
+        ...base,
+        color: '#94a3b8'
+    })
+};
 
 const Contact = () => {
     const [showModal, setShowModal] = useState(false);
@@ -28,7 +66,6 @@ const Contact = () => {
 
     const handleClose = () => {
         setShowModal(false);
-        // ウィンドウを閉じる時に状態をリセット
         setTimeout(() => {
             setIsSent(false);
             setIsError(false);
@@ -48,7 +85,6 @@ const Contact = () => {
         }
     };
 
-    //Web3Formsを使用して、お問い合わせフォームの内容をメールで送信する
     const onSubmit = async (event) => {
         event.preventDefault();
         setIsSending(true);
@@ -72,10 +108,8 @@ const Contact = () => {
                 setIsSent(true);
                 setIsError(false);
                 setIsSending(false);
-                // フォームをリセット
                 event.target.reset();
                 setSelectedValue(options[0]);
-                // 3秒後に自動で閉じる
                 setTimeout(() => {
                     handleClose();
                 }, 3000);
@@ -96,40 +130,43 @@ const Contact = () => {
 
     return (
         <>
-            {/* 右下に固定されたフローティングボタン */}
+            {/* Floating Action Button */}
             <button
                 onClick={handleToggle}
-                className="btn btn-primary rounded-circle shadow-lg"
                 style={{
                     position: 'fixed',
                     bottom: '24px',
                     right: '24px',
-                    width: '64px',
-                    height: '64px',
+                    width: '60px',
+                    height: '60px',
+                    borderRadius: '50%',
                     zIndex: 1051,
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    fontSize: '24px',
+                    fontSize: '22px',
                     border: 'none',
+                    background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+                    color: '#000',
+                    cursor: 'pointer',
+                    boxShadow: '0 4px 20px rgba(245, 158, 11, 0.4)',
                     transition: 'all 0.3s ease',
-                    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.3)',
-                    transform: showModal ? 'rotate(45deg)' : 'rotate(0deg)'
+                    transform: showModal ? 'rotate(180deg)' : 'rotate(0deg)'
                 }}
                 onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = 'scale(1.1)';
-                    e.currentTarget.style.boxShadow = '0 6px 16px rgba(0, 0, 0, 0.4)';
+                    e.currentTarget.style.transform = showModal ? 'rotate(180deg) scale(1.1)' : 'scale(1.1)';
+                    e.currentTarget.style.boxShadow = '0 6px 24px rgba(245, 158, 11, 0.5)';
                 }}
                 onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = 'scale(1)';
-                    e.currentTarget.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.3)';
+                    e.currentTarget.style.transform = showModal ? 'rotate(180deg)' : 'scale(1)';
+                    e.currentTarget.style.boxShadow = '0 4px 20px rgba(245, 158, 11, 0.4)';
                 }}
                 aria-label="お問い合わせ"
             >
                 <FontAwesomeIcon icon={showModal ? faTimes : faCommentDots} />
             </button>
 
-            {/* 右下に固定された小さなウィンドウ */}
+            {/* Contact Widget */}
             {showModal && (
                 <div
                     className="contact-widget"
@@ -139,10 +176,11 @@ const Contact = () => {
                         right: '24px',
                         width: 'min(400px, calc(100vw - 48px))',
                         height: 'auto',
-                        maxHeight: 'calc(40vh)',
-                        backgroundColor: '#212529',
+                        maxHeight: 'calc(50vh)',
+                        background: 'linear-gradient(145deg, #1a1a25 0%, #12121a 100%)',
                         borderRadius: '16px',
-                        boxShadow: '0 8px 32px rgba(0, 0, 0, 0.4)',
+                        border: '1px solid rgba(255, 255, 255, 0.08)',
+                        boxShadow: '0 8px 32px rgba(0, 0, 0, 0.5)',
                         zIndex: 1050,
                         display: 'flex',
                         flexDirection: 'column',
@@ -150,136 +188,200 @@ const Contact = () => {
                         animation: 'slideUp 0.3s ease-out'
                     }}
                 >
-                    {/* ヘッダー */}
+                    {/* Header */}
                     <div
-                        className="d-flex align-items-center justify-content-between p-3"
                         style={{
-                            backgroundColor: '#0d6efd',
-                            color: '#fff',
-                            borderTopLeftRadius: '16px',
-                            borderTopRightRadius: '16px'
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            padding: '1rem 1.25rem',
+                            background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+                            color: '#000'
                         }}
                     >
-                        <div className="d-flex align-items-center">
-                            <FontAwesomeIcon icon={faCommentDots} className="me-2" />
-                            <h5 className="mb-0 fw-bold">お問い合わせ</h5>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                            <FontAwesomeIcon icon={faCommentDots} />
+                            <h5 style={{
+                                margin: 0,
+                                fontFamily: "'Rajdhani', sans-serif",
+                                fontWeight: 700,
+                                fontSize: '1.1rem',
+                                letterSpacing: '0.05em'
+                            }}>
+                                お問い合わせ
+                            </h5>
                         </div>
                         <button
                             type="button"
                             onClick={handleClose}
-                            className="btn btn-link text-white p-0"
                             style={{
-                                width: '32px',
-                                height: '32px',
+                                width: '28px',
+                                height: '28px',
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center',
-                                textDecoration: 'none'
+                                background: 'rgba(0, 0, 0, 0.1)',
+                                border: 'none',
+                                borderRadius: '50%',
+                                color: '#000',
+                                cursor: 'pointer',
+                                transition: 'background 0.2s ease'
                             }}
                             aria-label="閉じる"
                         >
-                            <FontAwesomeIcon icon={faTimes} />
+                            <FontAwesomeIcon icon={faTimes} size="sm" />
                         </button>
                     </div>
 
-                    {/* ボディ */}
+                    {/* Body */}
                     <div
-                        className="p-3 text-white"
                         style={{
+                            padding: '1.25rem',
                             overflowY: 'auto',
                             flex: 1,
-                            maxHeight: 'calc(40vh - 60px)'
+                            maxHeight: 'calc(50vh - 60px)'
                         }}
                     >
                         <Form id='form' onSubmit={onSubmit}>
-                            <Form.Group className="mb-2" controlId="formBasicType">
-                                <Form.Label className='small fw-bold mb-1'>種別</Form.Label>
+                            {/* Type Select */}
+                            <Form.Group className="mb-3">
+                                <Form.Label style={{
+                                    fontFamily: "'Rajdhani', sans-serif",
+                                    fontWeight: 600,
+                                    fontSize: '0.85rem',
+                                    color: '#f59e0b',
+                                    marginBottom: '0.5rem',
+                                    display: 'block'
+                                }}>
+                                    種別
+                                </Form.Label>
                                 <Select
                                     value={selectedValue}
-                                    className='w-100'
-                                    classNamePrefix="select"
                                     options={options}
                                     onChange={handleChange}
                                     isSearchable={false}
-                                    styles={{
-                                        control: (base) => ({
-                                            ...base,
-                                            backgroundColor: '#212529',
-                                            borderColor: '#495057',
-                                            color: '#fff',
-                                            minHeight: '36px',
-                                            fontSize: '14px'
-                                        }),
-                                        menu: (base) => ({
-                                            ...base,
-                                            backgroundColor: '#212529',
-                                        }),
-                                        option: (base, state) => ({
-                                            ...base,
-                                            backgroundColor: state.isFocused ? '#495057' : '#212529',
-                                            color: '#fff',
-                                            fontSize: '14px'
-                                        }),
-                                        singleValue: (base) => ({
-                                            ...base,
-                                            color: '#fff',
-                                            fontSize: '14px'
-                                        }),
+                                    styles={selectStyles}
+                                />
+                            </Form.Group>
+
+                            {/* Email */}
+                            <Form.Group className="mb-3">
+                                <Form.Label style={{
+                                    fontFamily: "'Rajdhani', sans-serif",
+                                    fontWeight: 600,
+                                    fontSize: '0.85rem',
+                                    color: '#f59e0b',
+                                    marginBottom: '0.5rem',
+                                    display: 'block'
+                                }}>
+                                    メールアドレス
+                                </Form.Label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="example@email.com"
+                                    required
+                                    style={{
+                                        width: '100%',
+                                        padding: '0.6rem 0.75rem',
+                                        background: '#1a1a25',
+                                        border: '1px solid rgba(255, 255, 255, 0.08)',
+                                        borderRadius: '6px',
+                                        color: '#f8fafc',
+                                        fontSize: '14px'
                                     }}
                                 />
                             </Form.Group>
-                            <Form.Group className="mb-2" controlId="formBasicEmail">
-                                <Form.Label className='small fw-bold mb-1'>メールアドレス</Form.Label>
-                                <Form.Control 
-                                    type="email" 
-                                    name="email"
-                                    placeholder="メールアドレス" 
-                                    required
-                                    className="bg-dark text-white border-secondary"
-                                    style={{ color: '#fff', fontSize: '14px', padding: '6px 12px' }}
-                                />
-                            </Form.Group>
-                            <Form.Group className="mb-2" controlId="formBasicMessage">
-                                <Form.Label className='small fw-bold mb-1'>お問い合わせ内容</Form.Label>
-                                <Form.Control 
-                                    as="textarea" 
-                                    rows={2} 
+
+                            {/* Message */}
+                            <Form.Group className="mb-3">
+                                <Form.Label style={{
+                                    fontFamily: "'Rajdhani', sans-serif",
+                                    fontWeight: 600,
+                                    fontSize: '0.85rem',
+                                    color: '#f59e0b',
+                                    marginBottom: '0.5rem',
+                                    display: 'block'
+                                }}>
+                                    お問い合わせ内容
+                                </Form.Label>
+                                <textarea
                                     name="message"
-                                    placeholder="お問い合わせ内容" 
+                                    placeholder="お問い合わせ内容を入力してください"
+                                    rows={3}
                                     required
-                                    className="bg-dark text-white border-secondary"
-                                    style={{ color: '#fff', resize: 'vertical', fontSize: '14px' }}
+                                    style={{
+                                        width: '100%',
+                                        padding: '0.6rem 0.75rem',
+                                        background: '#1a1a25',
+                                        border: '1px solid rgba(255, 255, 255, 0.08)',
+                                        borderRadius: '6px',
+                                        color: '#f8fafc',
+                                        fontSize: '14px',
+                                        resize: 'vertical'
+                                    }}
                                 />
                             </Form.Group>
-                            <div className="d-grid gap-2">
-                                <Button 
-                                    variant="primary" 
-                                    type="submit" 
-                                    disabled={isSending}
-                                    size="sm"
-                                    className="fw-bold"
-                                >
-                                    {isSending ? (
-                                        <>
-                                            <span className="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
-                                            送信中...
-                                        </>
-                                    ) : (
-                                        <>
-                                            <FontAwesomeIcon icon={faPaperPlane} className="me-2" />
-                                            送信
-                                        </>
-                                    )}
-                                </Button>
-                            </div>
+
+                            {/* Submit Button */}
+                            <Button
+                                type="submit"
+                                disabled={isSending}
+                                style={{
+                                    width: '100%',
+                                    padding: '0.7rem',
+                                    background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+                                    border: 'none',
+                                    borderRadius: '6px',
+                                    fontFamily: "'Rajdhani', sans-serif",
+                                    fontWeight: 700,
+                                    fontSize: '0.95rem',
+                                    letterSpacing: '0.05em',
+                                    color: '#000',
+                                    cursor: isSending ? 'not-allowed' : 'pointer',
+                                    opacity: isSending ? 0.7 : 1
+                                }}
+                            >
+                                {isSending ? (
+                                    <>
+                                        <span className="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true" />
+                                        送信中...
+                                    </>
+                                ) : (
+                                    <>
+                                        <FontAwesomeIcon icon={faPaperPlane} className="me-2" />
+                                        送信
+                                    </>
+                                )}
+                            </Button>
                         </Form>
+
+                        {/* Success Message */}
                         {isSent && (
-                            <div className="alert alert-success mt-2 mb-0 py-2" role="alert" style={{ fontSize: '12px' }}>
+                            <div style={{
+                                marginTop: '1rem',
+                                padding: '0.75rem',
+                                background: 'rgba(34, 197, 94, 0.1)',
+                                border: '1px solid rgba(34, 197, 94, 0.3)',
+                                borderRadius: '6px',
+                                color: '#22c55e',
+                                fontSize: '0.85rem'
+                            }}>
                                 <strong>送信完了！</strong> ありがとうございます。
                             </div>
                         )}
+
+                        {/* Error Message */}
                         {isError && (
-                            <div className="alert alert-danger mt-2 mb-0 py-2" role="alert" style={{ fontSize: '12px' }}>
+                            <div style={{
+                                marginTop: '1rem',
+                                padding: '0.75rem',
+                                background: 'rgba(239, 68, 68, 0.1)',
+                                border: '1px solid rgba(239, 68, 68, 0.3)',
+                                borderRadius: '6px',
+                                color: '#ef4444',
+                                fontSize: '0.85rem'
+                            }}>
                                 <strong>エラー:</strong> {errorMessage}
                             </div>
                         )}
@@ -300,28 +402,29 @@ const Contact = () => {
                 }
                 .contact-widget input:focus,
                 .contact-widget textarea:focus {
-                    background-color: #212529 !important;
-                    border-color: #0d6efd !important;
-                    color: #fff !important;
-                    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+                    border-color: #f59e0b !important;
+                    outline: none;
+                    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.15);
                 }
                 .contact-widget input::placeholder,
                 .contact-widget textarea::placeholder {
-                    color: #6c757d !important;
+                    color: #64748b !important;
                 }
                 @media (max-width: 576px) {
                     button[aria-label="お問い合わせ"] {
-                        width: 56px !important;
-                        height: 56px !important;
-                        font-size: 20px !important;
+                        width: 52px !important;
+                        height: 52px !important;
+                        font-size: 18px !important;
                     }
                     .contact-widget {
-                        width: calc(100vw - 40px) !important;
-                        max-height: calc(45vh) !important;
+                        width: calc(100vw - 32px) !important;
+                        right: 16px !important;
+                        max-height: calc(60vh) !important;
                     }
                 }
             `}</style>
         </>
     );
 };
+
 export default Contact;

@@ -1,74 +1,154 @@
-import { Form } from 'react-bootstrap';
+import React, { useState } from 'react';
 import data from '../json/task_with_id.json';
-/**
- * 配列から辞書型に変更
- *
- * @param {*} array
- * @return {*} 辞書型配列
- */
+
 function array2dict(array) {
-    var missions = []
+    var missions = [];
     array.forEach(element => {
         Object.keys(data).forEach(dealer => {
             Object.keys(data[dealer]).some(task => {
                 if (element === task) {
-                    missions.push({ value: getTaskId(dealer, task), label: element })
-                    return true
+                    missions.push({ value: getTaskId(dealer, task), label: element });
+                    return true;
                 }
-                return false
+                return false;
             });
         });
-
     });
-    return missions
+    return missions;
 }
 
 function getTaskId(dealerName, taskName) {
-    return data[dealerName][taskName]["id"]
+    return data[dealerName][taskName]["id"];
 }
 
 function getTaskUrl(dealerName, taskName) {
-    return data[dealerName][taskName]["wiki_url"]
+    return data[dealerName][taskName]["wiki_url"];
 }
 
 function Checkbox({ missions, selected, setSelectedMissions, dealer }) {
+    const [hoveredId, setHoveredId] = useState(null);
+
     const handleClick = (e) => {
         if ((e.ctrlKey && !e.metaKey) || (!e.ctrlKey && e.metaKey)) {
-            window.open((getTaskUrl(dealer, e.target.labels[0].innerText)), '_blank');
+            window.open((getTaskUrl(dealer, e.target.closest('label').innerText)), '_blank');
             return false;
         }
-    }
-    const handleCheckboxChange = (event) => {
-        const value = event.target.labels[0].innerText;
-        if (selected.includes(value)) {
-            //チェックされているとき
-            //配列から削除して、更新
-            setSelectedMissions(array2dict(selected.filter((mission) => mission !== value)))
+    };
+
+    const handleCheckboxChange = (mission) => {
+        if (selected.includes(mission.label)) {
+            setSelectedMissions(array2dict(selected.filter((m) => m !== mission.label)));
         } else {
-            //チェックされてないとき
-            //配列に追加して、更新
-            setSelectedMissions(array2dict([...selected, value]));
+            setSelectedMissions(array2dict([...selected, mission.label]));
         }
     };
+
     return (
-        <Form.Group className="mb-3 text-white">
-            <div className="d-flex flex-wrap mt-3 ms-2">
-                {missions.map((mission) => (
-                    <Form.Check
+        <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+            gap: '0.5rem',
+            padding: '1rem 0'
+        }}>
+            {missions.map((mission) => {
+                const isChecked = selected !== undefined ? selected.includes(mission.label) : false;
+                const isHovered = hoveredId === mission.value;
+
+                return (
+                    <label
                         key={mission.value}
-                        type="checkbox"
-                        id={`${mission.value}`}
-                        label={mission.label}
-                        value={mission.value}
-                        className="mb-2 w-50 mt-1"
-                        checked={selected !== undefined ? selected.includes(mission.label) : [].includes(mission.label)}
-                        onChange={handleCheckboxChange}
+                        htmlFor={`checkbox-${mission.value}`}
                         onClick={handleClick}
-                    />
-                ))}
-            </div>
-        </Form.Group>
+                        onMouseEnter={() => setHoveredId(mission.value)}
+                        onMouseLeave={() => setHoveredId(null)}
+                        style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '0.75rem',
+                            padding: '0.75rem 1rem',
+                            background: isChecked
+                                ? 'rgba(34, 197, 94, 0.1)'
+                                : isHovered
+                                    ? 'rgba(255, 255, 255, 0.03)'
+                                    : 'transparent',
+                            border: isChecked
+                                ? '1px solid rgba(34, 197, 94, 0.3)'
+                                : '1px solid var(--color-border, rgba(255, 255, 255, 0.08))',
+                            borderRadius: '8px',
+                            cursor: 'pointer',
+                            transition: 'all 0.2s ease',
+                            transform: isHovered ? 'translateX(2px)' : 'translateX(0)'
+                        }}
+                    >
+                        {/* Custom Checkbox */}
+                        <div style={{
+                            position: 'relative',
+                            width: '20px',
+                            height: '20px',
+                            flexShrink: 0
+                        }}>
+                            <input
+                                type="checkbox"
+                                id={`checkbox-${mission.value}`}
+                                checked={isChecked}
+                                onChange={() => handleCheckboxChange(mission)}
+                                style={{
+                                    position: 'absolute',
+                                    opacity: 0,
+                                    width: '100%',
+                                    height: '100%',
+                                    cursor: 'pointer'
+                                }}
+                            />
+                            <div style={{
+                                width: '20px',
+                                height: '20px',
+                                borderRadius: '4px',
+                                border: isChecked
+                                    ? '2px solid #22c55e'
+                                    : '2px solid rgba(255, 255, 255, 0.2)',
+                                background: isChecked ? '#22c55e' : 'transparent',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                transition: 'all 0.2s ease'
+                            }}>
+                                {isChecked && (
+                                    <svg
+                                        width="12"
+                                        height="12"
+                                        viewBox="0 0 12 12"
+                                        fill="none"
+                                    >
+                                        <path
+                                            d="M2 6L5 9L10 3"
+                                            stroke="#000"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                    </svg>
+                                )}
+                            </div>
+                        </div>
+
+                        {/* Label */}
+                        <span style={{
+                            color: isChecked
+                                ? '#22c55e'
+                                : 'var(--color-text-secondary, #94a3b8)',
+                            fontSize: '0.9rem',
+                            fontWeight: isChecked ? 600 : 400,
+                            transition: 'color 0.2s ease',
+                            lineHeight: 1.4
+                        }}>
+                            {mission.label}
+                        </span>
+                    </label>
+                );
+            })}
+        </div>
     );
 }
 
-export default Checkbox
+export default Checkbox;

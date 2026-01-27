@@ -1,16 +1,13 @@
 import React from 'react';
 
-
 const TopUpdateBar = ({ title, content, date }) => {
-
     return (
-        <div className='text-white p-2 w-75 m-auto'>
-            <dl>
-                <dt>{date}</dt>
-                <dd>{title}</dd>
-                <dd><small>{content}</small></dd>
-            </dl>
+        <div className='update-card'>
+            <div className="date">{date}</div>
+            <div className="title">{title}</div>
+            <div className="content">{content}</div>
         </div>
     )
 }
-export default TopUpdateBar
+
+export default TopUpdateBar;
