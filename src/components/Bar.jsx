@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Logo from '../logo.webp';
 
 const Bar = () => {
-    const homepage = process.env.REACT_APP_HOMEPAGE || '';
+    const homepage = import.meta.env.VITE_HOMEPAGE || '';
     const [isOpen, setIsOpen] = useState(false);
 
     return (

@@ -5,8 +5,9 @@ import SettingBar from './SettingBar';
 import AmmoSettingOffcanvas from './AmmoSettingOffcanvas';
 import App from './Table2';
 import BackButton from './BackButton';
+import { resolvePublicPath } from '../utils/publicPath';
 
-const jsonFilePath = process.env.PUBLIC_URL + '/json/ammo_dict.json';
+const jsonFilePath = resolvePublicPath('json/ammo_dict.json');
 
 function getCaliberAmmoData(ammoData, caliber) {
     let CaliberAmmoData = JSON.stringify(ammoData);
@@ -25,7 +26,7 @@ function makeData(ammoData, caliber) {
     var Data = [];
     Object.keys(getCaliberAmmoData(ammoData, caliber)).forEach(name => {
         Data.push({
-            "iconLink": process.env.PUBLIC_URL + "/" + ammoData[name]["iconLink"],
+            "iconLink": resolvePublicPath(ammoData[name]["iconLink"]),
             "name": name,
             "damage": ammoData[name]["damage"],
             "penetrate": ammoData[name]["penetrationPower"],

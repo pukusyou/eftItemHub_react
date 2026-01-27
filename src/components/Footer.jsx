@@ -16,7 +16,7 @@ function Footer({ pageName, pageUrl }) {
                             flexWrap: 'wrap'
                         }}>
                             <a
-                                href={(process.env.REACT_APP_HOMEPAGE || '') + "/privacy/"}
+                                href={(import.meta.env.VITE_HOMEPAGE || '') + "/privacy/"}
                                 style={{
                                     color: 'var(--color-text-secondary)',
                                     textDecoration: 'none',

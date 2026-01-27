@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { isMobile } from "react-device-detect";
 import OffCanvas from './ItemOffcanvas';
+import { resolvePublicPath } from '../utils/publicPath';
 
 const Item = ({ itemName, img, tasks, num, inRaid, category }) => {
     const [show, setShow] = useState(false);
@@ -74,7 +75,7 @@ const Item = ({ itemName, img, tasks, num, inRaid, category }) => {
                     transition: 'background 0.25s ease'
                 }}>
                     <img
-                        src={`${process.env.PUBLIC_URL + img}`}
+                        src={resolvePublicPath(img)}
                         alt={itemName}
                         style={{
                             maxWidth: '100%',

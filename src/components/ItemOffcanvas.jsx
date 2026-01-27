@@ -1,4 +1,5 @@
 import React from 'react';
+import { resolvePublicPath } from '../utils/publicPath';
 const ItemOffCanvas = ({ show, onHide, title, num, tasks, img, inRaid }) => {
     const taskTags = tasks.map((task) => {
         var itemNum = task["num"] !== -1 ? "x" + task["num"] : "タスクで使用"
@@ -39,7 +40,7 @@ const ItemOffCanvas = ({ show, onHide, title, num, tasks, img, inRaid }) => {
                 <div className="space-y-4 px-6 py-5">
                     <div className="overflow-hidden rounded-lg border border-white/10 bg-[var(--color-bg-card,#16161f)]">
                         <img
-                            src={`${process.env.PUBLIC_URL + img}`}
+                            src={resolvePublicPath(img)}
                             alt={title}
                             className="h-48 w-full object-cover"
                         />

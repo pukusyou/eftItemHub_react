@@ -10,7 +10,9 @@ const options = [
     { value: 'その他', label: 'その他' },
 ];
 
-const ACCESS_KEY = process.env.REACT_APP_WEB3FORMS_ACCESS_KEY || "58194ea6-b700-45c2-8938-68b002a12b2b";
+const ACCESS_KEY =
+    import.meta.env.VITE_WEB3FORMS_ACCESS_KEY ||
+    "58194ea6-b700-45c2-8938-68b002a12b2b";
 
 const selectStyles = {
     control: (base, state) => ({

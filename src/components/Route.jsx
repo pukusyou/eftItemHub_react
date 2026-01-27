@@ -11,7 +11,7 @@ import NotFound from "./NotFound";
 
 const TaskRoute = () => {
     return (
-        <BrowserRouter basename={process.env.REACT_APP_HOMEPAGE || ''}>
+        <BrowserRouter basename={import.meta.env.VITE_HOMEPAGE || ''}>
             <Routes>
                 <Route path={`/eft`} element={<Navigate to="/" replace />} />
                 <Route path={`/`} element={<TopPageAll />} />
