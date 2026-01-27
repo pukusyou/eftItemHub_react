@@ -169,7 +169,7 @@ const TaskItemAll = () => {
                 <BackButton link={"/task/"} />
             </div>
 
-            <div className='min-vh-100' style={{ padding: '0' }}>
+            <div className="min-h-screen" style={{ padding: '0' }}>
                 {/* Page Header */}
                 <div style={{
                     textAlign: 'center',

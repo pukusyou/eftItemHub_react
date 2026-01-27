@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
 import Select from 'react-select';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane, faCommentDots, faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -242,119 +241,75 @@ const Contact = () => {
                             maxHeight: 'calc(50vh - 60px)'
                         }}
                     >
-                        <Form id='form' onSubmit={onSubmit}>
+                        <form id='form' onSubmit={onSubmit}>
                             {/* Type Select */}
-                            <Form.Group className="mb-3">
-                                <Form.Label style={{
-                                    fontFamily: "'Rajdhani', sans-serif",
-                                    fontWeight: 600,
-                                    fontSize: '0.85rem',
-                                    color: '#f59e0b',
-                                    marginBottom: '0.5rem',
-                                    display: 'block'
-                                }}>
+                            <div className="mb-3">
+                                <label
+                                    className="block font-['Rajdhani'] text-sm font-semibold text-amber-400"
+                                >
                                     種別
-                                </Form.Label>
-                                <Select
-                                    value={selectedValue}
-                                    options={options}
-                                    onChange={handleChange}
-                                    isSearchable={false}
-                                    styles={selectStyles}
-                                />
-                            </Form.Group>
+                                </label>
+                                <div className="mt-2">
+                                    <Select
+                                        value={selectedValue}
+                                        options={options}
+                                        onChange={handleChange}
+                                        isSearchable={false}
+                                        styles={selectStyles}
+                                    />
+                                </div>
+                            </div>
 
                             {/* Email */}
-                            <Form.Group className="mb-3">
-                                <Form.Label style={{
-                                    fontFamily: "'Rajdhani', sans-serif",
-                                    fontWeight: 600,
-                                    fontSize: '0.85rem',
-                                    color: '#f59e0b',
-                                    marginBottom: '0.5rem',
-                                    display: 'block'
-                                }}>
+                            <div className="mb-3">
+                                <label className="block font-['Rajdhani'] text-sm font-semibold text-amber-400">
                                     メールアドレス
-                                </Form.Label>
+                                </label>
                                 <input
                                     type="email"
                                     name="email"
                                     placeholder="example@email.com"
                                     required
-                                    style={{
-                                        width: '100%',
-                                        padding: '0.6rem 0.75rem',
-                                        background: '#1a1a25',
-                                        border: '1px solid rgba(255, 255, 255, 0.08)',
-                                        borderRadius: '6px',
-                                        color: '#f8fafc',
-                                        fontSize: '14px'
-                                    }}
+                                    className="mt-2 w-full rounded-md border border-white/10 bg-[#1a1a25] px-3 py-2 text-sm text-slate-100 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/30"
                                 />
-                            </Form.Group>
+                            </div>
 
                             {/* Message */}
-                            <Form.Group className="mb-3">
-                                <Form.Label style={{
-                                    fontFamily: "'Rajdhani', sans-serif",
-                                    fontWeight: 600,
-                                    fontSize: '0.85rem',
-                                    color: '#f59e0b',
-                                    marginBottom: '0.5rem',
-                                    display: 'block'
-                                }}>
+                            <div className="mb-3">
+                                <label className="block font-['Rajdhani'] text-sm font-semibold text-amber-400">
                                     お問い合わせ内容
-                                </Form.Label>
+                                </label>
                                 <textarea
                                     name="message"
                                     placeholder="お問い合わせ内容を入力してください"
                                     rows={3}
                                     required
-                                    style={{
-                                        width: '100%',
-                                        padding: '0.6rem 0.75rem',
-                                        background: '#1a1a25',
-                                        border: '1px solid rgba(255, 255, 255, 0.08)',
-                                        borderRadius: '6px',
-                                        color: '#f8fafc',
-                                        fontSize: '14px',
-                                        resize: 'vertical'
-                                    }}
+                                    className="mt-2 w-full resize-y rounded-md border border-white/10 bg-[#1a1a25] px-3 py-2 text-sm text-slate-100 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/30"
                                 />
-                            </Form.Group>
+                            </div>
 
                             {/* Submit Button */}
-                            <Button
+                            <button
                                 type="submit"
                                 disabled={isSending}
-                                style={{
-                                    width: '100%',
-                                    padding: '0.7rem',
-                                    background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
-                                    border: 'none',
-                                    borderRadius: '6px',
-                                    fontFamily: "'Rajdhani', sans-serif",
-                                    fontWeight: 700,
-                                    fontSize: '0.95rem',
-                                    letterSpacing: '0.05em',
-                                    color: '#000',
-                                    cursor: isSending ? 'not-allowed' : 'pointer',
-                                    opacity: isSending ? 0.7 : 1
-                                }}
+                                className={`mt-2 flex w-full items-center justify-center gap-2 rounded-md px-4 py-2 font-['Rajdhani'] text-sm font-bold tracking-[0.05em] text-black transition ${isSending
+                                    ? 'cursor-not-allowed bg-amber-500/60'
+                                    : 'bg-[linear-gradient(135deg,#f59e0b_0%,#d97706_100%)]'
+                                    }`}
                             >
                                 {isSending ? (
                                     <>
-                                        <span className="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true" />
+                                        <span className="h-4 w-4 animate-spin rounded-full border-2 border-black/30 border-t-black" />
                                         送信中...
                                     </>
                                 ) : (
                                     <>
-                                        <FontAwesomeIcon icon={faPaperPlane} className="me-2" />
+                                        <FontAwesomeIcon icon={faPaperPlane} />
                                         送信
                                     </>
                                 )}
-                            </Button>
-                        </Form>
+                            </button>
+                        </form>
 
                         {/* Success Message */}
                         {isSent && (

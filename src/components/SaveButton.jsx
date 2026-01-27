@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSave } from '@fortawesome/free-solid-svg-icons';
 import { isMobile } from "react-device-detect";
-import { Button, Modal } from 'react-bootstrap';
 import data from '../json/task_with_id.json';
 
 function saveBookMark(name) {
@@ -108,120 +107,70 @@ const SaveButton = ({ showBool, setShowBool, textBox, setTextBox }) => {
                 {!isMobile && 'Save'}
             </button>
 
-            <Modal show={showBool} onHide={handleClose}>
-                <div style={{
-                    background: 'linear-gradient(145deg, #1a1a25 0%, #12121a 100%)',
-                    color: '#f8fafc',
-                    borderRadius: '12px',
-                    overflow: 'hidden'
-                }}>
-                    <Modal.Header style={{
-                        borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
-                        padding: '1.25rem 1.5rem'
-                    }}>
-                        <Modal.Title style={{
-                            fontFamily: "'Rajdhani', sans-serif",
-                            fontWeight: 700,
-                            fontSize: '1.3rem',
-                            letterSpacing: '0.05em'
-                        }}>
-                            保存
-                        </Modal.Title>
-                    </Modal.Header>
+            {showBool && (
+                <div className="fixed inset-0 z-[1100] flex items-center justify-center px-4 py-8">
+                    <button
+                        type="button"
+                        aria-label="閉じる"
+                        className="absolute inset-0 bg-black/70"
+                        onClick={handleClose}
+                    />
+                    <div className="relative w-full max-w-2xl overflow-hidden rounded-xl border border-white/10 bg-[linear-gradient(145deg,#1a1a25_0%,#12121a_100%)] text-slate-100 shadow-[0_24px_60px_rgba(0,0,0,0.6)]">
+                        <div className="flex items-center justify-between border-b border-white/10 px-6 py-5">
+                            <h2 className="font-['Rajdhani'] text-xl font-bold tracking-[0.05em]">保存</h2>
+                            <button
+                                type="button"
+                                onClick={handleClose}
+                                className="rounded-full border border-white/10 px-3 py-1 text-xs text-slate-400 transition hover:border-white/20 hover:text-slate-200"
+                            >
+                                閉じる
+                            </button>
+                        </div>
 
-                    <Modal.Body style={{ padding: '1.5rem' }}>
-                        <label style={{
-                            display: 'block',
-                            fontFamily: "'Rajdhani', sans-serif",
-                            fontWeight: 600,
-                            fontSize: '1rem',
-                            marginBottom: '0.5rem',
-                            color: 'var(--color-accent-primary, #f59e0b)'
-                        }}>
-                            ブックマーク名
-                        </label>
-                        <p style={{
-                            fontSize: '0.85rem',
-                            color: '#94a3b8',
-                            marginBottom: '1rem'
-                        }}>
-                            アルファベット大文字・小文字、数字で入力してください (25文字以内)
-                        </p>
-                        <input
-                            type="text"
-                            value={textBox}
-                            onChange={(event) => setTextBox(event.target.value)}
-                            style={{
-                                width: '100%',
-                                padding: '0.75rem 1rem',
-                                background: 'var(--color-bg-tertiary, #1a1a25)',
-                                border: '1px solid rgba(255, 255, 255, 0.08)',
-                                borderRadius: '6px',
-                                color: '#f8fafc',
-                                fontSize: '1rem',
-                                outline: 'none',
-                                transition: 'border-color 0.25s ease'
-                            }}
-                            onFocus={(e) => e.target.style.borderColor = '#f59e0b'}
-                            onBlur={(e) => e.target.style.borderColor = 'rgba(255, 255, 255, 0.08)'}
-                        />
-                        {err && (
-                            <p style={{
-                                color: '#ef4444',
-                                fontSize: '0.85rem',
-                                marginTop: '0.75rem',
-                                marginBottom: 0
-                            }}>
-                                {err}
+                        <div className="space-y-3 px-6 py-5">
+                            <label className="block font-['Rajdhani'] text-base font-semibold text-amber-400">
+                                ブックマーク名
+                            </label>
+                            <p className="text-sm text-slate-400">
+                                アルファベット大文字・小文字、数字で入力してください (25文字以内)
                             </p>
-                        )}
-                        {ok && (
-                            <p style={{
-                                color: '#22c55e',
-                                fontSize: '0.85rem',
-                                marginTop: '0.75rem',
-                                marginBottom: 0
-                            }}>
-                                {ok}
-                            </p>
-                        )}
-                    </Modal.Body>
+                            <input
+                                type="text"
+                                value={textBox}
+                                onChange={(event) => setTextBox(event.target.value)}
+                                className="w-full rounded-md border border-white/10 bg-[var(--color-bg-tertiary,#1a1a25)] px-4 py-3 text-base text-slate-100 outline-none transition focus:border-amber-400 focus:ring-2 focus:ring-amber-400/30"
+                            />
+                            {err && (
+                                <p className="text-sm text-red-400">
+                                    {err}
+                                </p>
+                            )}
+                            {ok && (
+                                <p className="text-sm text-emerald-400">
+                                    {ok}
+                                </p>
+                            )}
+                        </div>
 
-                    <Modal.Footer style={{
-                        borderTop: '1px solid rgba(255, 255, 255, 0.08)',
-                        padding: '1rem 1.5rem',
-                        gap: '0.5rem'
-                    }}>
-                        <Button
-                            onClick={handleSave}
-                            style={{
-                                background: 'linear-gradient(135deg, #22c55e 0%, #16a34a 100%)',
-                                border: 'none',
-                                padding: '0.5rem 1.5rem',
-                                fontFamily: "'Rajdhani', sans-serif",
-                                fontWeight: 600,
-                                letterSpacing: '0.05em'
-                            }}
-                        >
-                            保存
-                        </Button>
-                        <Button
-                            onClick={handleClose}
-                            style={{
-                                background: 'transparent',
-                                border: '1px solid rgba(255, 255, 255, 0.08)',
-                                color: '#94a3b8',
-                                padding: '0.5rem 1.5rem',
-                                fontFamily: "'Rajdhani', sans-serif",
-                                fontWeight: 600,
-                                letterSpacing: '0.05em'
-                            }}
-                        >
-                            閉じる
-                        </Button>
-                    </Modal.Footer>
+                        <div className="flex flex-wrap items-center justify-end gap-2 border-t border-white/10 px-6 py-4">
+                            <button
+                                type="button"
+                                onClick={handleSave}
+                                className="rounded-md bg-[linear-gradient(135deg,#22c55e_0%,#16a34a_100%)] px-6 py-2 font-['Rajdhani'] text-sm font-semibold tracking-[0.05em] text-black"
+                            >
+                                保存
+                            </button>
+                            <button
+                                type="button"
+                                onClick={handleClose}
+                                className="rounded-md border border-white/10 px-6 py-2 font-['Rajdhani'] text-sm font-semibold tracking-[0.05em] text-slate-400 transition hover:border-white/20 hover:text-slate-200"
+                            >
+                                閉じる
+                            </button>
+                        </div>
+                    </div>
                 </div>
-            </Modal>
+            )}
         </>
     )
 }

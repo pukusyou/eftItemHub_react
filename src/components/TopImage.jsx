@@ -62,21 +62,13 @@ const TopImage = () => {
             }}>
                 <a
                     href={(process.env.REACT_APP_HOMEPAGE || '') + "/task/"}
-                    className="btn btn-primary"
-                    style={{
-                        padding: '0.75rem 2rem',
-                        fontSize: '1rem'
-                    }}
+                    className="inline-flex items-center justify-center rounded-md bg-[linear-gradient(135deg,#f59e0b_0%,#d97706_100%)] px-6 py-2 font-['Rajdhani'] text-sm font-semibold tracking-[0.05em] text-black shadow-[0_6px_16px_rgba(245,158,11,0.35)] transition hover:-translate-y-0.5"
                 >
                     タスク管理
                 </a>
                 <a
                     href={(process.env.REACT_APP_HOMEPAGE || '') + "/hideout/"}
-                    className="btn btn-secondary"
-                    style={{
-                        padding: '0.75rem 2rem',
-                        fontSize: '1rem'
-                    }}
+                    className="inline-flex items-center justify-center rounded-md border border-white/20 px-6 py-2 font-['Rajdhani'] text-sm font-semibold tracking-[0.05em] text-slate-200 transition hover:border-white/40 hover:text-white"
                 >
                     ハイドアウト
                 </a>

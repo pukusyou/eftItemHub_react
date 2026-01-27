@@ -34,7 +34,15 @@ function getHideoutsLL(lang) {
         const lastNumber = parseInt(lastKey.match(/\d+$/)[0]);
         // console.log(hideout, lastNumber);
         // langがenなら英語、jpなら日本語
-        tagList.push(<div className='w-50 p-2 mb-2' key={hideout}><h4 className='text-white pb-1 m-0'><img src={iconPath[hideout]} alt={hideout} />{lang === 'en' ? hideout : jp[hideout]}</h4><HideoutLevel max={lastNumber} hideoutName={hideout} /></div>)
+        tagList.push(
+            <div className="w-full p-2 sm:w-1/2" key={hideout}>
+                <h4 className="mb-1 flex items-center gap-2 text-base font-semibold text-slate-100">
+                    <img src={iconPath[hideout]} alt={hideout} className="h-6 w-6" />
+                    {lang === 'en' ? hideout : jp[hideout]}
+                </h4>
+                <HideoutLevel max={lastNumber} hideoutName={hideout} />
+            </div>
+        )
         // tagList.push(<div className='w-50 p-2 mb-2' key={hideout}><h4 className='text-white pb-1 m-0'>{jp[hideout]}</h4><HideoutLevel max={lastNumber} hideoutName={hideout} /></div>)
     });
     return tagList
@@ -42,7 +50,7 @@ function getHideoutsLL(lang) {
 
 const HideoutSelect = ({lang}) => {
     return (
-        <div className='d-flex flex-wrap'>
+        <div className="flex flex-wrap">
             {getHideoutsLL(lang)}
         </div>
 

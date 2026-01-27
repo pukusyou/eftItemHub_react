@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/global.css';
 import Bar from './components/Bar';
 import Route from './components/Route';
@@ -10,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Bar />
-    <div className='min-vh-100'>
+    <div className="min-h-screen">
       <Route />
     </div>
   </React.StrictMode>

@@ -11,7 +11,7 @@ const NotFound = () => {
 
     return (
         <>
-            <div className='min-vh-100' style={{
+            <div className="min-h-screen" style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',

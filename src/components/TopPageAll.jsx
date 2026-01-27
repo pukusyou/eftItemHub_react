@@ -43,7 +43,7 @@ const TopPageAll = () => {
 
     return (
         <>
-            <div className='min-vh-100'>
+            <div className="min-h-screen">
                 {/* Hero Section */}
                 <section className="hero-section">
                     <TopImage />

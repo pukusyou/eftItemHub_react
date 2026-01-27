@@ -149,7 +149,7 @@ const HideoutItemAll = () => {
                 <BackButton link={"/hideout/"} />
             </div>
 
-            <div className='min-vh-100' style={{ padding: '0' }}>
+            <div className="min-h-screen" style={{ padding: '0' }}>
                 {/* Page Header */}
                 <div style={{
                     textAlign: 'center',

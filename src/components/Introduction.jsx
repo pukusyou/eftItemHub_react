@@ -3,88 +3,33 @@ import puku from "../pukutouka.png";
 
 const Introduction = () => {
     return (
-        <div className="intro-card" style={{
-            display: 'grid',
-            gridTemplateColumns: 'minmax(200px, 1fr) 2fr',
-            gap: 0,
-            overflow: 'hidden'
-        }}>
+        <div className="grid grid-cols-[minmax(200px,1fr)_2fr] gap-0 overflow-hidden bg-[image:var(--gradient-card)] border border-border rounded-lg transition-all duration-[250ms] hover:border-accent-primary/30 hover:shadow-lg">
             {/* Profile Image */}
-            <div style={{
-                background: 'var(--color-bg-tertiary)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                padding: '1rem',
-                borderRight: '1px solid var(--color-border)'
-            }}>
+            <div className="flex items-center justify-center p-4 bg-bg-tertiary border-r border-border">
                 <img
                     src={puku}
                     alt='pukusyou'
-                    style={{
-                        width: '100%',
-                        maxWidth: '200px',
-                        height: 'auto',
-                        borderRadius: 'var(--radius-md)',
-                        objectFit: 'cover'
-                    }}
+                    className="w-full max-w-[200px] h-auto rounded-md object-cover border-r border-border"
                 />
             </div>
 
             {/* Profile Content */}
-            <div style={{ padding: '1.5rem' }}>
+            <div className="p-6">
                 {/* Name */}
-                <h2 style={{
-                    fontFamily: 'var(--font-heading)',
-                    fontSize: '1.8rem',
-                    fontWeight: 700,
-                    background: 'var(--gradient-gold)',
-                    WebkitBackgroundClip: 'text',
-                    WebkitTextFillColor: 'transparent',
-                    backgroundClip: 'text',
-                    marginBottom: '1rem',
-                    paddingBottom: '0.75rem',
-                    borderBottom: '1px solid var(--color-border)'
-                }}>
+                <h2 className="font-heading text-[1.8rem] font-bold pb-3 mb-4 border-b border-border bg-gradient-to-r from-[#f59e0b] via-[#d97706] to-[#b45309] bg-clip-text text-transparent">
                     pukusyou
                 </h2>
 
                 {/* Info Grid */}
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-                    gap: '1.5rem'
-                }}>
+                <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6">
                     {/* Favorite Games */}
                     <div>
-                        <h4 style={{
-                            fontFamily: 'var(--font-heading)',
-                            fontSize: '1rem',
-                            fontWeight: 600,
-                            color: 'var(--color-accent-primary)',
-                            marginBottom: '0.75rem',
-                            letterSpacing: '0.05em',
-                            textTransform: 'uppercase'
-                        }}>
+                        <h4 className="font-heading text-base font-semibold text-accent-primary mb-3 tracking-[0.05em] uppercase">
                             好きなゲーム
                         </h4>
-                        <ul style={{
-                            listStyle: 'none',
-                            padding: 0,
-                            margin: 0,
-                            display: 'flex',
-                            flexWrap: 'wrap',
-                            gap: '0.5rem'
-                        }}>
+                        <ul className="list-none p-0 m-0 flex flex-wrap gap-2">
                             {['EscapeFromTarkov', 'DQX', 'Minecraft', 'Valorant'].map((game, index) => (
-                                <li key={index} style={{
-                                    background: 'var(--color-bg-tertiary)',
-                                    padding: '0.35rem 0.75rem',
-                                    borderRadius: 'var(--radius-sm)',
-                                    fontSize: '0.85rem',
-                                    color: 'var(--color-text-secondary)',
-                                    border: '1px solid var(--color-border)'
-                                }}>
+                                <li key={index} className="bg-bg-tertiary px-3 py-[0.35rem] rounded-sm text-[0.85rem] text-text-secondary border border-border">
                                     {game}
                                 </li>
                             ))}
@@ -93,41 +38,17 @@ const Introduction = () => {
 
                     {/* Social */}
                     <div>
-                        <h4 style={{
-                            fontFamily: 'var(--font-heading)',
-                            fontSize: '1rem',
-                            fontWeight: 600,
-                            color: 'var(--color-accent-primary)',
-                            marginBottom: '0.75rem',
-                            letterSpacing: '0.05em',
-                            textTransform: 'uppercase'
-                        }}>
+                        <h4 className="font-heading text-base font-semibold text-accent-primary mb-3 tracking-[0.05em] uppercase">
                             X (Twitter)
                         </h4>
-                        <p style={{
-                            color: 'var(--color-text-secondary)',
-                            fontSize: '0.9rem',
-                            marginBottom: '0.5rem',
-                            lineHeight: 1.6
-                        }}>
+                        <p className="text-text-secondary text-[0.9rem] mb-2 leading-relaxed">
                             本サイトのアップデート情報を投稿しています。
                         </p>
                         <a
                             href='https://x.com/SYTd_pukusyou'
                             target="_blank"
                             rel="noopener noreferrer"
-                            style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: '0.5rem',
-                                color: 'var(--color-accent-info)',
-                                fontSize: '0.9rem',
-                                padding: '0.5rem 1rem',
-                                background: 'rgba(6, 182, 212, 0.1)',
-                                borderRadius: 'var(--radius-sm)',
-                                border: '1px solid rgba(6, 182, 212, 0.2)',
-                                transition: 'all 0.25s ease'
-                            }}
+                            className="inline-flex items-center gap-2 text-accent-info text-[0.9rem] px-4 py-2 bg-[#06b6d41a] rounded-sm border border-[#06b6d433] transition-all duration-250"
                         >
                             @SYTd_pukusyou
                         </a>
@@ -135,24 +56,11 @@ const Introduction = () => {
                 </div>
 
                 {/* Comment */}
-                <div style={{ marginTop: '1.5rem' }}>
-                    <h4 style={{
-                        fontFamily: 'var(--font-heading)',
-                        fontSize: '1rem',
-                        fontWeight: 600,
-                        color: 'var(--color-accent-primary)',
-                        marginBottom: '0.5rem',
-                        letterSpacing: '0.05em',
-                        textTransform: 'uppercase'
-                    }}>
+                <div className="mt-6">
+                    <h4 className="font-heading text-base font-semibold text-accent-primary mb-2 tracking-[0.05em] uppercase">
                         コメント
                     </h4>
-                    <p style={{
-                        color: 'var(--color-text-secondary)',
-                        fontSize: '0.9rem',
-                        lineHeight: 1.7,
-                        margin: 0
-                    }}>
+                    <p className="text-text-secondary text-[0.9rem] leading-[1.7] m-0">
                         情報に誤りがあった場合や改善、追加が必要な場合は、お気軽にお問い合わせフォームからご連絡ください。
                     </p>
                 </div>

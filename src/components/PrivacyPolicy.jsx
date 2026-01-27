@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
                 <BackButton link={"/"} />
             </div>
 
-            <div className="min-vh-100" style={{
+            <div className="min-h-screen" style={{
                 maxWidth: '900px',
                 margin: '0 auto',
                 padding: '2rem 1.5rem'

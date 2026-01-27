@@ -1,5 +1,4 @@
 import React from "react";
-import Offcanvas from "react-bootstrap/Offcanvas";
 import AmmoSelecter from "./AmmoSelecter";
 
 function makeOptions(array) {
@@ -13,39 +12,31 @@ function makeOptions(array) {
 const AmmoSettingOffcanvas = ({ setShowSetting, canvasShow, caliber, setCaliber, caliberList }) => {
     const handleClose = () => setShowSetting(false);
 
-    return (
-        <Offcanvas
-            show={canvasShow}
-            placement="top"
-            onHide={handleClose}
-            style={{
-                background: 'linear-gradient(145deg, #1a1a25 0%, #12121a 100%)'
-            }}
-        >
-            <div style={{
-                background: 'linear-gradient(145deg, #1a1a25 0%, #12121a 100%)',
-                color: '#f8fafc',
-                minHeight: '250px'
-            }}>
-                <Offcanvas.Header
-                    closeButton
-                    style={{
-                        borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
-                        padding: '1.25rem 1.5rem'
-                    }}
-                >
-                    <Offcanvas.Title style={{
-                        fontFamily: "'Rajdhani', sans-serif",
-                        fontWeight: 700,
-                        fontSize: '1.3rem',
-                        letterSpacing: '0.05em',
-                        color: '#f8fafc'
-                    }}>
-                        表示設定
-                    </Offcanvas.Title>
-                </Offcanvas.Header>
+    if (!canvasShow) {
+        return null;
+    }
 
-                <Offcanvas.Body style={{ padding: '1.5rem' }}>
+    return (
+        <div className="fixed inset-0 z-[1050] flex items-start justify-center px-4 py-6">
+            <button
+                type="button"
+                aria-label="閉じる"
+                className="absolute inset-0 bg-black/70"
+                onClick={handleClose}
+            />
+            <div className="relative w-full max-w-3xl overflow-hidden rounded-xl border border-white/10 bg-[linear-gradient(145deg,#1a1a25_0%,#12121a_100%)] text-slate-100 shadow-[0_24px_60px_rgba(0,0,0,0.6)]">
+                <div className="flex items-center justify-between border-b border-white/10 px-6 py-5">
+                    <h2 className="font-['Rajdhani'] text-xl font-bold tracking-[0.05em]">表示設定</h2>
+                    <button
+                        type="button"
+                        onClick={handleClose}
+                        className="rounded-full border border-white/10 px-3 py-1 text-xs text-slate-400 transition hover:border-white/20 hover:text-slate-200"
+                    >
+                        閉じる
+                    </button>
+                </div>
+
+                <div className="px-6 py-6">
                     <div style={{
                         padding: '1.5rem',
                         background: 'linear-gradient(135deg, rgba(245, 158, 11, 0.05) 0%, rgba(217, 119, 6, 0.03) 100%)',
@@ -135,9 +126,9 @@ const AmmoSettingOffcanvas = ({ setShowSetting, canvasShow, caliber, setCaliber,
                             表示する弾薬の口径を選択してください
                         </p>
                     </div>
-                </Offcanvas.Body>
+                </div>
             </div>
-        </Offcanvas>
+        </div>
     );
 }
 

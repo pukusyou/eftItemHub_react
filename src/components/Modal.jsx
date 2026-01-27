@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Modal, Button } from 'react-bootstrap';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const ModalComp = ({ url, showBool, setShowBool }) => {
@@ -17,103 +16,68 @@ const ModalComp = ({ url, showBool, setShowBool }) => {
         setCopied(true);
     };
 
-    return (
-        <Modal show={showBool} onHide={handleClose} size='xl' centered>
-            <div style={{
-                background: 'linear-gradient(145deg, #1a1a25 0%, #12121a 100%)',
-                color: '#f8fafc',
-                borderRadius: '12px',
-                overflow: 'hidden'
-            }}>
-                <Modal.Header style={{
-                    borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
-                    padding: '1.25rem 1.5rem'
-                }}>
-                    <Modal.Title style={{
-                        fontFamily: "'Rajdhani', sans-serif",
-                        fontWeight: 700,
-                        fontSize: '1.3rem',
-                        letterSpacing: '0.05em'
-                    }}>
-                        共有
-                    </Modal.Title>
-                </Modal.Header>
+    if (!showBool) {
+        return null;
+    }
 
-                <Modal.Body style={{ padding: '1.5rem' }}>
-                    <label style={{
-                        display: 'block',
-                        fontFamily: "'Rajdhani', sans-serif",
-                        fontWeight: 600,
-                        fontSize: '0.9rem',
-                        marginBottom: '0.5rem',
-                        color: 'var(--color-accent-primary, #f59e0b)'
-                    }}>
+    return (
+        <div className="fixed inset-0 z-[1100] flex items-center justify-center px-4 py-8">
+            <button
+                type="button"
+                aria-label="モーダルを閉じる"
+                className="absolute inset-0 bg-black/70"
+                onClick={handleClose}
+            />
+            <div className="relative w-full max-w-5xl overflow-hidden rounded-xl border border-white/10 bg-[linear-gradient(145deg,#1a1a25_0%,#12121a_100%)] text-slate-100 shadow-[0_24px_60px_rgba(0,0,0,0.6)]">
+                <div className="flex items-center justify-between border-b border-white/10 px-6 py-5">
+                    <h2 className="font-['Rajdhani'] text-xl font-bold tracking-[0.05em]">共有</h2>
+                    <button
+                        type="button"
+                        onClick={handleClose}
+                        className="rounded-full border border-white/10 px-3 py-1 text-sm text-slate-400 transition hover:border-white/20 hover:text-slate-200"
+                    >
+                        閉じる
+                    </button>
+                </div>
+
+                <div className="space-y-3 px-6 py-5">
+                    <label className="block font-['Rajdhani'] text-sm font-semibold uppercase tracking-[0.05em] text-amber-400">
                         共有URL
                     </label>
                     <input
                         type="url"
                         value={url}
                         readOnly={true}
-                        style={{
-                            width: '100%',
-                            padding: '0.75rem 1rem',
-                            background: 'var(--color-bg-tertiary, #1a1a25)',
-                            border: '1px solid rgba(255, 255, 255, 0.08)',
-                            borderRadius: '6px',
-                            color: '#f8fafc',
-                            fontSize: '0.9rem'
-                        }}
+                        className="w-full rounded-md border border-white/10 bg-[var(--color-bg-tertiary,#1a1a25)] px-4 py-3 text-sm text-slate-100 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/30"
                     />
-                    <p style={{
-                        fontSize: '0.85rem',
-                        color: '#94a3b8',
-                        marginTop: '0.75rem',
-                        marginBottom: 0
-                    }}>
+                    <p className="text-sm text-slate-400">
                         このURLを共有すると、現在のチェック状態を他の人と共有できます。
                     </p>
-                </Modal.Body>
+                </div>
 
-                <Modal.Footer style={{
-                    borderTop: '1px solid rgba(255, 255, 255, 0.08)',
-                    padding: '1rem 1.5rem',
-                    gap: '0.5rem'
-                }}>
+                <div className="flex flex-wrap items-center justify-end gap-2 border-t border-white/10 px-6 py-4">
                     <CopyToClipboard text={url}>
-                        <Button
+                        <button
+                            type="button"
                             onClick={handleCopyButtonText}
-                            style={{
-                                background: copied
-                                    ? 'linear-gradient(135deg, #22c55e 0%, #16a34a 100%)'
-                                    : 'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)',
-                                border: 'none',
-                                padding: '0.5rem 1.5rem',
-                                fontFamily: "'Rajdhani', sans-serif",
-                                fontWeight: 600,
-                                letterSpacing: '0.05em',
-                                transition: 'all 0.25s ease'
-                            }}
+                            className={`rounded-md px-6 py-2 font-['Rajdhani'] text-sm font-semibold tracking-[0.05em] text-black transition ${copied
+                                ? 'bg-[linear-gradient(135deg,#22c55e_0%,#16a34a_100%)]'
+                                : 'bg-[linear-gradient(135deg,#3b82f6_0%,#1d4ed8_100%)]'
+                                }`}
                         >
                             {copyButtonText}
-                        </Button>
+                        </button>
                     </CopyToClipboard>
-                    <Button
+                    <button
+                        type="button"
                         onClick={handleClose}
-                        style={{
-                            background: 'transparent',
-                            border: '1px solid rgba(255, 255, 255, 0.08)',
-                            color: '#94a3b8',
-                            padding: '0.5rem 1.5rem',
-                            fontFamily: "'Rajdhani', sans-serif",
-                            fontWeight: 600,
-                            letterSpacing: '0.05em'
-                        }}
+                        className="rounded-md border border-white/10 px-6 py-2 font-['Rajdhani'] text-sm font-semibold tracking-[0.05em] text-slate-400 transition hover:border-white/20 hover:text-slate-200"
                     >
                         閉じる
-                    </Button>
-                </Modal.Footer>
+                    </button>
+                </div>
             </div>
-        </Modal>
+        </div>
     );
 }
 

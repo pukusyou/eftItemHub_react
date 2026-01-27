@@ -1,14 +1,12 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 
 function Footer({ pageName, pageUrl }) {
     const currentYear = new Date().getFullYear();
 
     return (
         <footer className="footer">
-            <Container>
-                <Row className="justify-content-center">
-                    <Col xs={12} className="text-center">
+            <div className="mx-auto w-full max-w-6xl px-4">
+                <div className="text-center">
                         {/* Navigation Links */}
                         <div style={{
                             display: 'flex',
@@ -102,9 +100,8 @@ function Footer({ pageName, pageUrl }) {
                                 © 2023-{currentYear} EFT Item Hub
                             </span>
                         </div>
-                    </Col>
-                </Row>
-            </Container>
+                </div>
+            </div>
         </footer>
     );
 }

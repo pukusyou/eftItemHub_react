@@ -34,7 +34,7 @@ const HideoutSettingAll = () => {
                 <BackButton link={"/"} />
             </div>
 
-            <div className='min-vh-100' style={{ padding: '0 1rem' }}>
+            <div className="min-h-screen" style={{ padding: '0 1rem' }}>
                 {/* Page Header */}
                 <div style={{
                     textAlign: 'center',

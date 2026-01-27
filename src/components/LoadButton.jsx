@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBarsProgress } from '@fortawesome/free-solid-svg-icons';
 import { isMobile } from "react-device-detect";
-import { Button, Modal } from 'react-bootstrap';
 
 function makeTags(bookMarkList, selectedBookmark, setSelectedBookmark) {
     let tags = [];
@@ -133,96 +132,69 @@ const LoadButton = ({ setShowLoadModal, showLoadModal, bookMarkList, setIdList }
                 {!isMobile && 'Load'}
             </button>
 
-            <Modal show={showLoadModal} onHide={handleClose}>
-                <div style={{
-                    background: 'linear-gradient(145deg, #1a1a25 0%, #12121a 100%)',
-                    color: '#f8fafc',
-                    borderRadius: '12px',
-                    overflow: 'hidden'
-                }}>
-                    <Modal.Header style={{
-                        borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
-                        padding: '1.25rem 1.5rem'
-                    }}>
-                        <Modal.Title style={{
-                            fontFamily: "'Rajdhani', sans-serif",
-                            fontWeight: 700,
-                            fontSize: '1.3rem',
-                            letterSpacing: '0.05em'
-                        }}>
-                            読み込み
-                        </Modal.Title>
-                    </Modal.Header>
-
-                    <Modal.Body style={{ padding: '1.5rem' }}>
-                        {makeTags(bookMarkname, selectedBookmark, setSelectedBookmark).length > 0
-                            ? makeTags(bookMarkname, selectedBookmark, setSelectedBookmark)
-                            : (
-                                <div style={{
-                                    textAlign: 'center',
-                                    padding: '2rem',
-                                    color: '#94a3b8'
-                                }}>
-                                    ブックマークがありません
-                                </div>
-                            )
-                        }
-                    </Modal.Body>
-
-                    <Modal.Footer style={{
-                        borderTop: '1px solid rgba(255, 255, 255, 0.08)',
-                        padding: '1rem 1.5rem',
-                        gap: '0.5rem'
-                    }}>
-                        <Button
-                            onClick={handleRemove}
-                            disabled={!selectedBookmark}
-                            style={{
-                                background: 'rgba(239, 68, 68, 0.1)',
-                                border: '1px solid rgba(239, 68, 68, 0.2)',
-                                color: '#ef4444',
-                                padding: '0.5rem 1rem',
-                                fontFamily: "'Rajdhani', sans-serif",
-                                fontWeight: 600,
-                                letterSpacing: '0.05em',
-                                opacity: selectedBookmark ? 1 : 0.5
-                            }}
-                        >
-                            削除
-                        </Button>
-                        <Button
-                            onClick={handleLoad}
-                            disabled={!selectedBookmark}
-                            style={{
-                                background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
-                                border: 'none',
-                                color: '#000',
-                                padding: '0.5rem 1.5rem',
-                                fontFamily: "'Rajdhani', sans-serif",
-                                fontWeight: 600,
-                                letterSpacing: '0.05em',
-                                opacity: selectedBookmark ? 1 : 0.5
-                            }}
-                        >
-                            読み込み
-                        </Button>
-                        <Button
-                            onClick={handleClose}
-                            style={{
-                                background: 'transparent',
-                                border: '1px solid rgba(255, 255, 255, 0.08)',
-                                color: '#94a3b8',
-                                padding: '0.5rem 1.5rem',
-                                fontFamily: "'Rajdhani', sans-serif",
-                                fontWeight: 600,
-                                letterSpacing: '0.05em'
-                            }}
-                        >
-                            閉じる
-                        </Button>
-                    </Modal.Footer>
+            {showLoadModal && (
+                <div className="fixed inset-0 z-[1100] flex items-center justify-center px-4 py-8">
+                    <button
+                        type="button"
+                        aria-label="閉じる"
+                        className="absolute inset-0 bg-black/70"
+                        onClick={handleClose}
+                    />
+                    <div className="relative w-full max-w-2xl overflow-hidden rounded-xl border border-white/10 bg-[linear-gradient(145deg,#1a1a25_0%,#12121a_100%)] text-slate-100 shadow-[0_24px_60px_rgba(0,0,0,0.6)]">
+                        <div className="flex items-center justify-between border-b border-white/10 px-6 py-5">
+                            <h2 className="font-['Rajdhani'] text-xl font-bold tracking-[0.05em]">読み込み</h2>
+                            <button
+                                type="button"
+                                onClick={handleClose}
+                                className="rounded-full border border-white/10 px-3 py-1 text-xs text-slate-400 transition hover:border-white/20 hover:text-slate-200"
+                            >
+                                閉じる
+                            </button>
+                        </div>
+                        <div className="max-h-[60vh] overflow-y-auto px-6 py-5">
+                            {makeTags(bookMarkname, selectedBookmark, setSelectedBookmark).length > 0
+                                ? makeTags(bookMarkname, selectedBookmark, setSelectedBookmark)
+                                : (
+                                    <div className="py-8 text-center text-slate-400">
+                                        ブックマークがありません
+                                    </div>
+                                )
+                            }
+                        </div>
+                        <div className="flex flex-wrap items-center justify-end gap-2 border-t border-white/10 px-6 py-4">
+                            <button
+                                type="button"
+                                onClick={handleRemove}
+                                disabled={!selectedBookmark}
+                                className={`rounded-md border px-4 py-2 font-['Rajdhani'] text-sm font-semibold tracking-[0.05em] ${selectedBookmark
+                                    ? 'border-red-500/40 bg-red-500/10 text-red-400'
+                                    : 'cursor-not-allowed border-white/10 text-white/30'
+                                    }`}
+                            >
+                                削除
+                            </button>
+                            <button
+                                type="button"
+                                onClick={handleLoad}
+                                disabled={!selectedBookmark}
+                                className={`rounded-md px-6 py-2 font-['Rajdhani'] text-sm font-semibold tracking-[0.05em] ${selectedBookmark
+                                    ? 'bg-[linear-gradient(135deg,#f59e0b_0%,#d97706_100%)] text-black'
+                                    : 'cursor-not-allowed bg-white/10 text-white/30'
+                                    }`}
+                            >
+                                読み込み
+                            </button>
+                            <button
+                                type="button"
+                                onClick={handleClose}
+                                className="rounded-md border border-white/10 px-6 py-2 font-['Rajdhani'] text-sm font-semibold tracking-[0.05em] text-slate-400 transition hover:border-white/20 hover:text-slate-200"
+                            >
+                                閉じる
+                            </button>
+                        </div>
+                    </div>
                 </div>
-            </Modal>
+            )}
         </>
     )
 }

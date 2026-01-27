@@ -7,11 +7,21 @@ const HelpButton = ({ handleDescriptionClick }) => {
         <>
             {isMobile ?
                 (
-                    <button className='btn btn-outline-light me-2 mb-2' onClick={handleDescriptionClick}><FontAwesomeIcon icon={faQuestionCircle} /></button>
+                    <button
+                        className="mb-2 inline-flex items-center justify-center rounded-md border border-white/20 px-3 py-2 text-sm text-slate-200 transition hover:border-white/40 hover:text-white"
+                        onClick={handleDescriptionClick}
+                    >
+                        <FontAwesomeIcon icon={faQuestionCircle} />
+                    </button>
                 ) :
                 (
                     //改行はなしで、右寄せにする
-                    <button className='btn btn-outline-light me-1 mb-2' onClick={handleDescriptionClick}><FontAwesomeIcon icon={faQuestionCircle} /> Help</button>
+                    <button
+                        className="mb-2 inline-flex items-center gap-2 rounded-md border border-white/20 px-4 py-2 text-sm font-semibold tracking-[0.05em] text-slate-200 transition hover:border-white/40 hover:text-white"
+                        onClick={handleDescriptionClick}
+                    >
+                        <FontAwesomeIcon icon={faQuestionCircle} /> Help
+                    </button>
 
                 )
             }
