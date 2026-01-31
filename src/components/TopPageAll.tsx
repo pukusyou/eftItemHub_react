@@ -1,4 +1,3 @@
-import React from 'react';
 import TopImage from './TopImage';
 import Footer from './Footer';
 import TopTitleBar from './TopTitleBar';
@@ -119,7 +118,7 @@ const TopPageAll = () => {
                     </div>
                 </section>
             </div>
-            <Footer />
+            <Footer pageUrl="https://wikiwiki.jp/eft/" pageName="トップページ" />
         </>
     )
 }
