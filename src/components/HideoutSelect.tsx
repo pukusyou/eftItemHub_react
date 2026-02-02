@@ -64,10 +64,12 @@ function getHideoutsLL(lang: "en" | "jp") {
                 src={iconPath[hideout]}
                 alt={hideout}
                 className="h-full w-full object-contain opacity-90"
-                onError={(e) => (e.target.style.display = "none")}
+                onError={(e) =>
+                  ((e.target as HTMLElement).style.display = "none")
+                }
               />
             </div>
-            {lang === "en" ? hideout : jp[hideout]}
+            {lang === "en" ? hideout : (jp as Record<string, string>)[hideout]}
           </h4>
           <HideoutLevel max={lastNumber} hideoutName={hideout} />
         </div>
