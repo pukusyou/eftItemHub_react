@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Item from "./ItemCard";
 import data from "../json/task_with_id.json";
 import Footer from "./Footer";
@@ -44,7 +44,11 @@ function getItemsFullData(
   taskName: string,
   num: string,
 ): TaskItemEntry {
-  const item = taskData[dealer][taskName]["items"][num];
+  const items = taskData[dealer][taskName]["items"];
+  if (!items) {
+    throw new Error(`Items not found for ${dealer} - ${taskName}`);
+  }
+  const item = items[num];
   const fullDatas: TaskItemEntry = [
     item.full_name,
     item.name,
@@ -95,8 +99,9 @@ function getPlayerData() {
       (i) => clearTasks.indexOf(i) === -1,
     );
     reTasks.forEach((task) => {
-      if (getItems(dealer, task) !== undefined) {
-        Object.keys(getItems(dealer, task)).forEach((itemNum) => {
+      const items = getItems(dealer, task);
+      if (items !== undefined) {
+        Object.keys(items).forEach((itemNum) => {
           playerTasksData.push(getItemsFullData(dealer, task, itemNum));
         });
       }
@@ -207,7 +212,7 @@ const TaskItemAll = () => {
   return (
     <>
       {/* Action Bar */}
-      <div className="sticky top-[56px] z-[999] flex flex-wrap items-center justify-end gap-2 border-b border-border bg-[rgba(10,10,15,0.95)] px-4 py-3 backdrop-blur-md">
+      <div className="sticky top-14 z-999 flex flex-wrap items-center justify-end gap-2 border-b border-border bg-[rgba(10,10,15,0.95)] px-4 py-3 backdrop-blur-md">
         <SettingBar setShowSetting={setShowSetting} />
         <BackButton link={"/task/"} />
       </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import Select, { type SingleValue, type StylesConfig } from "react-select";
 import type { DealerOption } from "../types";
 

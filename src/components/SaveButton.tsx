@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSave } from "@fortawesome/free-solid-svg-icons";
 import { isMobile } from "react-device-detect";
@@ -72,7 +72,7 @@ const SaveButton = ({
       setErr("");
       saveBookMark(textBox);
       setOk("保存しました");
-      let taskIds = [];
+      let taskIds: number[] = [];
       const taskData = data as TaskData;
       Object.keys(taskData).forEach((dealer) => {
         taskIds = taskIds.concat(getLocalStorageId(dealer));
@@ -104,7 +104,7 @@ const SaveButton = ({
       </button>
 
       {showBool && (
-        <div className="fixed inset-0 z-[1100] flex items-center justify-center px-4 py-8">
+        <div className="fixed inset-0 z-1100 flex items-center justify-center px-4 py-8">
           <button
             type="button"
             aria-label="閉じる"
@@ -137,7 +137,7 @@ const SaveButton = ({
                 type="text"
                 value={textBox}
                 onChange={(event) => setTextBox(event.target.value)}
-                className="w-full rounded-md border border-white/10 bg-[var(--color-bg-tertiary,#1a1a25)] px-4 py-3 text-base text-slate-100 outline-none transition focus:border-amber-400 focus:ring-2 focus:ring-amber-400/30"
+                className="w-full rounded-md border border-white/10 bg-(--color-bg-tertiary,#1a1a25) px-4 py-3 text-base text-slate-100 outline-none transition focus:border-amber-400 focus:ring-2 focus:ring-amber-400/30"
               />
               {err && <p className="text-sm text-red-400">{err}</p>}
               {ok && <p className="text-sm text-emerald-400">{ok}</p>}

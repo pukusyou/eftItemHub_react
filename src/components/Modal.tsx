@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 interface ModalCompProps {
@@ -27,7 +27,7 @@ const ModalComp = ({ url, showBool, setShowBool }: ModalCompProps) => {
   }
 
   return (
-    <div className="fixed inset-0 z-[1100] flex items-center justify-center px-4 py-8">
+    <div className="fixed inset-0 z-1100 flex items-center justify-center px-4 py-8">
       <button
         type="button"
         aria-label="モーダルを閉じる"
@@ -56,7 +56,7 @@ const ModalComp = ({ url, showBool, setShowBool }: ModalCompProps) => {
             type="url"
             value={url}
             readOnly={true}
-            className="w-full rounded-md border border-white/10 bg-[var(--color-bg-tertiary,#1a1a25)] px-4 py-3 text-sm text-slate-100 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/30"
+            className="w-full rounded-md border border-white/10 bg-(--color-bg-tertiary,#1a1a25) px-4 py-3 text-sm text-slate-100 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/30"
           />
           <p className="text-sm text-slate-400">
             このURLを共有すると、現在のチェック状態を他の人と共有できます。

@@ -20,7 +20,7 @@ const HideoutSettingAll = () => {
   return (
     <>
       {/* Action Bar */}
-      <div className="sticky top-[56px] z-[999] flex flex-wrap items-center justify-end gap-2 border-b border-border bg-[rgba(10,10,15,0.95)] px-4 py-3 backdrop-blur-md">
+      <div className="sticky top-14 z-999 flex flex-wrap items-center justify-end gap-2 border-b border-border bg-[rgba(10,10,15,0.95)] px-4 py-3 backdrop-blur-md">
         <BackButton link={"/"} />
       </div>
 
@@ -36,7 +36,7 @@ const HideoutSettingAll = () => {
         </div>
 
         {/* Controls Section */}
-        <div className="mx-auto mb-8 flex max-w-[600px] flex-col items-center gap-6 rounded-xl border border-white/10 bg-[linear-gradient(145deg,#1a1a25_0%,#12121a_100%)] p-6 shadow-md">
+        <div className="mx-auto mb-8 flex max-w-150 flex-col items-center gap-6 rounded-xl border border-white/10 bg-[linear-gradient(145deg,#1a1a25_0%,#12121a_100%)] p-6 shadow-md">
           {/* Language Toggle */}
           <div className="flex flex-col items-center">
             <label className="mb-3 block font-heading text-sm font-bold uppercase tracking-wider text-accent-primary">

@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import { useSortBy, useTable, type Column } from "react-table";
 import { isMobile } from "react-device-detect";
 import type { TableRow } from "../types";
@@ -59,15 +59,15 @@ export default function App({ data }: TableProps) {
           className="w-full border-collapse text-left text-sm text-slate-100"
         >
           <thead>
-            {headerGroups.map((headerGroup) => (
+            {headerGroups.map((headerGroup: any) => (
               <tr {...headerGroup.getHeaderGroupProps()}>
-                {headerGroup.headers.map((column) => (
+                {headerGroup.headers.map((column: any) => (
                   <th
                     {...column.getHeaderProps(column.getSortByToggleProps())}
                     className={`cursor-pointer whitespace-nowrap border-b-2 border-accent-primary bg-black/30 px-4 py-4 font-heading text-xs font-bold uppercase tracking-wider text-accent-primary transition-colors hover:bg-black/40 sm:text-sm ${
                       column.id === "name"
-                        ? "min-w-[200px] text-left"
-                        : "min-w-[80px] text-center"
+                        ? "min-w-50 text-left"
+                        : "min-w-20 text-center"
                     }`}
                   >
                     {column.render("Header")}
@@ -81,7 +81,7 @@ export default function App({ data }: TableProps) {
           </thead>
 
           <tbody {...getTableBodyProps()}>
-            {rows.map((row, i) => {
+            {rows.map((row: any, i: number) => {
               prepareRow(row);
               return (
                 <tr
@@ -90,7 +90,7 @@ export default function App({ data }: TableProps) {
                     i % 2 === 0 ? "bg-black/10" : "bg-transparent"
                   }`}
                 >
-                  {row.cells.map((cell) => {
+                  {row.cells.map((cell: any) => {
                     return (
                       <td
                         {...cell.getCellProps()}

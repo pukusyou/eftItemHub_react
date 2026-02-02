@@ -1,4 +1,3 @@
-import React from "react";
 import type { SettingBarProps } from "../types";
 
 interface OffCanvasProps extends SettingBarProps {
@@ -20,7 +19,7 @@ const OffCanvas = ({
   }
 
   return (
-    <div className="fixed inset-0 z-[1050] flex items-start justify-center px-4 py-6">
+    <div className="fixed inset-0 z-1050 flex items-start justify-center px-4 py-6">
       <button
         type="button"
         aria-label="閉じる"

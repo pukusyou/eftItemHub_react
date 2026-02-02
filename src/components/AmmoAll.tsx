@@ -95,7 +95,7 @@ const AmmoAll = () => {
   return (
     <>
       {/* Action Bar */}
-      <div className="sticky top-[56px] z-[999] flex flex-wrap items-center justify-end gap-2 border-b border-border bg-[rgba(10,10,15,0.95)] px-4 py-3 backdrop-blur-md">
+      <div className="sticky top-14 z-999 flex flex-wrap items-center justify-end gap-2 border-b border-border bg-[rgba(10,10,15,0.95)] px-4 py-3 backdrop-blur-md">
         <SettingBar setShowSetting={setShow} />
         <BackButton link={"/"} />
       </div>
@@ -123,7 +123,10 @@ const AmmoAll = () => {
           caliberList={caliberList}
         />
       </div>
-      <Footer pageUrl="https://wikiwiki.jp/eft/%E5%BC%BE%E8%96%AC" pageName="弾薬" />
+      <Footer
+        pageUrl="https://wikiwiki.jp/eft/%E5%BC%BE%E8%96%AC"
+        pageName="弾薬"
+      />
     </>
   );
 };
