@@ -26,7 +26,7 @@ const ItemOffCanvas = ({
   }
 
   return (
-    <div className="fixed inset-0 z-[1050] flex justify-end">
+    <div className="fixed inset-0 z-1050 flex justify-end">
       <button
         type="button"
         aria-label="閉じる"
@@ -54,7 +54,7 @@ const ItemOffCanvas = ({
           </button>
         </div>
         <div className="space-y-4 px-6 py-5">
-          <div className="overflow-hidden rounded-lg border border-white/10 bg-[var(--color-bg-card,#16161f)]">
+          <div className="overflow-hidden rounded-lg border border-white/10 bg-[#16161f]">
             <img
               src={resolvePublicPath(img)}
               alt={title}

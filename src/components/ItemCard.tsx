@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import OffCanvas from "./ItemOffcanvas";
 import { resolvePublicPath } from "../utils/publicPath";
 import type { ItemCardProps } from "../types";
@@ -11,7 +11,8 @@ const Item = ({ itemName, img, tasks, num, inRaid }: ItemCardProps) => {
     setShow(!show);
   };
 
-  const isInRaid = inRaid === "inRaid";
+  const safeInRaid = inRaid ?? "nonRaid";
+  const isInRaid = safeInRaid === "inRaid";
 
   return (
     <>
@@ -22,7 +23,7 @@ const Item = ({ itemName, img, tasks, num, inRaid }: ItemCardProps) => {
         num={num}
         tasks={tasks}
         img={img}
-        inRaid={inRaid}
+        inRaid={safeInRaid}
       />
 
       {/* Main Card Container */}
@@ -30,7 +31,7 @@ const Item = ({ itemName, img, tasks, num, inRaid }: ItemCardProps) => {
         onClick={handleCanvas}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        className="group relative flex h-full min-h-[140px] w-full flex-col overflow-hidden rounded-xl border border-white/10 bg-[linear-gradient(145deg,#1a1a25_0%,#12121a_100%)] shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-accent-primary/30 hover:shadow-[0_8px_32px_rgba(0,0,0,0.5),0_0_20px_rgba(245,158,11,0.15)] cursor-pointer"
+        className="group relative flex h-full min-h-35 w-full flex-col overflow-hidden rounded-xl border border-white/10 bg-[linear-gradient(145deg,#1a1a25_0%,#12121a_100%)] shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-accent-primary/30 hover:shadow-[0_8px_32px_rgba(0,0,0,0.5),0_0_20px_rgba(245,158,11,0.15)] cursor-pointer"
       >
         {/* Item Name */}
         <div className="border-b border-white/5 bg-black/20 px-2 py-2">
@@ -44,7 +45,7 @@ const Item = ({ itemName, img, tasks, num, inRaid }: ItemCardProps) => {
           <img
             src={resolvePublicPath(img)}
             alt={itemName}
-            className="max-h-[70px] max-w-full object-contain transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(245,158,11,0.3)]"
+            className="max-h-17.5 max-w-full object-contain transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(245,158,11,0.3)]"
             loading="lazy"
           />
         </div>
@@ -53,7 +54,7 @@ const Item = ({ itemName, img, tasks, num, inRaid }: ItemCardProps) => {
         <div className="flex items-center justify-between border-t border-white/5 bg-black/20 px-2 py-1.5">
           {/* Count */}
           <span className="font-heading text-base font-bold text-slate-100">
-            ×{num}
+            {num}
           </span>
 
           {/* InRaid Badge */}

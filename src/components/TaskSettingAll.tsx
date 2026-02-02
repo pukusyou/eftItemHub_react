@@ -47,7 +47,7 @@ const TaskSettingAll = () => {
   return (
     <>
       {/* Action Bar */}
-      <div className="sticky top-[56px] z-[999] flex flex-wrap items-center justify-end gap-2 border-b border-border bg-[rgba(10,10,15,0.95)] px-4 py-3 backdrop-blur-md">
+      <div className="sticky top-14 z-999 flex flex-wrap items-center justify-end gap-2 border-b border-border bg-[rgba(10,10,15,0.95)] px-4 py-3 backdrop-blur-md">
         <SaveButton
           showBool={saveShow}
           setShowBool={setSaveShow}
@@ -75,13 +75,13 @@ const TaskSettingAll = () => {
         </div>
 
         {/* Controls Section */}
-        <div className="mx-auto mb-8 flex max-w-[600px] flex-col items-center gap-6 rounded-xl border border-white/10 bg-[linear-gradient(145deg,#1a1a25_0%,#12121a_100%)] p-6 shadow-md">
+        <div className="mx-auto mb-8 flex max-w-150 flex-col items-center gap-6 rounded-xl border border-white/10 bg-[linear-gradient(145deg,#1a1a25_0%,#12121a_100%)] p-6 shadow-md">
           {/* Dealer Selector */}
           <div className="flex w-full flex-col items-center gap-2">
             <label className="font-heading text-sm font-bold uppercase tracking-wider text-accent-primary">
               トレーダー選択
             </label>
-            <div className="w-full max-w-[300px]">
+            <div className="w-full max-w-75">
               <DealerSelecter
                 options={dealersDict}
                 value={selectedDealer}
