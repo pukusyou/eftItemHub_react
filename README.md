@@ -1,73 +1,107 @@
-# React + TypeScript + Vite
+# EFT Item Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+このプロジェクトは、Escape from Tarkov (タルコフ) のアイテム、弾薬、ハイドアウト、タスクなどを管理・検索するためのReactベースのウェブアプリケーションです。プレイヤーがゲーム内のリソースを効率的に管理できるよう支援します。
 
-Currently, two official plugins are available:
+## 機能
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **弾薬管理**: 弾薬の選択と詳細表示 (AmmoAll.tsx, AmmoSelecter.tsx)
+- **ハイドアウトアイテム**: ハイドアウトのレベルとアイテム管理 (HideoutItemAll.tsx, HideoutLevel.tsx)
+- **タスク管理**: タスクアイテムの表示と設定 (TaskItemAll.tsx, TaskSelect.tsx)
+- **その他**: ディーラー選択、設定オフキャンバス、共有機能など
 
-## React Compiler
+## 技術スタック
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**: UIライブラリ
+- **TypeScript**: 型安全なJavaScript
+- **Vite**: 高速なビルドツール
+- **Tailwind CSS**: ユーティリティファーストのCSSフレームワーク
+- **React Router**: ルーティング
+- **React Table**: テーブル表示
+- **ESLint**: コード品質チェック
 
-## Expanding the ESLint configuration
+## インストールと実行
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+1. 依存関係をインストール:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+   ```bash
+   pnpm install
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+2. 開発サーバーを起動:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+   ```bash
+   pnpm dev
+   ```
+
+3. ブラウザで `http://localhost:5173` にアクセス。
+
+## ビルド
+
+本番用ビルドを作成:
+
+```bash
+pnpm build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+ビルド出力は `build/` フォルダに生成されます。
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## デプロイ方法
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. `pnpm build` を実行して `build/` フォルダを生成。
+2. 生成された `build/` フォルダの内容をウェブサーバーやホスティングサービスにアップロード。
+   - **GitHub Pages**: `build/` フォルダを `gh-pages` ブランチにプッシュ。
+   - **Vercel/Netlify**: `build/` フォルダをデプロイ。
+   - **その他**: Apache/Nginxなどのサーバーに `build/` を配置。
+
+プレビュー:
+
+```bash
+pnpm preview
 ```
+
+## フォルダ構成
+
+```
+eftItemHub_react/
+├── build/                 # ビルド出力 (dist相当)
+│   ├── assets/            # コンパイルされたJS/CSS
+│   ├── img/               # 画像ファイル
+│   ├── json/              # JSONデータ
+│   └── index.html         # メインHTML
+├── public/                # 静的ファイル
+│   ├── img/               # ゲーム画像 (Air Filtering Unit, ammo, etc.)
+│   ├── json/              # ゲームデータ (ammo_dict.json, etc.)
+│   ├── ads.txt
+│   ├── manifest.json
+│   └── robots.txt
+├── src/                   # ソースコード
+│   ├── assets/            # アセット
+│   ├── components/        # Reactコンポーネント
+│   │   ├── AmmoAll.tsx    # 弾薬一覧
+│   │   ├── HideoutItemAll.tsx  # ハイドアウトアイテム
+│   │   ├── TaskItemAll.tsx     # タスクアイテム
+│   │   └── ...            # その他のコンポーネント
+│   ├── json/              # ローカルJSONデータ
+│   ├── styles/            # スタイルファイル
+│   ├── utils/             # ユーティリティ関数
+│   ├── main.tsx           # エントリーポイント
+│   ├── types.ts           # TypeScript型定義
+│   └── vite-env.d.ts      # Vite環境定義
+├── eslint.config.js       # ESLint設定
+├── index.html             # ルートHTML
+├── package.json           # 依存関係とスクリプト
+├── pnpm-lock.yaml         # pnpmロックファイル
+├── tsconfig*.json         # TypeScript設定
+├── vite.config.ts         # Vite設定
+└── README.md              # このファイル
+```
+
+## 開発者向け
+
+- **Linting**: `pnpm lint`
+- **TypeScriptチェック**: `tsc -b`
+- **ESLint拡張**: 必要に応じて `eslint-plugin-react-x` などを追加
+
+## ライセンス
+
+このプロジェクトはプライベートです。
